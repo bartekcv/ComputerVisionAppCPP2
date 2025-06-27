@@ -1,0 +1,4 @@
+/home/bartek/code/Projekty/ComputerVisionCPP2/build/CMakeFiles/ComputerVisionApp.dir
+/home/bartek/code/Projekty/ComputerVisionCPP2/build/CMakeFiles/edit_cache.dir
+/home/bartek/code/Projekty/ComputerVisionCPP2/build/CMakeFiles/rebuild_cache.dir
+/home/bartek/code/Projekty/ComputerVisionCPP2/build/CMakeFiles/ComputerVisionApp_autogen.dir
