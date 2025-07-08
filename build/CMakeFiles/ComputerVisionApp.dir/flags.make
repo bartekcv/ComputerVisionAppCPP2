@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/c++
 CXX_DEFINES = -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NO_DEBUG -DQT_WIDGETS_LIB
 
-CXX_INCLUDES = -I/home/bartek/code/Projekty/ComputerVisionCPP2/build -I/home/bartek/code/Projekty/ComputerVisionCPP2 -I/home/bartek/code/Projekty/ComputerVisionCPP2/build/ComputerVisionApp_autogen/include -I/include -isystem /home/bartek/anaconda3/include/qt -isystem /home/bartek/anaconda3/include/qt/QtCore -isystem /home/bartek/anaconda3/./mkspecs/linux-g++ -isystem /home/bartek/anaconda3/include/qt/QtWidgets -isystem /home/bartek/anaconda3/include/qt/QtGui -isystem /usr/include/opencv4
+CXX_INCLUDES = -I/home/bartek/code/Projekty/ComputerVisionCPP2/build -I/home/bartek/code/Projekty/ComputerVisionCPP2 -I/home/bartek/code/Projekty/ComputerVisionCPP2/build/ComputerVisionApp_autogen/include -I/include -isystem /usr/include/x86_64-linux-gnu/qt5 -isystem /usr/include/x86_64-linux-gnu/qt5/QtCore -isystem /usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -isystem /usr/include/x86_64-linux-gnu/qt5/QtWidgets -isystem /usr/include/x86_64-linux-gnu/qt5/QtGui -isystem /usr/include/opencv4
 
 CXX_FLAGS = -fPIC
 

@@ -3,7 +3,7 @@
 
 CMakeFiles/ComputerVisionApp.dir/ComputerVisionApp_autogen/mocs_compilation.cpp.o: ComputerVisionApp_autogen/mocs_compilation.cpp \
   /usr/include/stdc-predef.h \
-  ComputerVisionApp_autogen/DMHXEJ42XS/moc_MainWindow.cpp \
+  ComputerVisionApp_autogen/DMHXEJ42XS/moc_ROISelector.cpp \
   /usr/include/c++/11/memory \
   /usr/include/c++/11/bits/stl_algobase.h \
   /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
@@ -136,19 +136,19 @@ CMakeFiles/ComputerVisionApp.dir/ComputerVisionApp_autogen/mocs_compilation.cpp.
   /usr/include/c++/11/backward/auto_ptr.h \
   /usr/include/c++/11/pstl/glue_memory_defs.h \
   /usr/include/c++/11/pstl/execution_defs.h \
-  ../gui/MainWindow.h \
-  /home/bartek/anaconda3/include/qt/QtWidgets/QMainWindow \
-  /home/bartek/anaconda3/include/qt/QtWidgets/qmainwindow.h \
-  /home/bartek/anaconda3/include/qt/QtWidgets/qtwidgetsglobal.h \
-  /home/bartek/anaconda3/include/qt/QtGui/qtguiglobal.h \
-  /home/bartek/anaconda3/include/qt/QtCore/qglobal.h \
+  ../gui/ROISelector.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/QObject \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qobject.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qobjectdefs.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qnamespace.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qglobal.h \
   /usr/include/c++/11/cstddef \
   /usr/include/assert.h \
-  /home/bartek/anaconda3/include/qt/QtCore/qconfig.h \
-  /home/bartek/anaconda3/include/qt/QtCore/qtcore-config.h \
-  /home/bartek/anaconda3/include/qt/QtCore/qsystemdetection.h \
-  /home/bartek/anaconda3/include/qt/QtCore/qprocessordetection.h \
-  /home/bartek/anaconda3/include/qt/QtCore/qcompilerdetection.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qconfig.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qtcore-config.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qsystemdetection.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qprocessordetection.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qcompilerdetection.h \
   /usr/include/c++/11/algorithm \
   /usr/include/c++/11/bits/stl_algo.h \
   /usr/include/c++/11/cstdlib \
@@ -182,31 +182,24 @@ CMakeFiles/ComputerVisionApp.dir/ComputerVisionApp_autogen/mocs_compilation.cpp.
   /usr/include/c++/11/bits/stl_vector.h \
   /usr/include/c++/11/bits/stl_bvector.h \
   /usr/include/c++/11/bits/vector.tcc \
-  /home/bartek/anaconda3/include/qt/QtCore/qtypeinfo.h \
-  /home/bartek/anaconda3/include/qt/QtCore/qsysinfo.h \
-  /home/bartek/anaconda3/include/qt/QtCore/qlogging.h \
-  /home/bartek/anaconda3/include/qt/QtCore/qflags.h \
-  /home/bartek/anaconda3/include/qt/QtCore/qatomic.h \
-  /home/bartek/anaconda3/include/qt/QtCore/qbasicatomic.h \
-  /home/bartek/anaconda3/include/qt/QtCore/qatomic_cxx11.h \
-  /home/bartek/anaconda3/include/qt/QtCore/qgenericatomic.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qtypeinfo.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qsysinfo.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qlogging.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qflags.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qatomic.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qbasicatomic.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qatomic_cxx11.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qgenericatomic.h \
   /usr/include/c++/11/atomic \
-  /home/bartek/anaconda3/include/qt/QtCore/qglobalstatic.h \
-  /home/bartek/anaconda3/include/qt/QtCore/qnumeric.h \
-  /home/bartek/anaconda3/include/qt/QtCore/qversiontagging.h \
-  /home/bartek/anaconda3/include/qt/QtGui/qtgui-config.h \
-  /home/bartek/anaconda3/include/qt/QtWidgets/qtwidgets-config.h \
-  /home/bartek/anaconda3/include/qt/QtWidgets/qwidget.h \
-  /home/bartek/anaconda3/include/qt/QtGui/qwindowdefs.h \
-  /home/bartek/anaconda3/include/qt/QtCore/qobjectdefs.h \
-  /home/bartek/anaconda3/include/qt/QtCore/qnamespace.h \
-  /home/bartek/anaconda3/include/qt/QtCore/qobjectdefs_impl.h \
-  /home/bartek/anaconda3/include/qt/QtCore/qobject.h \
-  /home/bartek/anaconda3/include/qt/QtCore/qstring.h \
-  /home/bartek/anaconda3/include/qt/QtCore/qchar.h \
-  /home/bartek/anaconda3/include/qt/QtCore/qbytearray.h \
-  /home/bartek/anaconda3/include/qt/QtCore/qrefcount.h \
-  /home/bartek/anaconda3/include/qt/QtCore/qarraydata.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qglobalstatic.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qnumeric.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qversiontagging.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qobjectdefs_impl.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qstring.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qchar.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qbytearray.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qrefcount.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qarraydata.h \
   /usr/include/string.h \
   /usr/include/strings.h \
   /usr/include/c++/11/stdlib.h \
@@ -254,19 +247,19 @@ CMakeFiles/ComputerVisionApp.dir/ComputerVisionApp_autogen/mocs_compilation.cpp.
   /usr/include/x86_64-linux-gnu/c++/11/bits/error_constants.h \
   /usr/include/c++/11/stdexcept \
   /usr/include/c++/11/bits/streambuf.tcc \
-  /home/bartek/anaconda3/include/qt/QtCore/qstringliteral.h \
-  /home/bartek/anaconda3/include/qt/QtCore/qstringalgorithms.h \
-  /home/bartek/anaconda3/include/qt/QtCore/qstringview.h \
-  /home/bartek/anaconda3/include/qt/QtCore/qlist.h \
-  /home/bartek/anaconda3/include/qt/QtCore/qalgorithms.h \
-  /home/bartek/anaconda3/include/qt/QtCore/qiterator.h \
-  /home/bartek/anaconda3/include/qt/QtCore/qhashfunctions.h \
-  /home/bartek/anaconda3/include/qt/QtCore/qpair.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qstringliteral.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qstringalgorithms.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qstringview.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qlist.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qalgorithms.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qiterator.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qhashfunctions.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qpair.h \
   /usr/include/c++/11/numeric \
   /usr/include/c++/11/bits/stl_numeric.h \
   /usr/include/c++/11/pstl/glue_numeric_defs.h \
-  /home/bartek/anaconda3/include/qt/QtCore/qvector.h \
-  /home/bartek/anaconda3/include/qt/QtCore/qcontainertools_impl.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qvector.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qcontainertools_impl.h \
   /usr/include/c++/11/list \
   /usr/include/c++/11/bits/stl_list.h \
   /usr/include/c++/11/bits/list.tcc \
@@ -279,109 +272,97 @@ CMakeFiles/ComputerVisionApp.dir/ComputerVisionApp_autogen/mocs_compilation.cpp.
   /usr/include/x86_64-linux-gnu/bits/posix2_lim.h \
   /usr/include/x86_64-linux-gnu/bits/xopen_lim.h \
   /usr/include/x86_64-linux-gnu/bits/uio_lim.h \
-  /home/bartek/anaconda3/include/qt/QtCore/qbytearraylist.h \
-  /home/bartek/anaconda3/include/qt/QtCore/qstringlist.h \
-  /home/bartek/anaconda3/include/qt/QtCore/qregexp.h \
-  /home/bartek/anaconda3/include/qt/QtCore/qstringmatcher.h \
-  /home/bartek/anaconda3/include/qt/QtCore/qscopedpointer.h \
-  /home/bartek/anaconda3/include/qt/QtCore/qmetatype.h \
-  /home/bartek/anaconda3/include/qt/QtCore/qvarlengtharray.h \
-  /home/bartek/anaconda3/include/qt/QtCore/qcontainerfwd.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qbytearraylist.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qstringlist.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qregexp.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qstringmatcher.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qscopedpointer.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qmetatype.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qvarlengtharray.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qcontainerfwd.h \
   /usr/include/c++/11/map \
   /usr/include/c++/11/bits/stl_tree.h \
   /usr/include/c++/11/bits/stl_map.h \
   /usr/include/c++/11/bits/stl_multimap.h \
-  /home/bartek/anaconda3/include/qt/QtCore/qobject_impl.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qobject_impl.h \
   /usr/include/c++/11/chrono \
   /usr/include/c++/11/ratio \
   /usr/include/c++/11/limits \
   /usr/include/c++/11/ctime \
   /usr/include/c++/11/bits/parse_numbers.h \
-  /home/bartek/anaconda3/include/qt/QtCore/qmargins.h \
-  /home/bartek/anaconda3/include/qt/QtGui/qpaintdevice.h \
-  /home/bartek/anaconda3/include/qt/QtCore/qrect.h \
-  /home/bartek/anaconda3/include/qt/QtCore/qsize.h \
-  /home/bartek/anaconda3/include/qt/QtCore/qpoint.h \
-  /home/bartek/anaconda3/include/qt/QtGui/qpalette.h \
-  /home/bartek/anaconda3/include/qt/QtGui/qcolor.h \
-  /home/bartek/anaconda3/include/qt/QtGui/qrgb.h \
-  /home/bartek/anaconda3/include/qt/QtGui/qrgba64.h \
-  /home/bartek/anaconda3/include/qt/QtGui/qbrush.h \
-  /home/bartek/anaconda3/include/qt/QtGui/qmatrix.h \
-  /home/bartek/anaconda3/include/qt/QtGui/qpolygon.h \
-  /home/bartek/anaconda3/include/qt/QtGui/qregion.h \
-  /home/bartek/anaconda3/include/qt/QtCore/qdatastream.h \
-  /home/bartek/anaconda3/include/qt/QtCore/qiodevice.h \
-  /home/bartek/anaconda3/include/qt/QtCore/qline.h \
-  /home/bartek/anaconda3/include/qt/QtGui/qtransform.h \
-  /home/bartek/anaconda3/include/qt/QtGui/qimage.h \
-  /home/bartek/anaconda3/include/qt/QtGui/qpixelformat.h \
-  /home/bartek/anaconda3/include/qt/QtGui/qpixmap.h \
-  /home/bartek/anaconda3/include/qt/QtCore/qsharedpointer.h \
-  /home/bartek/anaconda3/include/qt/QtCore/qshareddata.h \
-  /home/bartek/anaconda3/include/qt/QtCore/qhash.h \
-  /home/bartek/anaconda3/include/qt/QtCore/qsharedpointer_impl.h \
-  /home/bartek/anaconda3/include/qt/QtGui/qfont.h \
-  /home/bartek/anaconda3/include/qt/QtGui/qfontmetrics.h \
-  /home/bartek/anaconda3/include/qt/QtGui/qfontinfo.h \
-  /home/bartek/anaconda3/include/qt/QtWidgets/qsizepolicy.h \
-  /home/bartek/anaconda3/include/qt/QtGui/qcursor.h \
-  /home/bartek/anaconda3/include/qt/QtGui/qkeysequence.h \
-  /home/bartek/anaconda3/include/qt/QtWidgets/qtabwidget.h \
-  /home/bartek/anaconda3/include/qt/QtGui/qicon.h \
-  /home/bartek/anaconda3/include/qt/QtWidgets/QListWidget \
-  /home/bartek/anaconda3/include/qt/QtWidgets/qlistwidget.h \
-  /home/bartek/anaconda3/include/qt/QtWidgets/qlistview.h \
-  /home/bartek/anaconda3/include/qt/QtWidgets/qabstractitemview.h \
-  /home/bartek/anaconda3/include/qt/QtWidgets/qabstractscrollarea.h \
-  /home/bartek/anaconda3/include/qt/QtWidgets/qframe.h \
-  /home/bartek/anaconda3/include/qt/QtCore/qabstractitemmodel.h \
-  /home/bartek/anaconda3/include/qt/QtCore/qvariant.h \
-  /home/bartek/anaconda3/include/qt/QtCore/qmap.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtGui/QImage \
+  /usr/include/x86_64-linux-gnu/qt5/QtGui/qimage.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtGui/qtguiglobal.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtGui/qtgui-config.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtGui/qcolor.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtGui/qrgb.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtGui/qrgba64.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtGui/qpaintdevice.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtGui/qwindowdefs.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qrect.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qmargins.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qsize.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qpoint.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtGui/qpixelformat.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtGui/qtransform.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtGui/qmatrix.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtGui/qpolygon.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtGui/qregion.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qdatastream.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qiodevice.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qobject.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qline.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QLabel \
+  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qlabel.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qtwidgetsglobal.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qtwidgets-config.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qframe.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qwidget.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtGui/qpalette.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtGui/qbrush.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtGui/qimage.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtGui/qpixmap.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qsharedpointer.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qshareddata.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qhash.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qsharedpointer_impl.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtGui/qfont.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtGui/qfontmetrics.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtGui/qfontinfo.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qsizepolicy.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtGui/qcursor.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtGui/qkeysequence.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtGui/QMouseEvent \
+  /usr/include/x86_64-linux-gnu/qt5/QtGui/qevent.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qcoreevent.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qvariant.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qmap.h \
   /usr/include/c++/11/variant \
-  /home/bartek/anaconda3/include/qt/QtCore/qitemselectionmodel.h \
-  /home/bartek/anaconda3/include/qt/QtCore/qset.h \
-  /home/bartek/anaconda3/include/qt/QtWidgets/qabstractitemdelegate.h \
-  /home/bartek/anaconda3/include/qt/QtWidgets/qstyleoption.h \
-  /home/bartek/anaconda3/include/qt/QtCore/qlocale.h \
-  /home/bartek/anaconda3/include/qt/QtWidgets/qabstractspinbox.h \
-  /home/bartek/anaconda3/include/qt/QtGui/qvalidator.h \
-  /home/bartek/anaconda3/include/qt/QtCore/qregularexpression.h \
-  /home/bartek/anaconda3/include/qt/QtWidgets/qslider.h \
-  /home/bartek/anaconda3/include/qt/QtWidgets/qabstractslider.h \
-  /home/bartek/anaconda3/include/qt/QtWidgets/qstyle.h \
-  /home/bartek/anaconda3/include/qt/QtWidgets/qtabbar.h \
-  /home/bartek/anaconda3/include/qt/QtWidgets/qrubberband.h \
-  /home/bartek/anaconda3/include/qt/QtWidgets/QPushButton \
-  /home/bartek/anaconda3/include/qt/QtWidgets/qpushbutton.h \
-  /home/bartek/anaconda3/include/qt/QtWidgets/qabstractbutton.h \
-  /home/bartek/anaconda3/include/qt/QtWidgets/QVBoxLayout \
-  /home/bartek/anaconda3/include/qt/QtWidgets/qboxlayout.h \
-  /home/bartek/anaconda3/include/qt/QtWidgets/qlayout.h \
-  /home/bartek/anaconda3/include/qt/QtWidgets/qlayoutitem.h \
-  /home/bartek/anaconda3/include/qt/QtWidgets/qboxlayout.h \
-  /home/bartek/anaconda3/include/qt/QtWidgets/qgridlayout.h \
-  /home/bartek/anaconda3/include/qt/QtWidgets/QHBoxLayout \
-  /home/bartek/anaconda3/include/qt/QtWidgets/QMessageBox \
-  /home/bartek/anaconda3/include/qt/QtWidgets/qmessagebox.h \
-  /home/bartek/anaconda3/include/qt/QtWidgets/qdialog.h \
-  /home/bartek/anaconda3/include/qt/QtWidgets/QInputDialog \
-  /home/bartek/anaconda3/include/qt/QtWidgets/qinputdialog.h \
-  /home/bartek/anaconda3/include/qt/QtWidgets/qlineedit.h \
-  /home/bartek/anaconda3/include/qt/QtGui/qtextcursor.h \
-  /home/bartek/anaconda3/include/qt/QtGui/qtextformat.h \
-  /home/bartek/anaconda3/include/qt/QtGui/qpen.h \
-  /home/bartek/anaconda3/include/qt/QtGui/qtextoption.h \
-  ../tools/ProgramManager.h \
-  /home/bartek/anaconda3/include/qt/QtCore/QString \
-  /home/bartek/anaconda3/include/qt/QtCore/qstring.h \
-  /usr/include/nlohmann/json.hpp \
-  /usr/include/nlohmann/adl_serializer.hpp \
-  /usr/include/nlohmann/detail/conversions/from_json.hpp \
-  /usr/include/c++/11/forward_list \
-  /usr/include/c++/11/bits/forward_list.h \
-  /usr/include/c++/11/bits/forward_list.tcc \
-  /usr/include/c++/11/valarray \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qset.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qurl.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qfile.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qfiledevice.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtGui/qvector2d.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtGui/qtouchdevice.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtGui/QPainter \
+  /usr/include/x86_64-linux-gnu/qt5/QtGui/qpainter.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtGui/qtextoption.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtGui/qpen.h \
+  /usr/include/opencv4/opencv2/opencv.hpp \
+  /usr/include/opencv4/opencv2/opencv_modules.hpp \
+  /usr/include/opencv4/opencv2/core.hpp \
+  /usr/include/opencv4/opencv2/core/cvdef.h \
+  /usr/include/opencv4/opencv2/core/version.hpp \
+  /usr/include/opencv4/opencv2/core/hal/interface.h \
+  /usr/include/opencv4/opencv2/core/cv_cpu_dispatch.h \
+  /usr/lib/gcc/x86_64-linux-gnu/11/include/emmintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/11/include/xmmintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/11/include/mmintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/11/include/mm_malloc.h \
+  /usr/include/opencv4/opencv2/core/base.hpp \
+  /usr/include/c++/11/climits \
+  /usr/include/opencv4/opencv2/core/cvstd.hpp \
+  /usr/include/c++/11/cstring \
   /usr/include/c++/11/cmath \
   /usr/include/math.h \
   /usr/include/x86_64-linux-gnu/bits/math-vector.h \
@@ -406,6 +387,178 @@ CMakeFiles/ComputerVisionApp.dir/ComputerVisionApp_autogen/mocs_compilation.cpp.
   /usr/include/c++/11/tr1/poly_hermite.tcc \
   /usr/include/c++/11/tr1/poly_laguerre.tcc \
   /usr/include/c++/11/tr1/riemann_zeta.tcc \
+  /usr/include/opencv4/opencv2/core/cvstd_wrapper.hpp \
+  /usr/include/opencv4/opencv2/core/neon_utils.hpp \
+  /usr/include/opencv4/opencv2/core/vsx_utils.hpp \
+  /usr/include/opencv4/opencv2/core/check.hpp \
+  /usr/include/opencv4/opencv2/core/traits.hpp \
+  /usr/include/opencv4/opencv2/core/matx.hpp \
+  /usr/include/opencv4/opencv2/core/saturate.hpp \
+  /usr/include/opencv4/opencv2/core/fast_math.hpp \
+  /usr/include/opencv4/opencv2/core/types.hpp \
+  /usr/include/c++/11/cfloat \
+  /usr/lib/gcc/x86_64-linux-gnu/11/include/float.h \
+  /usr/include/opencv4/opencv2/core/mat.hpp \
+  /usr/include/opencv4/opencv2/core/bufferpool.hpp \
+  /usr/include/opencv4/opencv2/core/mat.inl.hpp \
+  /usr/include/opencv4/opencv2/core/persistence.hpp \
+  /usr/include/opencv4/opencv2/core/operations.hpp \
+  /usr/include/opencv4/opencv2/core/cvstd.inl.hpp \
+  /usr/include/c++/11/complex \
+  /usr/include/c++/11/sstream \
+  /usr/include/c++/11/istream \
+  /usr/include/c++/11/ios \
+  /usr/include/c++/11/bits/basic_ios.h \
+  /usr/include/c++/11/bits/locale_facets.h \
+  /usr/include/c++/11/cwctype \
+  /usr/include/wctype.h \
+  /usr/include/x86_64-linux-gnu/bits/wctype-wchar.h \
+  /usr/include/x86_64-linux-gnu/c++/11/bits/ctype_base.h \
+  /usr/include/x86_64-linux-gnu/c++/11/bits/ctype_inline.h \
+  /usr/include/c++/11/bits/locale_facets.tcc \
+  /usr/include/c++/11/bits/basic_ios.tcc \
+  /usr/include/c++/11/ostream \
+  /usr/include/c++/11/bits/ostream.tcc \
+  /usr/include/c++/11/bits/istream.tcc \
+  /usr/include/c++/11/bits/sstream.tcc \
+  /usr/include/opencv4/opencv2/core/utility.hpp \
+  /usr/include/c++/11/mutex \
+  /usr/include/c++/11/bits/std_mutex.h \
+  /usr/include/c++/11/bits/unique_lock.h \
+  /usr/include/opencv4/opencv2/core/optim.hpp \
+  /usr/include/opencv4/opencv2/core/ovx.hpp \
+  /usr/include/opencv4/opencv2/core/cvdef.h \
+  /usr/include/opencv4/opencv2/calib3d.hpp \
+  /usr/include/opencv4/opencv2/features2d.hpp \
+  /usr/include/opencv4/opencv2/flann/miniflann.hpp \
+  /usr/include/opencv4/opencv2/flann/defines.h \
+  /usr/include/opencv4/opencv2/flann/config.h \
+  /usr/include/opencv4/opencv2/core/affine.hpp \
+  /usr/include/opencv4/opencv2/dnn.hpp \
+  /usr/include/opencv4/opencv2/dnn/dnn.hpp \
+  /usr/include/opencv4/opencv2/core/async.hpp \
+  /usr/include/opencv4/opencv2/dnn/version.hpp \
+  /usr/include/opencv4/opencv2/dnn/dict.hpp \
+  /usr/include/opencv4/opencv2/dnn/layer.hpp \
+  /usr/include/opencv4/opencv2/dnn/dnn.inl.hpp \
+  /usr/include/opencv4/opencv2/dnn/utils/inference_engine.hpp \
+  /usr/include/opencv4/opencv2/dnn/dnn.hpp \
+  /usr/include/opencv4/opencv2/flann.hpp \
+  /usr/include/opencv4/opencv2/flann/flann_base.hpp \
+  /usr/include/opencv4/opencv2/flann/general.h \
+  /usr/include/opencv4/opencv2/flann/matrix.h \
+  /usr/include/opencv4/opencv2/flann/params.h \
+  /usr/include/opencv4/opencv2/flann/any.h \
+  /usr/include/opencv4/opencv2/flann/defines.h \
+  /usr/include/c++/11/iostream \
+  /usr/include/opencv4/opencv2/flann/saving.h \
+  /usr/include/opencv4/opencv2/flann/nn_index.h \
+  /usr/include/opencv4/opencv2/flann/result_set.h \
+  /usr/include/c++/11/set \
+  /usr/include/c++/11/bits/stl_set.h \
+  /usr/include/c++/11/bits/stl_multiset.h \
+  /usr/include/opencv4/opencv2/flann/all_indices.h \
+  /usr/include/opencv4/opencv2/flann/kdtree_index.h \
+  /usr/include/opencv4/opencv2/flann/dynamic_bitset.h \
+  /usr/include/opencv4/opencv2/flann/dist.h \
+  /usr/include/opencv4/opencv2/flann/heap.h \
+  /usr/include/opencv4/opencv2/flann/allocator.h \
+  /usr/include/opencv4/opencv2/flann/random.h \
+  /usr/include/opencv4/opencv2/flann/kdtree_single_index.h \
+  /usr/include/opencv4/opencv2/flann/kmeans_index.h \
+  /usr/include/opencv4/opencv2/flann/logger.h \
+  /usr/include/opencv4/opencv2/flann/composite_index.h \
+  /usr/include/opencv4/opencv2/flann/linear_index.h \
+  /usr/include/opencv4/opencv2/flann/hierarchical_clustering_index.h \
+  /usr/include/opencv4/opencv2/flann/lsh_index.h \
+  /usr/include/opencv4/opencv2/flann/lsh_table.h \
+  /usr/include/c++/11/iomanip \
+  /usr/include/c++/11/locale \
+  /usr/include/c++/11/bits/locale_facets_nonio.h \
+  /usr/include/x86_64-linux-gnu/c++/11/bits/time_members.h \
+  /usr/include/x86_64-linux-gnu/c++/11/bits/messages_members.h \
+  /usr/include/libintl.h \
+  /usr/include/c++/11/bits/codecvt.h \
+  /usr/include/c++/11/bits/locale_facets_nonio.tcc \
+  /usr/include/c++/11/bits/locale_conv.h \
+  /usr/include/c++/11/bits/quoted_string.h \
+  /usr/include/c++/11/math.h \
+  /usr/include/opencv4/opencv2/flann/autotuned_index.h \
+  /usr/include/opencv4/opencv2/flann/ground_truth.h \
+  /usr/include/opencv4/opencv2/flann/index_testing.h \
+  /usr/include/opencv4/opencv2/flann/timer.h \
+  /usr/include/opencv4/opencv2/flann/sampling.h \
+  /usr/include/opencv4/opencv2/highgui.hpp \
+  /usr/include/opencv4/opencv2/imgcodecs.hpp \
+  /usr/include/opencv4/opencv2/videoio.hpp \
+  /usr/include/opencv4/opencv2/imgproc.hpp \
+  /usr/include/opencv4/opencv2/imgproc/segmentation.hpp \
+  /usr/include/opencv4/opencv2/ml.hpp \
+  /usr/include/opencv4/opencv2/ml/ml.inl.hpp \
+  /usr/include/opencv4/opencv2/objdetect.hpp \
+  /usr/include/opencv4/opencv2/objdetect/detection_based_tracker.hpp \
+  /usr/include/opencv4/opencv2/objdetect/face.hpp \
+  /usr/include/opencv4/opencv2/photo.hpp \
+  /usr/include/opencv4/opencv2/stitching.hpp \
+  /usr/include/opencv4/opencv2/stitching/warpers.hpp \
+  /usr/include/opencv4/opencv2/stitching/detail/warpers.hpp \
+  /usr/include/opencv4/opencv2/core/cuda.hpp \
+  /usr/include/opencv4/opencv2/core/cuda_types.hpp \
+  /usr/include/opencv4/opencv2/core/cuda.inl.hpp \
+  /usr/include/opencv4/opencv2/stitching/detail/warpers_inl.hpp \
+  /usr/include/opencv4/opencv2/stitching/detail/warpers.hpp \
+  /usr/include/opencv4/opencv2/stitching/detail/matchers.hpp \
+  /usr/include/opencv4/opencv2/stitching/detail/motion_estimators.hpp \
+  /usr/include/opencv4/opencv2/stitching/detail/matchers.hpp \
+  /usr/include/opencv4/opencv2/stitching/detail/util.hpp \
+  /usr/include/opencv4/opencv2/stitching/detail/util_inl.hpp \
+  /usr/include/c++/11/queue \
+  /usr/include/c++/11/deque \
+  /usr/include/c++/11/bits/stl_deque.h \
+  /usr/include/c++/11/bits/deque.tcc \
+  /usr/include/c++/11/bits/stl_queue.h \
+  /usr/include/opencv4/opencv2/stitching/detail/camera.hpp \
+  /usr/include/opencv4/opencv2/stitching/detail/exposure_compensate.hpp \
+  /usr/include/opencv4/opencv2/stitching/detail/seam_finders.hpp \
+  /usr/include/opencv4/opencv2/stitching/detail/blenders.hpp \
+  /usr/include/opencv4/opencv2/stitching/detail/camera.hpp \
+  /usr/include/opencv4/opencv2/video.hpp \
+  /usr/include/opencv4/opencv2/video/tracking.hpp \
+  /usr/include/opencv4/opencv2/video/background_segm.hpp \
+  ComputerVisionApp_autogen/DMHXEJ42XS/moc_editview.cpp \
+  ../gui/editview.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QWidget \
+  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qwidget.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QStackedWidget \
+  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qstackedwidget.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QMenuBar \
+  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qmenubar.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qmenu.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtGui/qicon.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qaction.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qactiongroup.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QFormLayout \
+  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qformlayout.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QLayout \
+  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qlayout.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qlayoutitem.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qboxlayout.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qlayout.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qgridlayout.h \
+  ../imageProcessing/MainProcessing.h \
+  ../imageProcessing/ImageCapture.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/QDebug \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qdebug.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qtextstream.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qlocale.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qcontiguouscache.h \
+  /usr/include/nlohmann/json.hpp \
+  /usr/include/nlohmann/adl_serializer.hpp \
+  /usr/include/nlohmann/detail/conversions/from_json.hpp \
+  /usr/include/c++/11/forward_list \
+  /usr/include/c++/11/bits/forward_list.h \
+  /usr/include/c++/11/bits/forward_list.tcc \
+  /usr/include/c++/11/valarray \
   /usr/include/c++/11/bits/valarray_array.h \
   /usr/include/c++/11/bits/valarray_array.tcc \
   /usr/include/c++/11/bits/valarray_before.h \
@@ -434,32 +587,6 @@ CMakeFiles/ComputerVisionApp.dir/ComputerVisionApp_autogen/mocs_compilation.cpp.
   /usr/include/c++/11/filesystem \
   /usr/include/c++/11/bits/fs_fwd.h \
   /usr/include/c++/11/bits/fs_path.h \
-  /usr/include/c++/11/locale \
-  /usr/include/c++/11/bits/locale_facets.h \
-  /usr/include/c++/11/cwctype \
-  /usr/include/wctype.h \
-  /usr/include/x86_64-linux-gnu/bits/wctype-wchar.h \
-  /usr/include/x86_64-linux-gnu/c++/11/bits/ctype_base.h \
-  /usr/include/x86_64-linux-gnu/c++/11/bits/ctype_inline.h \
-  /usr/include/c++/11/bits/locale_facets.tcc \
-  /usr/include/c++/11/bits/locale_facets_nonio.h \
-  /usr/include/x86_64-linux-gnu/c++/11/bits/time_members.h \
-  /usr/include/x86_64-linux-gnu/c++/11/bits/messages_members.h \
-  /usr/include/libintl.h \
-  /usr/include/c++/11/bits/codecvt.h \
-  /usr/include/c++/11/bits/locale_facets_nonio.tcc \
-  /usr/include/c++/11/bits/locale_conv.h \
-  /usr/include/c++/11/iomanip \
-  /usr/include/c++/11/bits/quoted_string.h \
-  /usr/include/c++/11/sstream \
-  /usr/include/c++/11/istream \
-  /usr/include/c++/11/ios \
-  /usr/include/c++/11/bits/basic_ios.h \
-  /usr/include/c++/11/bits/basic_ios.tcc \
-  /usr/include/c++/11/ostream \
-  /usr/include/c++/11/bits/ostream.tcc \
-  /usr/include/c++/11/bits/istream.tcc \
-  /usr/include/c++/11/bits/sstream.tcc \
   /usr/include/c++/11/codecvt \
   /usr/include/c++/11/bits/fs_dir.h \
   /usr/include/c++/11/bits/fs_ops.h \
@@ -468,7 +595,6 @@ CMakeFiles/ComputerVisionApp.dir/ComputerVisionApp_autogen/mocs_compilation.cpp.
   /usr/include/nlohmann/byte_container_with_subtype.hpp \
   /usr/include/nlohmann/detail/hash.hpp \
   /usr/include/nlohmann/detail/input/binary_reader.hpp \
-  /usr/include/c++/11/cstring \
   /usr/include/nlohmann/detail/input/input_adapters.hpp \
   /usr/include/nlohmann/detail/input/json_sax.hpp \
   /usr/include/nlohmann/detail/input/lexer.hpp \
@@ -487,25 +613,64 @@ CMakeFiles/ComputerVisionApp.dir/ComputerVisionApp_autogen/mocs_compilation.cpp.
   /usr/include/nlohmann/ordered_map.hpp \
   /usr/include/nlohmann/detail/macro_unscope.hpp \
   /usr/include/nlohmann/thirdparty/hedley/hedley_undef.hpp \
-  /home/bartek/anaconda3/include/qt/QtCore/QStringList \
-  /home/bartek/anaconda3/include/qt/QtCore/qstringlist.h \
+  ../gui/ROISelector.h \
+  ../gui/mainwindow.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QMainWindow \
+  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qmainwindow.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qtabwidget.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QListWidget \
+  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qlistwidget.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qlistview.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qabstractitemview.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qabstractscrollarea.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qabstractitemmodel.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qitemselectionmodel.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qabstractitemdelegate.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qstyleoption.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qabstractspinbox.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtGui/qvalidator.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qregularexpression.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qslider.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qabstractslider.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qstyle.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qtabbar.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qrubberband.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QPushButton \
+  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qpushbutton.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qabstractbutton.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QVBoxLayout \
+  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qboxlayout.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QHBoxLayout \
+  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QMessageBox \
+  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qmessagebox.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qdialog.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QInputDialog \
+  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qinputdialog.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qlineedit.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtGui/qtextcursor.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtGui/qtextformat.h \
+  ../tools/ProgramManager.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/QString \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qstring.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/QStringList \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qstringlist.h \
   /usr/include/c++/11/fstream \
   /usr/include/x86_64-linux-gnu/c++/11/bits/basic_file.h \
   /usr/include/x86_64-linux-gnu/c++/11/bits/c++io.h \
   /usr/include/c++/11/bits/fstream.tcc \
-  /home/bartek/anaconda3/include/qt/QtCore/QDebug \
-  /home/bartek/anaconda3/include/qt/QtCore/qdebug.h \
-  /home/bartek/anaconda3/include/qt/QtCore/qtextstream.h \
-  /home/bartek/anaconda3/include/qt/QtCore/qcontiguouscache.h
+  ComputerVisionApp_autogen/DMHXEJ42XS/moc_mainwindow.cpp \
+  ../gui/mainwindow.h \
+  ComputerVisionApp_autogen/3TWXQI5MAF/moc_CameraWorker.cpp \
+  ../imageProcessing/CameraWorker.h
 
-CMakeFiles/ComputerVisionApp.dir/gui/MainWindow.cpp.o: ../gui/MainWindow.cpp \
+CMakeFiles/ComputerVisionApp.dir/gui/ROISelector.cpp.o: ../gui/ROISelector.cpp \
   /usr/include/stdc-predef.h \
-  ../gui/MainWindow.h \
-  /home/bartek/anaconda3/include/qt/QtWidgets/QMainWindow \
-  /home/bartek/anaconda3/include/qt/QtWidgets/qmainwindow.h \
-  /home/bartek/anaconda3/include/qt/QtWidgets/qtwidgetsglobal.h \
-  /home/bartek/anaconda3/include/qt/QtGui/qtguiglobal.h \
-  /home/bartek/anaconda3/include/qt/QtCore/qglobal.h \
+  ../gui/ROISelector.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/QObject \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qobject.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qobjectdefs.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qnamespace.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qglobal.h \
   /usr/include/c++/11/type_traits \
   /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
   /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h \
@@ -527,11 +692,11 @@ CMakeFiles/ComputerVisionApp.dir/gui/MainWindow.cpp.o: ../gui/MainWindow.cpp \
   /usr/include/c++/11/bits/move.h \
   /usr/include/c++/11/initializer_list \
   /usr/include/assert.h \
-  /home/bartek/anaconda3/include/qt/QtCore/qconfig.h \
-  /home/bartek/anaconda3/include/qt/QtCore/qtcore-config.h \
-  /home/bartek/anaconda3/include/qt/QtCore/qsystemdetection.h \
-  /home/bartek/anaconda3/include/qt/QtCore/qprocessordetection.h \
-  /home/bartek/anaconda3/include/qt/QtCore/qcompilerdetection.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qconfig.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qtcore-config.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qsystemdetection.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qprocessordetection.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qcompilerdetection.h \
   /usr/include/c++/11/algorithm \
   /usr/include/c++/11/bits/stl_algobase.h \
   /usr/include/c++/11/bits/functexcept.h \
@@ -627,14 +792,14 @@ CMakeFiles/ComputerVisionApp.dir/gui/MainWindow.cpp.o: ../gui/MainWindow.cpp \
   /usr/include/c++/11/bits/stl_bvector.h \
   /usr/include/c++/11/bits/vector.tcc \
   /usr/include/c++/11/pstl/execution_defs.h \
-  /home/bartek/anaconda3/include/qt/QtCore/qtypeinfo.h \
-  /home/bartek/anaconda3/include/qt/QtCore/qsysinfo.h \
-  /home/bartek/anaconda3/include/qt/QtCore/qlogging.h \
-  /home/bartek/anaconda3/include/qt/QtCore/qflags.h \
-  /home/bartek/anaconda3/include/qt/QtCore/qatomic.h \
-  /home/bartek/anaconda3/include/qt/QtCore/qbasicatomic.h \
-  /home/bartek/anaconda3/include/qt/QtCore/qatomic_cxx11.h \
-  /home/bartek/anaconda3/include/qt/QtCore/qgenericatomic.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qtypeinfo.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qsysinfo.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qlogging.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qflags.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qatomic.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qbasicatomic.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qatomic_cxx11.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qgenericatomic.h \
   /usr/include/c++/11/atomic \
   /usr/include/c++/11/bits/atomic_base.h \
   /usr/lib/gcc/x86_64-linux-gnu/11/include/stdint.h \
@@ -642,22 +807,15 @@ CMakeFiles/ComputerVisionApp.dir/gui/MainWindow.cpp.o: ../gui/MainWindow.cpp \
   /usr/include/x86_64-linux-gnu/bits/wchar.h \
   /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h \
   /usr/include/c++/11/bits/atomic_lockfree_defines.h \
-  /home/bartek/anaconda3/include/qt/QtCore/qglobalstatic.h \
-  /home/bartek/anaconda3/include/qt/QtCore/qnumeric.h \
-  /home/bartek/anaconda3/include/qt/QtCore/qversiontagging.h \
-  /home/bartek/anaconda3/include/qt/QtGui/qtgui-config.h \
-  /home/bartek/anaconda3/include/qt/QtWidgets/qtwidgets-config.h \
-  /home/bartek/anaconda3/include/qt/QtWidgets/qwidget.h \
-  /home/bartek/anaconda3/include/qt/QtGui/qwindowdefs.h \
-  /home/bartek/anaconda3/include/qt/QtCore/qobjectdefs.h \
-  /home/bartek/anaconda3/include/qt/QtCore/qnamespace.h \
-  /home/bartek/anaconda3/include/qt/QtCore/qobjectdefs_impl.h \
-  /home/bartek/anaconda3/include/qt/QtCore/qobject.h \
-  /home/bartek/anaconda3/include/qt/QtCore/qstring.h \
-  /home/bartek/anaconda3/include/qt/QtCore/qchar.h \
-  /home/bartek/anaconda3/include/qt/QtCore/qbytearray.h \
-  /home/bartek/anaconda3/include/qt/QtCore/qrefcount.h \
-  /home/bartek/anaconda3/include/qt/QtCore/qarraydata.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qglobalstatic.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qnumeric.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qversiontagging.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qobjectdefs_impl.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qstring.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qchar.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qbytearray.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qrefcount.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qarraydata.h \
   /usr/include/string.h \
   /usr/include/strings.h \
   /usr/include/c++/11/stdlib.h \
@@ -738,20 +896,20 @@ CMakeFiles/ComputerVisionApp.dir/gui/MainWindow.cpp.o: ../gui/MainWindow.cpp \
   /usr/include/c++/11/bits/cxxabi_init_exception.h \
   /usr/include/c++/11/bits/nested_exception.h \
   /usr/include/c++/11/bits/streambuf.tcc \
-  /home/bartek/anaconda3/include/qt/QtCore/qstringliteral.h \
-  /home/bartek/anaconda3/include/qt/QtCore/qstringalgorithms.h \
-  /home/bartek/anaconda3/include/qt/QtCore/qstringview.h \
-  /home/bartek/anaconda3/include/qt/QtCore/qlist.h \
-  /home/bartek/anaconda3/include/qt/QtCore/qalgorithms.h \
-  /home/bartek/anaconda3/include/qt/QtCore/qiterator.h \
-  /home/bartek/anaconda3/include/qt/QtCore/qhashfunctions.h \
-  /home/bartek/anaconda3/include/qt/QtCore/qpair.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qstringliteral.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qstringalgorithms.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qstringview.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qlist.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qalgorithms.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qiterator.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qhashfunctions.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qpair.h \
   /usr/include/c++/11/numeric \
   /usr/include/c++/11/bits/stl_numeric.h \
   /usr/include/c++/11/bit \
   /usr/include/c++/11/pstl/glue_numeric_defs.h \
-  /home/bartek/anaconda3/include/qt/QtCore/qvector.h \
-  /home/bartek/anaconda3/include/qt/QtCore/qcontainertools_impl.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qvector.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qcontainertools_impl.h \
   /usr/include/c++/11/list \
   /usr/include/c++/11/bits/stl_list.h \
   /usr/include/c++/11/bits/allocated_ptr.h \
@@ -765,48 +923,60 @@ CMakeFiles/ComputerVisionApp.dir/gui/MainWindow.cpp.o: ../gui/MainWindow.cpp \
   /usr/include/x86_64-linux-gnu/bits/posix2_lim.h \
   /usr/include/x86_64-linux-gnu/bits/xopen_lim.h \
   /usr/include/x86_64-linux-gnu/bits/uio_lim.h \
-  /home/bartek/anaconda3/include/qt/QtCore/qbytearraylist.h \
-  /home/bartek/anaconda3/include/qt/QtCore/qstringlist.h \
-  /home/bartek/anaconda3/include/qt/QtCore/qregexp.h \
-  /home/bartek/anaconda3/include/qt/QtCore/qstringmatcher.h \
-  /home/bartek/anaconda3/include/qt/QtCore/qscopedpointer.h \
-  /home/bartek/anaconda3/include/qt/QtCore/qmetatype.h \
-  /home/bartek/anaconda3/include/qt/QtCore/qvarlengtharray.h \
-  /home/bartek/anaconda3/include/qt/QtCore/qcontainerfwd.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qbytearraylist.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qstringlist.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qregexp.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qstringmatcher.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qscopedpointer.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qmetatype.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qvarlengtharray.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qcontainerfwd.h \
   /usr/include/c++/11/map \
   /usr/include/c++/11/bits/stl_tree.h \
   /usr/include/c++/11/bits/stl_map.h \
   /usr/include/c++/11/bits/stl_multimap.h \
-  /home/bartek/anaconda3/include/qt/QtCore/qobject_impl.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qobject_impl.h \
   /usr/include/c++/11/chrono \
   /usr/include/c++/11/ratio \
   /usr/include/c++/11/limits \
   /usr/include/c++/11/ctime \
   /usr/include/c++/11/bits/parse_numbers.h \
-  /home/bartek/anaconda3/include/qt/QtCore/qmargins.h \
-  /home/bartek/anaconda3/include/qt/QtGui/qpaintdevice.h \
-  /home/bartek/anaconda3/include/qt/QtCore/qrect.h \
-  /home/bartek/anaconda3/include/qt/QtCore/qsize.h \
-  /home/bartek/anaconda3/include/qt/QtCore/qpoint.h \
-  /home/bartek/anaconda3/include/qt/QtGui/qpalette.h \
-  /home/bartek/anaconda3/include/qt/QtGui/qcolor.h \
-  /home/bartek/anaconda3/include/qt/QtGui/qrgb.h \
-  /home/bartek/anaconda3/include/qt/QtGui/qrgba64.h \
-  /home/bartek/anaconda3/include/qt/QtGui/qbrush.h \
-  /home/bartek/anaconda3/include/qt/QtGui/qmatrix.h \
-  /home/bartek/anaconda3/include/qt/QtGui/qpolygon.h \
-  /home/bartek/anaconda3/include/qt/QtGui/qregion.h \
-  /home/bartek/anaconda3/include/qt/QtCore/qdatastream.h \
-  /home/bartek/anaconda3/include/qt/QtCore/qiodevice.h \
-  /home/bartek/anaconda3/include/qt/QtCore/qline.h \
-  /home/bartek/anaconda3/include/qt/QtGui/qtransform.h \
-  /home/bartek/anaconda3/include/qt/QtGui/qimage.h \
-  /home/bartek/anaconda3/include/qt/QtGui/qpixelformat.h \
-  /home/bartek/anaconda3/include/qt/QtGui/qpixmap.h \
-  /home/bartek/anaconda3/include/qt/QtCore/qsharedpointer.h \
-  /home/bartek/anaconda3/include/qt/QtCore/qshareddata.h \
-  /home/bartek/anaconda3/include/qt/QtCore/qhash.h \
-  /home/bartek/anaconda3/include/qt/QtCore/qsharedpointer_impl.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtGui/QImage \
+  /usr/include/x86_64-linux-gnu/qt5/QtGui/qimage.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtGui/qtguiglobal.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtGui/qtgui-config.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtGui/qcolor.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtGui/qrgb.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtGui/qrgba64.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtGui/qpaintdevice.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtGui/qwindowdefs.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qrect.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qmargins.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qsize.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qpoint.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtGui/qpixelformat.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtGui/qtransform.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtGui/qmatrix.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtGui/qpolygon.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtGui/qregion.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qdatastream.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qiodevice.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qobject.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qline.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QLabel \
+  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qlabel.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qtwidgetsglobal.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qtwidgets-config.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qframe.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qwidget.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtGui/qpalette.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtGui/qbrush.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtGui/qimage.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtGui/qpixmap.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qsharedpointer.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qshareddata.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qhash.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qsharedpointer_impl.h \
   /usr/include/c++/11/memory \
   /usr/include/c++/11/bits/stl_raw_storage_iter.h \
   /usr/include/c++/11/bits/align.h \
@@ -817,60 +987,1253 @@ CMakeFiles/ComputerVisionApp.dir/gui/MainWindow.cpp.o: ../gui/MainWindow.cpp \
   /usr/include/c++/11/bits/shared_ptr_atomic.h \
   /usr/include/c++/11/backward/auto_ptr.h \
   /usr/include/c++/11/pstl/glue_memory_defs.h \
-  /home/bartek/anaconda3/include/qt/QtGui/qfont.h \
-  /home/bartek/anaconda3/include/qt/QtGui/qfontmetrics.h \
-  /home/bartek/anaconda3/include/qt/QtGui/qfontinfo.h \
-  /home/bartek/anaconda3/include/qt/QtWidgets/qsizepolicy.h \
-  /home/bartek/anaconda3/include/qt/QtGui/qcursor.h \
-  /home/bartek/anaconda3/include/qt/QtGui/qkeysequence.h \
-  /home/bartek/anaconda3/include/qt/QtWidgets/qtabwidget.h \
-  /home/bartek/anaconda3/include/qt/QtGui/qicon.h \
-  /home/bartek/anaconda3/include/qt/QtWidgets/QListWidget \
-  /home/bartek/anaconda3/include/qt/QtWidgets/qlistwidget.h \
-  /home/bartek/anaconda3/include/qt/QtWidgets/qlistview.h \
-  /home/bartek/anaconda3/include/qt/QtWidgets/qabstractitemview.h \
-  /home/bartek/anaconda3/include/qt/QtWidgets/qabstractscrollarea.h \
-  /home/bartek/anaconda3/include/qt/QtWidgets/qframe.h \
-  /home/bartek/anaconda3/include/qt/QtCore/qabstractitemmodel.h \
-  /home/bartek/anaconda3/include/qt/QtCore/qvariant.h \
-  /home/bartek/anaconda3/include/qt/QtCore/qmap.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtGui/qfont.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtGui/qfontmetrics.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtGui/qfontinfo.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qsizepolicy.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtGui/qcursor.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtGui/qkeysequence.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtGui/QMouseEvent \
+  /usr/include/x86_64-linux-gnu/qt5/QtGui/qevent.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qcoreevent.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qvariant.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qmap.h \
   /usr/include/c++/11/variant \
-  /home/bartek/anaconda3/include/qt/QtCore/qitemselectionmodel.h \
-  /home/bartek/anaconda3/include/qt/QtCore/qset.h \
-  /home/bartek/anaconda3/include/qt/QtWidgets/qabstractitemdelegate.h \
-  /home/bartek/anaconda3/include/qt/QtWidgets/qstyleoption.h \
-  /home/bartek/anaconda3/include/qt/QtCore/qlocale.h \
-  /home/bartek/anaconda3/include/qt/QtWidgets/qabstractspinbox.h \
-  /home/bartek/anaconda3/include/qt/QtGui/qvalidator.h \
-  /home/bartek/anaconda3/include/qt/QtCore/qregularexpression.h \
-  /home/bartek/anaconda3/include/qt/QtWidgets/qslider.h \
-  /home/bartek/anaconda3/include/qt/QtWidgets/qabstractslider.h \
-  /home/bartek/anaconda3/include/qt/QtWidgets/qstyle.h \
-  /home/bartek/anaconda3/include/qt/QtWidgets/qtabbar.h \
-  /home/bartek/anaconda3/include/qt/QtWidgets/qrubberband.h \
-  /home/bartek/anaconda3/include/qt/QtWidgets/QPushButton \
-  /home/bartek/anaconda3/include/qt/QtWidgets/qpushbutton.h \
-  /home/bartek/anaconda3/include/qt/QtWidgets/qabstractbutton.h \
-  /home/bartek/anaconda3/include/qt/QtWidgets/QVBoxLayout \
-  /home/bartek/anaconda3/include/qt/QtWidgets/qboxlayout.h \
-  /home/bartek/anaconda3/include/qt/QtWidgets/qlayout.h \
-  /home/bartek/anaconda3/include/qt/QtWidgets/qlayoutitem.h \
-  /home/bartek/anaconda3/include/qt/QtWidgets/qboxlayout.h \
-  /home/bartek/anaconda3/include/qt/QtWidgets/qgridlayout.h \
-  /home/bartek/anaconda3/include/qt/QtWidgets/QHBoxLayout \
-  /home/bartek/anaconda3/include/qt/QtWidgets/QMessageBox \
-  /home/bartek/anaconda3/include/qt/QtWidgets/qmessagebox.h \
-  /home/bartek/anaconda3/include/qt/QtWidgets/qdialog.h \
-  /home/bartek/anaconda3/include/qt/QtWidgets/QInputDialog \
-  /home/bartek/anaconda3/include/qt/QtWidgets/qinputdialog.h \
-  /home/bartek/anaconda3/include/qt/QtWidgets/qlineedit.h \
-  /home/bartek/anaconda3/include/qt/QtGui/qtextcursor.h \
-  /home/bartek/anaconda3/include/qt/QtGui/qtextformat.h \
-  /home/bartek/anaconda3/include/qt/QtGui/qpen.h \
-  /home/bartek/anaconda3/include/qt/QtGui/qtextoption.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qset.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qurl.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qfile.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qfiledevice.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtGui/qvector2d.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtGui/qtouchdevice.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtGui/QPainter \
+  /usr/include/x86_64-linux-gnu/qt5/QtGui/qpainter.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtGui/qtextoption.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtGui/qpen.h \
+  /usr/include/opencv4/opencv2/opencv.hpp \
+  /usr/include/opencv4/opencv2/opencv_modules.hpp \
+  /usr/include/opencv4/opencv2/core.hpp \
+  /usr/include/opencv4/opencv2/core/cvdef.h \
+  /usr/include/opencv4/opencv2/core/version.hpp \
+  /usr/include/opencv4/opencv2/core/hal/interface.h \
+  /usr/include/opencv4/opencv2/core/cv_cpu_dispatch.h \
+  /usr/lib/gcc/x86_64-linux-gnu/11/include/emmintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/11/include/xmmintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/11/include/mmintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/11/include/mm_malloc.h \
+  /usr/include/opencv4/opencv2/core/base.hpp \
+  /usr/include/c++/11/climits \
+  /usr/include/opencv4/opencv2/core/cvstd.hpp \
+  /usr/include/c++/11/cstring \
+  /usr/include/c++/11/cmath \
+  /usr/include/math.h \
+  /usr/include/x86_64-linux-gnu/bits/math-vector.h \
+  /usr/include/x86_64-linux-gnu/bits/libm-simd-decl-stubs.h \
+  /usr/include/x86_64-linux-gnu/bits/flt-eval-method.h \
+  /usr/include/x86_64-linux-gnu/bits/fp-logb.h \
+  /usr/include/x86_64-linux-gnu/bits/fp-fast.h \
+  /usr/include/x86_64-linux-gnu/bits/mathcalls-helper-functions.h \
+  /usr/include/x86_64-linux-gnu/bits/mathcalls.h \
+  /usr/include/x86_64-linux-gnu/bits/mathcalls-narrow.h \
+  /usr/include/x86_64-linux-gnu/bits/iscanonical.h \
+  /usr/include/c++/11/bits/specfun.h \
+  /usr/include/c++/11/tr1/gamma.tcc \
+  /usr/include/c++/11/tr1/special_function_util.h \
+  /usr/include/c++/11/tr1/bessel_function.tcc \
+  /usr/include/c++/11/tr1/beta_function.tcc \
+  /usr/include/c++/11/tr1/ell_integral.tcc \
+  /usr/include/c++/11/tr1/exp_integral.tcc \
+  /usr/include/c++/11/tr1/hypergeometric.tcc \
+  /usr/include/c++/11/tr1/legendre_function.tcc \
+  /usr/include/c++/11/tr1/modified_bessel_func.tcc \
+  /usr/include/c++/11/tr1/poly_hermite.tcc \
+  /usr/include/c++/11/tr1/poly_laguerre.tcc \
+  /usr/include/c++/11/tr1/riemann_zeta.tcc \
+  /usr/include/opencv4/opencv2/core/cvstd_wrapper.hpp \
+  /usr/include/opencv4/opencv2/core/neon_utils.hpp \
+  /usr/include/opencv4/opencv2/core/vsx_utils.hpp \
+  /usr/include/opencv4/opencv2/core/check.hpp \
+  /usr/include/opencv4/opencv2/core/traits.hpp \
+  /usr/include/opencv4/opencv2/core/matx.hpp \
+  /usr/include/opencv4/opencv2/core/saturate.hpp \
+  /usr/include/opencv4/opencv2/core/fast_math.hpp \
+  /usr/include/opencv4/opencv2/core/types.hpp \
+  /usr/include/c++/11/cfloat \
+  /usr/lib/gcc/x86_64-linux-gnu/11/include/float.h \
+  /usr/include/opencv4/opencv2/core/mat.hpp \
+  /usr/include/opencv4/opencv2/core/bufferpool.hpp \
+  /usr/include/opencv4/opencv2/core/mat.inl.hpp \
+  /usr/include/opencv4/opencv2/core/persistence.hpp \
+  /usr/include/opencv4/opencv2/core/operations.hpp \
+  /usr/include/opencv4/opencv2/core/cvstd.inl.hpp \
+  /usr/include/c++/11/complex \
+  /usr/include/c++/11/sstream \
+  /usr/include/c++/11/istream \
+  /usr/include/c++/11/ios \
+  /usr/include/c++/11/bits/basic_ios.h \
+  /usr/include/c++/11/bits/locale_facets.h \
+  /usr/include/c++/11/cwctype \
+  /usr/include/wctype.h \
+  /usr/include/x86_64-linux-gnu/bits/wctype-wchar.h \
+  /usr/include/x86_64-linux-gnu/c++/11/bits/ctype_base.h \
+  /usr/include/x86_64-linux-gnu/c++/11/bits/ctype_inline.h \
+  /usr/include/c++/11/bits/locale_facets.tcc \
+  /usr/include/c++/11/bits/basic_ios.tcc \
+  /usr/include/c++/11/ostream \
+  /usr/include/c++/11/bits/ostream.tcc \
+  /usr/include/c++/11/bits/istream.tcc \
+  /usr/include/c++/11/bits/sstream.tcc \
+  /usr/include/opencv4/opencv2/core/utility.hpp \
+  /usr/include/c++/11/mutex \
+  /usr/include/c++/11/bits/std_mutex.h \
+  /usr/include/c++/11/bits/unique_lock.h \
+  /usr/include/opencv4/opencv2/core/optim.hpp \
+  /usr/include/opencv4/opencv2/core/ovx.hpp \
+  /usr/include/opencv4/opencv2/core/cvdef.h \
+  /usr/include/opencv4/opencv2/calib3d.hpp \
+  /usr/include/opencv4/opencv2/features2d.hpp \
+  /usr/include/opencv4/opencv2/flann/miniflann.hpp \
+  /usr/include/opencv4/opencv2/flann/defines.h \
+  /usr/include/opencv4/opencv2/flann/config.h \
+  /usr/include/opencv4/opencv2/core/affine.hpp \
+  /usr/include/opencv4/opencv2/dnn.hpp \
+  /usr/include/opencv4/opencv2/dnn/dnn.hpp \
+  /usr/include/opencv4/opencv2/core/async.hpp \
+  /usr/include/opencv4/opencv2/dnn/version.hpp \
+  /usr/include/opencv4/opencv2/dnn/dict.hpp \
+  /usr/include/opencv4/opencv2/dnn/layer.hpp \
+  /usr/include/opencv4/opencv2/dnn/dnn.inl.hpp \
+  /usr/include/opencv4/opencv2/dnn/utils/inference_engine.hpp \
+  /usr/include/opencv4/opencv2/dnn/dnn.hpp \
+  /usr/include/opencv4/opencv2/flann.hpp \
+  /usr/include/opencv4/opencv2/flann/flann_base.hpp \
+  /usr/include/opencv4/opencv2/flann/general.h \
+  /usr/include/opencv4/opencv2/flann/matrix.h \
+  /usr/include/opencv4/opencv2/flann/params.h \
+  /usr/include/opencv4/opencv2/flann/any.h \
+  /usr/include/opencv4/opencv2/flann/defines.h \
+  /usr/include/c++/11/iostream \
+  /usr/include/opencv4/opencv2/flann/saving.h \
+  /usr/include/opencv4/opencv2/flann/nn_index.h \
+  /usr/include/opencv4/opencv2/flann/result_set.h \
+  /usr/include/c++/11/set \
+  /usr/include/c++/11/bits/stl_set.h \
+  /usr/include/c++/11/bits/stl_multiset.h \
+  /usr/include/opencv4/opencv2/flann/all_indices.h \
+  /usr/include/opencv4/opencv2/flann/kdtree_index.h \
+  /usr/include/opencv4/opencv2/flann/dynamic_bitset.h \
+  /usr/include/opencv4/opencv2/flann/dist.h \
+  /usr/include/opencv4/opencv2/flann/heap.h \
+  /usr/include/opencv4/opencv2/flann/allocator.h \
+  /usr/include/opencv4/opencv2/flann/random.h \
+  /usr/include/opencv4/opencv2/flann/kdtree_single_index.h \
+  /usr/include/opencv4/opencv2/flann/kmeans_index.h \
+  /usr/include/opencv4/opencv2/flann/logger.h \
+  /usr/include/opencv4/opencv2/flann/composite_index.h \
+  /usr/include/opencv4/opencv2/flann/linear_index.h \
+  /usr/include/opencv4/opencv2/flann/hierarchical_clustering_index.h \
+  /usr/include/opencv4/opencv2/flann/lsh_index.h \
+  /usr/include/opencv4/opencv2/flann/lsh_table.h \
+  /usr/include/c++/11/iomanip \
+  /usr/include/c++/11/locale \
+  /usr/include/c++/11/bits/locale_facets_nonio.h \
+  /usr/include/x86_64-linux-gnu/c++/11/bits/time_members.h \
+  /usr/include/x86_64-linux-gnu/c++/11/bits/messages_members.h \
+  /usr/include/libintl.h \
+  /usr/include/c++/11/bits/codecvt.h \
+  /usr/include/c++/11/bits/locale_facets_nonio.tcc \
+  /usr/include/c++/11/bits/locale_conv.h \
+  /usr/include/c++/11/bits/quoted_string.h \
+  /usr/include/c++/11/math.h \
+  /usr/include/opencv4/opencv2/flann/autotuned_index.h \
+  /usr/include/opencv4/opencv2/flann/ground_truth.h \
+  /usr/include/opencv4/opencv2/flann/index_testing.h \
+  /usr/include/opencv4/opencv2/flann/timer.h \
+  /usr/include/opencv4/opencv2/flann/sampling.h \
+  /usr/include/opencv4/opencv2/highgui.hpp \
+  /usr/include/opencv4/opencv2/imgcodecs.hpp \
+  /usr/include/opencv4/opencv2/videoio.hpp \
+  /usr/include/opencv4/opencv2/imgproc.hpp \
+  /usr/include/opencv4/opencv2/imgproc/segmentation.hpp \
+  /usr/include/opencv4/opencv2/ml.hpp \
+  /usr/include/opencv4/opencv2/ml/ml.inl.hpp \
+  /usr/include/opencv4/opencv2/objdetect.hpp \
+  /usr/include/opencv4/opencv2/objdetect/detection_based_tracker.hpp \
+  /usr/include/opencv4/opencv2/objdetect/face.hpp \
+  /usr/include/opencv4/opencv2/photo.hpp \
+  /usr/include/opencv4/opencv2/stitching.hpp \
+  /usr/include/opencv4/opencv2/stitching/warpers.hpp \
+  /usr/include/opencv4/opencv2/stitching/detail/warpers.hpp \
+  /usr/include/opencv4/opencv2/core/cuda.hpp \
+  /usr/include/opencv4/opencv2/core/cuda_types.hpp \
+  /usr/include/opencv4/opencv2/core/cuda.inl.hpp \
+  /usr/include/opencv4/opencv2/stitching/detail/warpers_inl.hpp \
+  /usr/include/opencv4/opencv2/stitching/detail/warpers.hpp \
+  /usr/include/opencv4/opencv2/stitching/detail/matchers.hpp \
+  /usr/include/opencv4/opencv2/stitching/detail/motion_estimators.hpp \
+  /usr/include/opencv4/opencv2/stitching/detail/matchers.hpp \
+  /usr/include/opencv4/opencv2/stitching/detail/util.hpp \
+  /usr/include/opencv4/opencv2/stitching/detail/util_inl.hpp \
+  /usr/include/c++/11/queue \
+  /usr/include/c++/11/deque \
+  /usr/include/c++/11/bits/stl_deque.h \
+  /usr/include/c++/11/bits/deque.tcc \
+  /usr/include/c++/11/bits/stl_queue.h \
+  /usr/include/opencv4/opencv2/stitching/detail/camera.hpp \
+  /usr/include/opencv4/opencv2/stitching/detail/exposure_compensate.hpp \
+  /usr/include/opencv4/opencv2/stitching/detail/seam_finders.hpp \
+  /usr/include/opencv4/opencv2/stitching/detail/blenders.hpp \
+  /usr/include/opencv4/opencv2/stitching/detail/camera.hpp \
+  /usr/include/opencv4/opencv2/video.hpp \
+  /usr/include/opencv4/opencv2/video/tracking.hpp \
+  /usr/include/opencv4/opencv2/video/background_segm.hpp
+
+CMakeFiles/ComputerVisionApp.dir/gui/editview.cpp.o: ../gui/editview.cpp \
+  /usr/include/stdc-predef.h \
+  ../gui/editview.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QWidget \
+  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qwidget.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qtwidgetsglobal.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtGui/qtguiglobal.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qglobal.h \
+  /usr/include/c++/11/type_traits \
+  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
+  /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h \
+  /usr/include/features.h \
+  /usr/include/features-time64.h \
+  /usr/include/x86_64-linux-gnu/bits/wordsize.h \
+  /usr/include/x86_64-linux-gnu/bits/timesize.h \
+  /usr/include/x86_64-linux-gnu/sys/cdefs.h \
+  /usr/include/x86_64-linux-gnu/bits/long-double.h \
+  /usr/include/x86_64-linux-gnu/gnu/stubs.h \
+  /usr/include/x86_64-linux-gnu/gnu/stubs-64.h \
+  /usr/include/x86_64-linux-gnu/c++/11/bits/cpu_defines.h \
+  /usr/include/c++/11/pstl/pstl_config.h \
+  /usr/include/c++/11/cstddef \
+  /usr/lib/gcc/x86_64-linux-gnu/11/include/stddef.h \
+  /usr/include/c++/11/utility \
+  /usr/include/c++/11/bits/stl_relops.h \
+  /usr/include/c++/11/bits/stl_pair.h \
+  /usr/include/c++/11/bits/move.h \
+  /usr/include/c++/11/initializer_list \
+  /usr/include/assert.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qconfig.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qtcore-config.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qsystemdetection.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qprocessordetection.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qcompilerdetection.h \
+  /usr/include/c++/11/algorithm \
+  /usr/include/c++/11/bits/stl_algobase.h \
+  /usr/include/c++/11/bits/functexcept.h \
+  /usr/include/c++/11/bits/exception_defines.h \
+  /usr/include/c++/11/bits/cpp_type_traits.h \
+  /usr/include/c++/11/ext/type_traits.h \
+  /usr/include/c++/11/ext/numeric_traits.h \
+  /usr/include/c++/11/bits/stl_iterator_base_types.h \
+  /usr/include/c++/11/bits/stl_iterator_base_funcs.h \
+  /usr/include/c++/11/bits/concept_check.h \
+  /usr/include/c++/11/debug/assertions.h \
+  /usr/include/c++/11/bits/stl_iterator.h \
+  /usr/include/c++/11/bits/ptr_traits.h \
+  /usr/include/c++/11/debug/debug.h \
+  /usr/include/c++/11/bits/predefined_ops.h \
+  /usr/include/c++/11/bits/stl_algo.h \
+  /usr/include/c++/11/cstdlib \
+  /usr/include/stdlib.h \
+  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
+  /usr/include/x86_64-linux-gnu/bits/waitflags.h \
+  /usr/include/x86_64-linux-gnu/bits/waitstatus.h \
+  /usr/include/x86_64-linux-gnu/bits/floatn.h \
+  /usr/include/x86_64-linux-gnu/bits/floatn-common.h \
+  /usr/include/x86_64-linux-gnu/bits/types/locale_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/__locale_t.h \
+  /usr/include/x86_64-linux-gnu/sys/types.h \
+  /usr/include/x86_64-linux-gnu/bits/types.h \
+  /usr/include/x86_64-linux-gnu/bits/typesizes.h \
+  /usr/include/x86_64-linux-gnu/bits/time64.h \
+  /usr/include/x86_64-linux-gnu/bits/types/clock_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/clockid_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/time_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/timer_t.h \
+  /usr/include/x86_64-linux-gnu/bits/stdint-intn.h \
+  /usr/include/endian.h \
+  /usr/include/x86_64-linux-gnu/bits/endian.h \
+  /usr/include/x86_64-linux-gnu/bits/endianness.h \
+  /usr/include/x86_64-linux-gnu/bits/byteswap.h \
+  /usr/include/x86_64-linux-gnu/bits/uintn-identity.h \
+  /usr/include/x86_64-linux-gnu/sys/select.h \
+  /usr/include/x86_64-linux-gnu/bits/select.h \
+  /usr/include/x86_64-linux-gnu/bits/types/sigset_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/__sigset_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/struct_timeval.h \
+  /usr/include/x86_64-linux-gnu/bits/types/struct_timespec.h \
+  /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h \
+  /usr/include/x86_64-linux-gnu/bits/thread-shared-types.h \
+  /usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h \
+  /usr/include/x86_64-linux-gnu/bits/atomic_wide_counter.h \
+  /usr/include/x86_64-linux-gnu/bits/struct_mutex.h \
+  /usr/include/x86_64-linux-gnu/bits/struct_rwlock.h \
+  /usr/include/alloca.h \
+  /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
+  /usr/include/c++/11/bits/std_abs.h \
+  /usr/include/c++/11/bits/algorithmfwd.h \
+  /usr/include/c++/11/bits/stl_heap.h \
+  /usr/include/c++/11/bits/stl_tempbuf.h \
+  /usr/include/c++/11/bits/stl_construct.h \
+  /usr/include/c++/11/new \
+  /usr/include/c++/11/bits/exception.h \
+  /usr/include/c++/11/bits/uniform_int_dist.h \
+  /usr/include/c++/11/pstl/glue_algorithm_defs.h \
+  /usr/include/c++/11/functional \
+  /usr/include/c++/11/bits/stl_function.h \
+  /usr/include/c++/11/backward/binders.h \
+  /usr/include/c++/11/tuple \
+  /usr/include/c++/11/array \
+  /usr/include/c++/11/bits/range_access.h \
+  /usr/include/c++/11/bits/uses_allocator.h \
+  /usr/include/c++/11/bits/invoke.h \
+  /usr/include/c++/11/bits/functional_hash.h \
+  /usr/include/c++/11/bits/hash_bytes.h \
+  /usr/include/c++/11/bits/refwrap.h \
+  /usr/include/c++/11/bits/std_function.h \
+  /usr/include/c++/11/typeinfo \
+  /usr/include/c++/11/unordered_map \
+  /usr/include/c++/11/bits/allocator.h \
+  /usr/include/x86_64-linux-gnu/c++/11/bits/c++allocator.h \
+  /usr/include/c++/11/ext/new_allocator.h \
+  /usr/include/c++/11/bits/memoryfwd.h \
+  /usr/include/c++/11/ext/alloc_traits.h \
+  /usr/include/c++/11/bits/alloc_traits.h \
+  /usr/include/c++/11/ext/aligned_buffer.h \
+  /usr/include/c++/11/bits/hashtable.h \
+  /usr/include/c++/11/bits/hashtable_policy.h \
+  /usr/include/c++/11/bits/enable_special_members.h \
+  /usr/include/c++/11/bits/node_handle.h \
+  /usr/include/c++/11/bits/unordered_map.h \
+  /usr/include/c++/11/bits/erase_if.h \
+  /usr/include/c++/11/vector \
+  /usr/include/c++/11/bits/stl_uninitialized.h \
+  /usr/include/c++/11/bits/stl_vector.h \
+  /usr/include/c++/11/bits/stl_bvector.h \
+  /usr/include/c++/11/bits/vector.tcc \
+  /usr/include/c++/11/pstl/execution_defs.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qtypeinfo.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qsysinfo.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qlogging.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qflags.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qatomic.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qbasicatomic.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qatomic_cxx11.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qgenericatomic.h \
+  /usr/include/c++/11/atomic \
+  /usr/include/c++/11/bits/atomic_base.h \
+  /usr/lib/gcc/x86_64-linux-gnu/11/include/stdint.h \
+  /usr/include/stdint.h \
+  /usr/include/x86_64-linux-gnu/bits/wchar.h \
+  /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h \
+  /usr/include/c++/11/bits/atomic_lockfree_defines.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qglobalstatic.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qnumeric.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qversiontagging.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtGui/qtgui-config.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qtwidgets-config.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtGui/qwindowdefs.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qobjectdefs.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qnamespace.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qobjectdefs_impl.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qobject.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qstring.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qchar.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qbytearray.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qrefcount.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qarraydata.h \
+  /usr/include/string.h \
+  /usr/include/strings.h \
+  /usr/include/c++/11/stdlib.h \
+  /usr/lib/gcc/x86_64-linux-gnu/11/include/stdarg.h \
+  /usr/include/c++/11/string \
+  /usr/include/c++/11/bits/stringfwd.h \
+  /usr/include/c++/11/bits/char_traits.h \
+  /usr/include/c++/11/bits/postypes.h \
+  /usr/include/c++/11/cwchar \
+  /usr/include/wchar.h \
+  /usr/include/x86_64-linux-gnu/bits/types/wint_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/mbstate_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/__FILE.h \
+  /usr/include/x86_64-linux-gnu/bits/types/FILE.h \
+  /usr/include/c++/11/cstdint \
+  /usr/include/c++/11/bits/localefwd.h \
+  /usr/include/x86_64-linux-gnu/c++/11/bits/c++locale.h \
+  /usr/include/c++/11/clocale \
+  /usr/include/locale.h \
+  /usr/include/x86_64-linux-gnu/bits/locale.h \
+  /usr/include/c++/11/iosfwd \
+  /usr/include/c++/11/cctype \
+  /usr/include/ctype.h \
+  /usr/include/c++/11/bits/ostream_insert.h \
+  /usr/include/c++/11/bits/cxxabi_forced.h \
+  /usr/include/c++/11/bits/basic_string.h \
+  /usr/include/c++/11/ext/atomicity.h \
+  /usr/include/x86_64-linux-gnu/c++/11/bits/gthr.h \
+  /usr/include/x86_64-linux-gnu/c++/11/bits/gthr-default.h \
+  /usr/include/pthread.h \
+  /usr/include/sched.h \
+  /usr/include/x86_64-linux-gnu/bits/sched.h \
+  /usr/include/x86_64-linux-gnu/bits/types/struct_sched_param.h \
+  /usr/include/x86_64-linux-gnu/bits/cpu-set.h \
+  /usr/include/time.h \
+  /usr/include/x86_64-linux-gnu/bits/time.h \
+  /usr/include/x86_64-linux-gnu/bits/timex.h \
+  /usr/include/x86_64-linux-gnu/bits/types/struct_tm.h \
+  /usr/include/x86_64-linux-gnu/bits/types/struct_itimerspec.h \
+  /usr/include/x86_64-linux-gnu/bits/setjmp.h \
+  /usr/include/x86_64-linux-gnu/bits/types/struct___jmp_buf_tag.h \
+  /usr/include/x86_64-linux-gnu/bits/pthread_stack_min-dynamic.h \
+  /usr/include/x86_64-linux-gnu/c++/11/bits/atomic_word.h \
+  /usr/include/x86_64-linux-gnu/sys/single_threaded.h \
+  /usr/include/c++/11/string_view \
+  /usr/include/c++/11/bits/string_view.tcc \
+  /usr/include/c++/11/ext/string_conversions.h \
+  /usr/include/c++/11/cstdio \
+  /usr/include/stdio.h \
+  /usr/include/x86_64-linux-gnu/bits/types/__fpos_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/__fpos64_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h \
+  /usr/include/x86_64-linux-gnu/bits/types/cookie_io_functions_t.h \
+  /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
+  /usr/include/c++/11/cerrno \
+  /usr/include/errno.h \
+  /usr/include/x86_64-linux-gnu/bits/errno.h \
+  /usr/include/linux/errno.h \
+  /usr/include/x86_64-linux-gnu/asm/errno.h \
+  /usr/include/asm-generic/errno.h \
+  /usr/include/asm-generic/errno-base.h \
+  /usr/include/x86_64-linux-gnu/bits/types/error_t.h \
+  /usr/include/c++/11/bits/charconv.h \
+  /usr/include/c++/11/bits/basic_string.tcc \
+  /usr/include/c++/11/iterator \
+  /usr/include/c++/11/bits/stream_iterator.h \
+  /usr/include/c++/11/bits/streambuf_iterator.h \
+  /usr/include/c++/11/streambuf \
+  /usr/include/c++/11/bits/ios_base.h \
+  /usr/include/c++/11/bits/locale_classes.h \
+  /usr/include/c++/11/bits/locale_classes.tcc \
+  /usr/include/c++/11/system_error \
+  /usr/include/x86_64-linux-gnu/c++/11/bits/error_constants.h \
+  /usr/include/c++/11/stdexcept \
+  /usr/include/c++/11/exception \
+  /usr/include/c++/11/bits/exception_ptr.h \
+  /usr/include/c++/11/bits/cxxabi_init_exception.h \
+  /usr/include/c++/11/bits/nested_exception.h \
+  /usr/include/c++/11/bits/streambuf.tcc \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qstringliteral.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qstringalgorithms.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qstringview.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qlist.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qalgorithms.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qiterator.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qhashfunctions.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qpair.h \
+  /usr/include/c++/11/numeric \
+  /usr/include/c++/11/bits/stl_numeric.h \
+  /usr/include/c++/11/bit \
+  /usr/include/c++/11/pstl/glue_numeric_defs.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qvector.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qcontainertools_impl.h \
+  /usr/include/c++/11/list \
+  /usr/include/c++/11/bits/stl_list.h \
+  /usr/include/c++/11/bits/allocated_ptr.h \
+  /usr/include/c++/11/bits/list.tcc \
+  /usr/lib/gcc/x86_64-linux-gnu/11/include/limits.h \
+  /usr/lib/gcc/x86_64-linux-gnu/11/include/syslimits.h \
+  /usr/include/limits.h \
+  /usr/include/x86_64-linux-gnu/bits/posix1_lim.h \
+  /usr/include/x86_64-linux-gnu/bits/local_lim.h \
+  /usr/include/linux/limits.h \
+  /usr/include/x86_64-linux-gnu/bits/posix2_lim.h \
+  /usr/include/x86_64-linux-gnu/bits/xopen_lim.h \
+  /usr/include/x86_64-linux-gnu/bits/uio_lim.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qbytearraylist.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qstringlist.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qregexp.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qstringmatcher.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qscopedpointer.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qmetatype.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qvarlengtharray.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qcontainerfwd.h \
+  /usr/include/c++/11/map \
+  /usr/include/c++/11/bits/stl_tree.h \
+  /usr/include/c++/11/bits/stl_map.h \
+  /usr/include/c++/11/bits/stl_multimap.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qobject_impl.h \
+  /usr/include/c++/11/chrono \
+  /usr/include/c++/11/ratio \
+  /usr/include/c++/11/limits \
+  /usr/include/c++/11/ctime \
+  /usr/include/c++/11/bits/parse_numbers.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qmargins.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtGui/qpaintdevice.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qrect.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qsize.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qpoint.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtGui/qpalette.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtGui/qcolor.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtGui/qrgb.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtGui/qrgba64.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtGui/qbrush.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtGui/qmatrix.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtGui/qpolygon.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtGui/qregion.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qdatastream.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qiodevice.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qline.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtGui/qtransform.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtGui/qimage.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtGui/qpixelformat.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtGui/qpixmap.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qsharedpointer.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qshareddata.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qhash.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qsharedpointer_impl.h \
+  /usr/include/c++/11/memory \
+  /usr/include/c++/11/bits/stl_raw_storage_iter.h \
+  /usr/include/c++/11/bits/align.h \
+  /usr/include/c++/11/bits/unique_ptr.h \
+  /usr/include/c++/11/bits/shared_ptr.h \
+  /usr/include/c++/11/bits/shared_ptr_base.h \
+  /usr/include/c++/11/ext/concurrence.h \
+  /usr/include/c++/11/bits/shared_ptr_atomic.h \
+  /usr/include/c++/11/backward/auto_ptr.h \
+  /usr/include/c++/11/pstl/glue_memory_defs.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtGui/qfont.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtGui/qfontmetrics.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtGui/qfontinfo.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qsizepolicy.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtGui/qcursor.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtGui/qkeysequence.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QStackedWidget \
+  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qstackedwidget.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qframe.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qwidget.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtGui/QMouseEvent \
+  /usr/include/x86_64-linux-gnu/qt5/QtGui/qevent.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qcoreevent.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qvariant.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qmap.h \
+  /usr/include/c++/11/variant \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qset.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qurl.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qfile.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qfiledevice.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtGui/qvector2d.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtGui/qtouchdevice.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtGui/QPainter \
+  /usr/include/x86_64-linux-gnu/qt5/QtGui/qpainter.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtGui/qtextoption.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtGui/qpen.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QLabel \
+  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qlabel.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QMenuBar \
+  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qmenubar.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qmenu.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtGui/qicon.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qaction.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qactiongroup.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QFormLayout \
+  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qformlayout.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QLayout \
+  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qlayout.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qlayoutitem.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qboxlayout.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qlayout.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qgridlayout.h \
+  ../imageProcessing/MainProcessing.h \
+  ../imageProcessing/ImageCapture.h \
+  /usr/include/opencv4/opencv2/opencv.hpp \
+  /usr/include/opencv4/opencv2/opencv_modules.hpp \
+  /usr/include/opencv4/opencv2/core.hpp \
+  /usr/include/opencv4/opencv2/core/cvdef.h \
+  /usr/include/opencv4/opencv2/core/version.hpp \
+  /usr/include/opencv4/opencv2/core/hal/interface.h \
+  /usr/include/opencv4/opencv2/core/cv_cpu_dispatch.h \
+  /usr/lib/gcc/x86_64-linux-gnu/11/include/emmintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/11/include/xmmintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/11/include/mmintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/11/include/mm_malloc.h \
+  /usr/include/opencv4/opencv2/core/base.hpp \
+  /usr/include/c++/11/climits \
+  /usr/include/opencv4/opencv2/core/cvstd.hpp \
+  /usr/include/c++/11/cstring \
+  /usr/include/c++/11/cmath \
+  /usr/include/math.h \
+  /usr/include/x86_64-linux-gnu/bits/math-vector.h \
+  /usr/include/x86_64-linux-gnu/bits/libm-simd-decl-stubs.h \
+  /usr/include/x86_64-linux-gnu/bits/flt-eval-method.h \
+  /usr/include/x86_64-linux-gnu/bits/fp-logb.h \
+  /usr/include/x86_64-linux-gnu/bits/fp-fast.h \
+  /usr/include/x86_64-linux-gnu/bits/mathcalls-helper-functions.h \
+  /usr/include/x86_64-linux-gnu/bits/mathcalls.h \
+  /usr/include/x86_64-linux-gnu/bits/mathcalls-narrow.h \
+  /usr/include/x86_64-linux-gnu/bits/iscanonical.h \
+  /usr/include/c++/11/bits/specfun.h \
+  /usr/include/c++/11/tr1/gamma.tcc \
+  /usr/include/c++/11/tr1/special_function_util.h \
+  /usr/include/c++/11/tr1/bessel_function.tcc \
+  /usr/include/c++/11/tr1/beta_function.tcc \
+  /usr/include/c++/11/tr1/ell_integral.tcc \
+  /usr/include/c++/11/tr1/exp_integral.tcc \
+  /usr/include/c++/11/tr1/hypergeometric.tcc \
+  /usr/include/c++/11/tr1/legendre_function.tcc \
+  /usr/include/c++/11/tr1/modified_bessel_func.tcc \
+  /usr/include/c++/11/tr1/poly_hermite.tcc \
+  /usr/include/c++/11/tr1/poly_laguerre.tcc \
+  /usr/include/c++/11/tr1/riemann_zeta.tcc \
+  /usr/include/opencv4/opencv2/core/cvstd_wrapper.hpp \
+  /usr/include/opencv4/opencv2/core/neon_utils.hpp \
+  /usr/include/opencv4/opencv2/core/vsx_utils.hpp \
+  /usr/include/opencv4/opencv2/core/check.hpp \
+  /usr/include/opencv4/opencv2/core/traits.hpp \
+  /usr/include/opencv4/opencv2/core/matx.hpp \
+  /usr/include/opencv4/opencv2/core/saturate.hpp \
+  /usr/include/opencv4/opencv2/core/fast_math.hpp \
+  /usr/include/opencv4/opencv2/core/types.hpp \
+  /usr/include/c++/11/cfloat \
+  /usr/lib/gcc/x86_64-linux-gnu/11/include/float.h \
+  /usr/include/opencv4/opencv2/core/mat.hpp \
+  /usr/include/opencv4/opencv2/core/bufferpool.hpp \
+  /usr/include/opencv4/opencv2/core/mat.inl.hpp \
+  /usr/include/opencv4/opencv2/core/persistence.hpp \
+  /usr/include/opencv4/opencv2/core/operations.hpp \
+  /usr/include/opencv4/opencv2/core/cvstd.inl.hpp \
+  /usr/include/c++/11/complex \
+  /usr/include/c++/11/sstream \
+  /usr/include/c++/11/istream \
+  /usr/include/c++/11/ios \
+  /usr/include/c++/11/bits/basic_ios.h \
+  /usr/include/c++/11/bits/locale_facets.h \
+  /usr/include/c++/11/cwctype \
+  /usr/include/wctype.h \
+  /usr/include/x86_64-linux-gnu/bits/wctype-wchar.h \
+  /usr/include/x86_64-linux-gnu/c++/11/bits/ctype_base.h \
+  /usr/include/x86_64-linux-gnu/c++/11/bits/ctype_inline.h \
+  /usr/include/c++/11/bits/locale_facets.tcc \
+  /usr/include/c++/11/bits/basic_ios.tcc \
+  /usr/include/c++/11/ostream \
+  /usr/include/c++/11/bits/ostream.tcc \
+  /usr/include/c++/11/bits/istream.tcc \
+  /usr/include/c++/11/bits/sstream.tcc \
+  /usr/include/opencv4/opencv2/core/utility.hpp \
+  /usr/include/c++/11/mutex \
+  /usr/include/c++/11/bits/std_mutex.h \
+  /usr/include/c++/11/bits/unique_lock.h \
+  /usr/include/opencv4/opencv2/core/optim.hpp \
+  /usr/include/opencv4/opencv2/core/ovx.hpp \
+  /usr/include/opencv4/opencv2/core/cvdef.h \
+  /usr/include/opencv4/opencv2/calib3d.hpp \
+  /usr/include/opencv4/opencv2/features2d.hpp \
+  /usr/include/opencv4/opencv2/flann/miniflann.hpp \
+  /usr/include/opencv4/opencv2/flann/defines.h \
+  /usr/include/opencv4/opencv2/flann/config.h \
+  /usr/include/opencv4/opencv2/core/affine.hpp \
+  /usr/include/opencv4/opencv2/dnn.hpp \
+  /usr/include/opencv4/opencv2/dnn/dnn.hpp \
+  /usr/include/opencv4/opencv2/core/async.hpp \
+  /usr/include/opencv4/opencv2/dnn/version.hpp \
+  /usr/include/opencv4/opencv2/dnn/dict.hpp \
+  /usr/include/opencv4/opencv2/dnn/layer.hpp \
+  /usr/include/opencv4/opencv2/dnn/dnn.inl.hpp \
+  /usr/include/opencv4/opencv2/dnn/utils/inference_engine.hpp \
+  /usr/include/opencv4/opencv2/dnn/dnn.hpp \
+  /usr/include/opencv4/opencv2/flann.hpp \
+  /usr/include/opencv4/opencv2/flann/flann_base.hpp \
+  /usr/include/opencv4/opencv2/flann/general.h \
+  /usr/include/opencv4/opencv2/flann/matrix.h \
+  /usr/include/opencv4/opencv2/flann/params.h \
+  /usr/include/opencv4/opencv2/flann/any.h \
+  /usr/include/opencv4/opencv2/flann/defines.h \
+  /usr/include/c++/11/iostream \
+  /usr/include/opencv4/opencv2/flann/saving.h \
+  /usr/include/opencv4/opencv2/flann/nn_index.h \
+  /usr/include/opencv4/opencv2/flann/result_set.h \
+  /usr/include/c++/11/set \
+  /usr/include/c++/11/bits/stl_set.h \
+  /usr/include/c++/11/bits/stl_multiset.h \
+  /usr/include/opencv4/opencv2/flann/all_indices.h \
+  /usr/include/opencv4/opencv2/flann/kdtree_index.h \
+  /usr/include/opencv4/opencv2/flann/dynamic_bitset.h \
+  /usr/include/opencv4/opencv2/flann/dist.h \
+  /usr/include/opencv4/opencv2/flann/heap.h \
+  /usr/include/opencv4/opencv2/flann/allocator.h \
+  /usr/include/opencv4/opencv2/flann/random.h \
+  /usr/include/opencv4/opencv2/flann/kdtree_single_index.h \
+  /usr/include/opencv4/opencv2/flann/kmeans_index.h \
+  /usr/include/opencv4/opencv2/flann/logger.h \
+  /usr/include/opencv4/opencv2/flann/composite_index.h \
+  /usr/include/opencv4/opencv2/flann/linear_index.h \
+  /usr/include/opencv4/opencv2/flann/hierarchical_clustering_index.h \
+  /usr/include/opencv4/opencv2/flann/lsh_index.h \
+  /usr/include/opencv4/opencv2/flann/lsh_table.h \
+  /usr/include/c++/11/iomanip \
+  /usr/include/c++/11/locale \
+  /usr/include/c++/11/bits/locale_facets_nonio.h \
+  /usr/include/x86_64-linux-gnu/c++/11/bits/time_members.h \
+  /usr/include/x86_64-linux-gnu/c++/11/bits/messages_members.h \
+  /usr/include/libintl.h \
+  /usr/include/c++/11/bits/codecvt.h \
+  /usr/include/c++/11/bits/locale_facets_nonio.tcc \
+  /usr/include/c++/11/bits/locale_conv.h \
+  /usr/include/c++/11/bits/quoted_string.h \
+  /usr/include/c++/11/math.h \
+  /usr/include/opencv4/opencv2/flann/autotuned_index.h \
+  /usr/include/opencv4/opencv2/flann/ground_truth.h \
+  /usr/include/opencv4/opencv2/flann/index_testing.h \
+  /usr/include/opencv4/opencv2/flann/timer.h \
+  /usr/include/opencv4/opencv2/flann/sampling.h \
+  /usr/include/opencv4/opencv2/highgui.hpp \
+  /usr/include/opencv4/opencv2/imgcodecs.hpp \
+  /usr/include/opencv4/opencv2/videoio.hpp \
+  /usr/include/opencv4/opencv2/imgproc.hpp \
+  /usr/include/opencv4/opencv2/imgproc/segmentation.hpp \
+  /usr/include/opencv4/opencv2/ml.hpp \
+  /usr/include/opencv4/opencv2/ml/ml.inl.hpp \
+  /usr/include/opencv4/opencv2/objdetect.hpp \
+  /usr/include/opencv4/opencv2/objdetect/detection_based_tracker.hpp \
+  /usr/include/opencv4/opencv2/objdetect/face.hpp \
+  /usr/include/opencv4/opencv2/photo.hpp \
+  /usr/include/opencv4/opencv2/stitching.hpp \
+  /usr/include/opencv4/opencv2/stitching/warpers.hpp \
+  /usr/include/opencv4/opencv2/stitching/detail/warpers.hpp \
+  /usr/include/opencv4/opencv2/core/cuda.hpp \
+  /usr/include/opencv4/opencv2/core/cuda_types.hpp \
+  /usr/include/opencv4/opencv2/core/cuda.inl.hpp \
+  /usr/include/opencv4/opencv2/stitching/detail/warpers_inl.hpp \
+  /usr/include/opencv4/opencv2/stitching/detail/warpers.hpp \
+  /usr/include/opencv4/opencv2/stitching/detail/matchers.hpp \
+  /usr/include/opencv4/opencv2/stitching/detail/motion_estimators.hpp \
+  /usr/include/opencv4/opencv2/stitching/detail/matchers.hpp \
+  /usr/include/opencv4/opencv2/stitching/detail/util.hpp \
+  /usr/include/opencv4/opencv2/stitching/detail/util_inl.hpp \
+  /usr/include/c++/11/queue \
+  /usr/include/c++/11/deque \
+  /usr/include/c++/11/bits/stl_deque.h \
+  /usr/include/c++/11/bits/deque.tcc \
+  /usr/include/c++/11/bits/stl_queue.h \
+  /usr/include/opencv4/opencv2/stitching/detail/camera.hpp \
+  /usr/include/opencv4/opencv2/stitching/detail/exposure_compensate.hpp \
+  /usr/include/opencv4/opencv2/stitching/detail/seam_finders.hpp \
+  /usr/include/opencv4/opencv2/stitching/detail/blenders.hpp \
+  /usr/include/opencv4/opencv2/stitching/detail/camera.hpp \
+  /usr/include/opencv4/opencv2/video.hpp \
+  /usr/include/opencv4/opencv2/video/tracking.hpp \
+  /usr/include/opencv4/opencv2/video/background_segm.hpp \
+  /usr/include/x86_64-linux-gnu/qt5/QtGui/QImage \
+  /usr/include/x86_64-linux-gnu/qt5/QtGui/qimage.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/QDebug \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qdebug.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qtextstream.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qlocale.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qcontiguouscache.h \
+  /usr/include/nlohmann/json.hpp \
+  /usr/include/nlohmann/adl_serializer.hpp \
+  /usr/include/nlohmann/detail/conversions/from_json.hpp \
+  /usr/include/c++/11/forward_list \
+  /usr/include/c++/11/bits/forward_list.h \
+  /usr/include/c++/11/bits/forward_list.tcc \
+  /usr/include/c++/11/valarray \
+  /usr/include/c++/11/bits/valarray_array.h \
+  /usr/include/c++/11/bits/valarray_array.tcc \
+  /usr/include/c++/11/bits/valarray_before.h \
+  /usr/include/c++/11/bits/slice_array.h \
+  /usr/include/c++/11/bits/valarray_after.h \
+  /usr/include/c++/11/bits/gslice.h \
+  /usr/include/c++/11/bits/gslice_array.h \
+  /usr/include/c++/11/bits/mask_array.h \
+  /usr/include/c++/11/bits/indirect_array.h \
+  /usr/include/nlohmann/detail/exceptions.hpp \
+  /usr/include/nlohmann/detail/value_t.hpp \
+  /usr/include/nlohmann/detail/string_escape.hpp \
+  /usr/include/nlohmann/detail/macro_scope.hpp \
+  /usr/include/nlohmann/thirdparty/hedley/hedley.hpp \
+  /usr/include/nlohmann/detail/meta/detected.hpp \
+  /usr/include/nlohmann/detail/meta/void_t.hpp \
+  /usr/include/c++/11/cassert \
+  /usr/include/nlohmann/detail/input/position_t.hpp \
+  /usr/include/nlohmann/detail/meta/cpp_future.hpp \
+  /usr/include/nlohmann/detail/meta/identity_tag.hpp \
+  /usr/include/nlohmann/detail/meta/type_traits.hpp \
+  /usr/include/nlohmann/detail/iterators/iterator_traits.hpp \
+  /usr/include/nlohmann/detail/meta/call_std/begin.hpp \
+  /usr/include/nlohmann/detail/meta/call_std/end.hpp \
+  /usr/include/nlohmann/json_fwd.hpp \
+  /usr/include/c++/11/filesystem \
+  /usr/include/c++/11/bits/fs_fwd.h \
+  /usr/include/c++/11/bits/fs_path.h \
+  /usr/include/c++/11/codecvt \
+  /usr/include/c++/11/bits/fs_dir.h \
+  /usr/include/c++/11/bits/fs_ops.h \
+  /usr/include/nlohmann/detail/conversions/to_json.hpp \
+  /usr/include/nlohmann/detail/iterators/iteration_proxy.hpp \
+  /usr/include/nlohmann/byte_container_with_subtype.hpp \
+  /usr/include/nlohmann/detail/hash.hpp \
+  /usr/include/nlohmann/detail/input/binary_reader.hpp \
+  /usr/include/nlohmann/detail/input/input_adapters.hpp \
+  /usr/include/nlohmann/detail/input/json_sax.hpp \
+  /usr/include/nlohmann/detail/input/lexer.hpp \
+  /usr/include/nlohmann/detail/meta/is_sax.hpp \
+  /usr/include/nlohmann/detail/input/parser.hpp \
+  /usr/include/nlohmann/detail/iterators/internal_iterator.hpp \
+  /usr/include/nlohmann/detail/iterators/primitive_iterator.hpp \
+  /usr/include/nlohmann/detail/iterators/iter_impl.hpp \
+  /usr/include/nlohmann/detail/iterators/json_reverse_iterator.hpp \
+  /usr/include/nlohmann/detail/json_pointer.hpp \
+  /usr/include/nlohmann/detail/json_ref.hpp \
+  /usr/include/nlohmann/detail/output/binary_writer.hpp \
+  /usr/include/nlohmann/detail/output/output_adapters.hpp \
+  /usr/include/nlohmann/detail/output/serializer.hpp \
+  /usr/include/nlohmann/detail/conversions/to_chars.hpp \
+  /usr/include/nlohmann/ordered_map.hpp \
+  /usr/include/nlohmann/detail/macro_unscope.hpp \
+  /usr/include/nlohmann/thirdparty/hedley/hedley_undef.hpp \
+  ../gui/ROISelector.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/QObject \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qobject.h \
+  ../gui/mainwindow.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QMainWindow \
+  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qmainwindow.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qtabwidget.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QListWidget \
+  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qlistwidget.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qlistview.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qabstractitemview.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qabstractscrollarea.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qabstractitemmodel.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qitemselectionmodel.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qabstractitemdelegate.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qstyleoption.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qabstractspinbox.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtGui/qvalidator.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qregularexpression.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qslider.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qabstractslider.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qstyle.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qtabbar.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qrubberband.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QPushButton \
+  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qpushbutton.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qabstractbutton.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QVBoxLayout \
+  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qboxlayout.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QHBoxLayout \
+  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QMessageBox \
+  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qmessagebox.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qdialog.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QInputDialog \
+  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qinputdialog.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qlineedit.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtGui/qtextcursor.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtGui/qtextformat.h \
   ../tools/ProgramManager.h \
-  /home/bartek/anaconda3/include/qt/QtCore/QString \
-  /home/bartek/anaconda3/include/qt/QtCore/qstring.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/QString \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qstring.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/QStringList \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qstringlist.h \
+  /usr/include/c++/11/fstream \
+  /usr/include/x86_64-linux-gnu/c++/11/bits/basic_file.h \
+  /usr/include/x86_64-linux-gnu/c++/11/bits/c++io.h \
+  /usr/include/c++/11/bits/fstream.tcc \
+  ComputerVisionApp_autogen/include/ui_editview.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/QVariant \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qvariant.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QApplication \
+  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qapplication.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qcoreapplication.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qeventloop.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtGui/qguiapplication.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtGui/qinputmethod.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QGridLayout \
+  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qgridlayout.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QLabel \
+  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QListWidget \
+  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QPushButton \
+  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QSpinBox \
+  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qspinbox.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QStackedWidget \
+  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QVBoxLayout \
+  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QWidget
+
+CMakeFiles/ComputerVisionApp.dir/gui/mainwindow.cpp.o: ../gui/mainwindow.cpp \
+  /usr/include/stdc-predef.h \
+  ../gui/mainwindow.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QMainWindow \
+  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qmainwindow.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qtwidgetsglobal.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtGui/qtguiglobal.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qglobal.h \
+  /usr/include/c++/11/type_traits \
+  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
+  /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h \
+  /usr/include/features.h \
+  /usr/include/features-time64.h \
+  /usr/include/x86_64-linux-gnu/bits/wordsize.h \
+  /usr/include/x86_64-linux-gnu/bits/timesize.h \
+  /usr/include/x86_64-linux-gnu/sys/cdefs.h \
+  /usr/include/x86_64-linux-gnu/bits/long-double.h \
+  /usr/include/x86_64-linux-gnu/gnu/stubs.h \
+  /usr/include/x86_64-linux-gnu/gnu/stubs-64.h \
+  /usr/include/x86_64-linux-gnu/c++/11/bits/cpu_defines.h \
+  /usr/include/c++/11/pstl/pstl_config.h \
+  /usr/include/c++/11/cstddef \
+  /usr/lib/gcc/x86_64-linux-gnu/11/include/stddef.h \
+  /usr/include/c++/11/utility \
+  /usr/include/c++/11/bits/stl_relops.h \
+  /usr/include/c++/11/bits/stl_pair.h \
+  /usr/include/c++/11/bits/move.h \
+  /usr/include/c++/11/initializer_list \
+  /usr/include/assert.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qconfig.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qtcore-config.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qsystemdetection.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qprocessordetection.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qcompilerdetection.h \
+  /usr/include/c++/11/algorithm \
+  /usr/include/c++/11/bits/stl_algobase.h \
+  /usr/include/c++/11/bits/functexcept.h \
+  /usr/include/c++/11/bits/exception_defines.h \
+  /usr/include/c++/11/bits/cpp_type_traits.h \
+  /usr/include/c++/11/ext/type_traits.h \
+  /usr/include/c++/11/ext/numeric_traits.h \
+  /usr/include/c++/11/bits/stl_iterator_base_types.h \
+  /usr/include/c++/11/bits/stl_iterator_base_funcs.h \
+  /usr/include/c++/11/bits/concept_check.h \
+  /usr/include/c++/11/debug/assertions.h \
+  /usr/include/c++/11/bits/stl_iterator.h \
+  /usr/include/c++/11/bits/ptr_traits.h \
+  /usr/include/c++/11/debug/debug.h \
+  /usr/include/c++/11/bits/predefined_ops.h \
+  /usr/include/c++/11/bits/stl_algo.h \
+  /usr/include/c++/11/cstdlib \
+  /usr/include/stdlib.h \
+  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
+  /usr/include/x86_64-linux-gnu/bits/waitflags.h \
+  /usr/include/x86_64-linux-gnu/bits/waitstatus.h \
+  /usr/include/x86_64-linux-gnu/bits/floatn.h \
+  /usr/include/x86_64-linux-gnu/bits/floatn-common.h \
+  /usr/include/x86_64-linux-gnu/bits/types/locale_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/__locale_t.h \
+  /usr/include/x86_64-linux-gnu/sys/types.h \
+  /usr/include/x86_64-linux-gnu/bits/types.h \
+  /usr/include/x86_64-linux-gnu/bits/typesizes.h \
+  /usr/include/x86_64-linux-gnu/bits/time64.h \
+  /usr/include/x86_64-linux-gnu/bits/types/clock_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/clockid_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/time_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/timer_t.h \
+  /usr/include/x86_64-linux-gnu/bits/stdint-intn.h \
+  /usr/include/endian.h \
+  /usr/include/x86_64-linux-gnu/bits/endian.h \
+  /usr/include/x86_64-linux-gnu/bits/endianness.h \
+  /usr/include/x86_64-linux-gnu/bits/byteswap.h \
+  /usr/include/x86_64-linux-gnu/bits/uintn-identity.h \
+  /usr/include/x86_64-linux-gnu/sys/select.h \
+  /usr/include/x86_64-linux-gnu/bits/select.h \
+  /usr/include/x86_64-linux-gnu/bits/types/sigset_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/__sigset_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/struct_timeval.h \
+  /usr/include/x86_64-linux-gnu/bits/types/struct_timespec.h \
+  /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h \
+  /usr/include/x86_64-linux-gnu/bits/thread-shared-types.h \
+  /usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h \
+  /usr/include/x86_64-linux-gnu/bits/atomic_wide_counter.h \
+  /usr/include/x86_64-linux-gnu/bits/struct_mutex.h \
+  /usr/include/x86_64-linux-gnu/bits/struct_rwlock.h \
+  /usr/include/alloca.h \
+  /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
+  /usr/include/c++/11/bits/std_abs.h \
+  /usr/include/c++/11/bits/algorithmfwd.h \
+  /usr/include/c++/11/bits/stl_heap.h \
+  /usr/include/c++/11/bits/stl_tempbuf.h \
+  /usr/include/c++/11/bits/stl_construct.h \
+  /usr/include/c++/11/new \
+  /usr/include/c++/11/bits/exception.h \
+  /usr/include/c++/11/bits/uniform_int_dist.h \
+  /usr/include/c++/11/pstl/glue_algorithm_defs.h \
+  /usr/include/c++/11/functional \
+  /usr/include/c++/11/bits/stl_function.h \
+  /usr/include/c++/11/backward/binders.h \
+  /usr/include/c++/11/tuple \
+  /usr/include/c++/11/array \
+  /usr/include/c++/11/bits/range_access.h \
+  /usr/include/c++/11/bits/uses_allocator.h \
+  /usr/include/c++/11/bits/invoke.h \
+  /usr/include/c++/11/bits/functional_hash.h \
+  /usr/include/c++/11/bits/hash_bytes.h \
+  /usr/include/c++/11/bits/refwrap.h \
+  /usr/include/c++/11/bits/std_function.h \
+  /usr/include/c++/11/typeinfo \
+  /usr/include/c++/11/unordered_map \
+  /usr/include/c++/11/bits/allocator.h \
+  /usr/include/x86_64-linux-gnu/c++/11/bits/c++allocator.h \
+  /usr/include/c++/11/ext/new_allocator.h \
+  /usr/include/c++/11/bits/memoryfwd.h \
+  /usr/include/c++/11/ext/alloc_traits.h \
+  /usr/include/c++/11/bits/alloc_traits.h \
+  /usr/include/c++/11/ext/aligned_buffer.h \
+  /usr/include/c++/11/bits/hashtable.h \
+  /usr/include/c++/11/bits/hashtable_policy.h \
+  /usr/include/c++/11/bits/enable_special_members.h \
+  /usr/include/c++/11/bits/node_handle.h \
+  /usr/include/c++/11/bits/unordered_map.h \
+  /usr/include/c++/11/bits/erase_if.h \
+  /usr/include/c++/11/vector \
+  /usr/include/c++/11/bits/stl_uninitialized.h \
+  /usr/include/c++/11/bits/stl_vector.h \
+  /usr/include/c++/11/bits/stl_bvector.h \
+  /usr/include/c++/11/bits/vector.tcc \
+  /usr/include/c++/11/pstl/execution_defs.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qtypeinfo.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qsysinfo.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qlogging.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qflags.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qatomic.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qbasicatomic.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qatomic_cxx11.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qgenericatomic.h \
+  /usr/include/c++/11/atomic \
+  /usr/include/c++/11/bits/atomic_base.h \
+  /usr/lib/gcc/x86_64-linux-gnu/11/include/stdint.h \
+  /usr/include/stdint.h \
+  /usr/include/x86_64-linux-gnu/bits/wchar.h \
+  /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h \
+  /usr/include/c++/11/bits/atomic_lockfree_defines.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qglobalstatic.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qnumeric.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qversiontagging.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtGui/qtgui-config.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qtwidgets-config.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qwidget.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtGui/qwindowdefs.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qobjectdefs.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qnamespace.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qobjectdefs_impl.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qobject.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qstring.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qchar.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qbytearray.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qrefcount.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qarraydata.h \
+  /usr/include/string.h \
+  /usr/include/strings.h \
+  /usr/include/c++/11/stdlib.h \
+  /usr/lib/gcc/x86_64-linux-gnu/11/include/stdarg.h \
+  /usr/include/c++/11/string \
+  /usr/include/c++/11/bits/stringfwd.h \
+  /usr/include/c++/11/bits/char_traits.h \
+  /usr/include/c++/11/bits/postypes.h \
+  /usr/include/c++/11/cwchar \
+  /usr/include/wchar.h \
+  /usr/include/x86_64-linux-gnu/bits/types/wint_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/mbstate_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/__FILE.h \
+  /usr/include/x86_64-linux-gnu/bits/types/FILE.h \
+  /usr/include/c++/11/cstdint \
+  /usr/include/c++/11/bits/localefwd.h \
+  /usr/include/x86_64-linux-gnu/c++/11/bits/c++locale.h \
+  /usr/include/c++/11/clocale \
+  /usr/include/locale.h \
+  /usr/include/x86_64-linux-gnu/bits/locale.h \
+  /usr/include/c++/11/iosfwd \
+  /usr/include/c++/11/cctype \
+  /usr/include/ctype.h \
+  /usr/include/c++/11/bits/ostream_insert.h \
+  /usr/include/c++/11/bits/cxxabi_forced.h \
+  /usr/include/c++/11/bits/basic_string.h \
+  /usr/include/c++/11/ext/atomicity.h \
+  /usr/include/x86_64-linux-gnu/c++/11/bits/gthr.h \
+  /usr/include/x86_64-linux-gnu/c++/11/bits/gthr-default.h \
+  /usr/include/pthread.h \
+  /usr/include/sched.h \
+  /usr/include/x86_64-linux-gnu/bits/sched.h \
+  /usr/include/x86_64-linux-gnu/bits/types/struct_sched_param.h \
+  /usr/include/x86_64-linux-gnu/bits/cpu-set.h \
+  /usr/include/time.h \
+  /usr/include/x86_64-linux-gnu/bits/time.h \
+  /usr/include/x86_64-linux-gnu/bits/timex.h \
+  /usr/include/x86_64-linux-gnu/bits/types/struct_tm.h \
+  /usr/include/x86_64-linux-gnu/bits/types/struct_itimerspec.h \
+  /usr/include/x86_64-linux-gnu/bits/setjmp.h \
+  /usr/include/x86_64-linux-gnu/bits/types/struct___jmp_buf_tag.h \
+  /usr/include/x86_64-linux-gnu/bits/pthread_stack_min-dynamic.h \
+  /usr/include/x86_64-linux-gnu/c++/11/bits/atomic_word.h \
+  /usr/include/x86_64-linux-gnu/sys/single_threaded.h \
+  /usr/include/c++/11/string_view \
+  /usr/include/c++/11/bits/string_view.tcc \
+  /usr/include/c++/11/ext/string_conversions.h \
+  /usr/include/c++/11/cstdio \
+  /usr/include/stdio.h \
+  /usr/include/x86_64-linux-gnu/bits/types/__fpos_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/__fpos64_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h \
+  /usr/include/x86_64-linux-gnu/bits/types/cookie_io_functions_t.h \
+  /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
+  /usr/include/c++/11/cerrno \
+  /usr/include/errno.h \
+  /usr/include/x86_64-linux-gnu/bits/errno.h \
+  /usr/include/linux/errno.h \
+  /usr/include/x86_64-linux-gnu/asm/errno.h \
+  /usr/include/asm-generic/errno.h \
+  /usr/include/asm-generic/errno-base.h \
+  /usr/include/x86_64-linux-gnu/bits/types/error_t.h \
+  /usr/include/c++/11/bits/charconv.h \
+  /usr/include/c++/11/bits/basic_string.tcc \
+  /usr/include/c++/11/iterator \
+  /usr/include/c++/11/bits/stream_iterator.h \
+  /usr/include/c++/11/bits/streambuf_iterator.h \
+  /usr/include/c++/11/streambuf \
+  /usr/include/c++/11/bits/ios_base.h \
+  /usr/include/c++/11/bits/locale_classes.h \
+  /usr/include/c++/11/bits/locale_classes.tcc \
+  /usr/include/c++/11/system_error \
+  /usr/include/x86_64-linux-gnu/c++/11/bits/error_constants.h \
+  /usr/include/c++/11/stdexcept \
+  /usr/include/c++/11/exception \
+  /usr/include/c++/11/bits/exception_ptr.h \
+  /usr/include/c++/11/bits/cxxabi_init_exception.h \
+  /usr/include/c++/11/bits/nested_exception.h \
+  /usr/include/c++/11/bits/streambuf.tcc \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qstringliteral.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qstringalgorithms.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qstringview.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qlist.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qalgorithms.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qiterator.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qhashfunctions.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qpair.h \
+  /usr/include/c++/11/numeric \
+  /usr/include/c++/11/bits/stl_numeric.h \
+  /usr/include/c++/11/bit \
+  /usr/include/c++/11/pstl/glue_numeric_defs.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qvector.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qcontainertools_impl.h \
+  /usr/include/c++/11/list \
+  /usr/include/c++/11/bits/stl_list.h \
+  /usr/include/c++/11/bits/allocated_ptr.h \
+  /usr/include/c++/11/bits/list.tcc \
+  /usr/lib/gcc/x86_64-linux-gnu/11/include/limits.h \
+  /usr/lib/gcc/x86_64-linux-gnu/11/include/syslimits.h \
+  /usr/include/limits.h \
+  /usr/include/x86_64-linux-gnu/bits/posix1_lim.h \
+  /usr/include/x86_64-linux-gnu/bits/local_lim.h \
+  /usr/include/linux/limits.h \
+  /usr/include/x86_64-linux-gnu/bits/posix2_lim.h \
+  /usr/include/x86_64-linux-gnu/bits/xopen_lim.h \
+  /usr/include/x86_64-linux-gnu/bits/uio_lim.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qbytearraylist.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qstringlist.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qregexp.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qstringmatcher.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qscopedpointer.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qmetatype.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qvarlengtharray.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qcontainerfwd.h \
+  /usr/include/c++/11/map \
+  /usr/include/c++/11/bits/stl_tree.h \
+  /usr/include/c++/11/bits/stl_map.h \
+  /usr/include/c++/11/bits/stl_multimap.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qobject_impl.h \
+  /usr/include/c++/11/chrono \
+  /usr/include/c++/11/ratio \
+  /usr/include/c++/11/limits \
+  /usr/include/c++/11/ctime \
+  /usr/include/c++/11/bits/parse_numbers.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qmargins.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtGui/qpaintdevice.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qrect.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qsize.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qpoint.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtGui/qpalette.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtGui/qcolor.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtGui/qrgb.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtGui/qrgba64.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtGui/qbrush.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtGui/qmatrix.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtGui/qpolygon.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtGui/qregion.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qdatastream.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qiodevice.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qline.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtGui/qtransform.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtGui/qimage.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtGui/qpixelformat.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtGui/qpixmap.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qsharedpointer.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qshareddata.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qhash.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qsharedpointer_impl.h \
+  /usr/include/c++/11/memory \
+  /usr/include/c++/11/bits/stl_raw_storage_iter.h \
+  /usr/include/c++/11/bits/align.h \
+  /usr/include/c++/11/bits/unique_ptr.h \
+  /usr/include/c++/11/bits/shared_ptr.h \
+  /usr/include/c++/11/bits/shared_ptr_base.h \
+  /usr/include/c++/11/ext/concurrence.h \
+  /usr/include/c++/11/bits/shared_ptr_atomic.h \
+  /usr/include/c++/11/backward/auto_ptr.h \
+  /usr/include/c++/11/pstl/glue_memory_defs.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtGui/qfont.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtGui/qfontmetrics.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtGui/qfontinfo.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qsizepolicy.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtGui/qcursor.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtGui/qkeysequence.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qtabwidget.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtGui/qicon.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QListWidget \
+  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qlistwidget.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qlistview.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qabstractitemview.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qabstractscrollarea.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qframe.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qabstractitemmodel.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qvariant.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qmap.h \
+  /usr/include/c++/11/variant \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qitemselectionmodel.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qset.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qabstractitemdelegate.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qstyleoption.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qlocale.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qabstractspinbox.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtGui/qvalidator.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qregularexpression.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qslider.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qabstractslider.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qstyle.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qtabbar.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qrubberband.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QPushButton \
+  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qpushbutton.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qabstractbutton.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QVBoxLayout \
+  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qboxlayout.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qlayout.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qlayoutitem.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qboxlayout.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qgridlayout.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QHBoxLayout \
+  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QMessageBox \
+  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qmessagebox.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qdialog.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QInputDialog \
+  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qinputdialog.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qlineedit.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtGui/qtextcursor.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtGui/qtextformat.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtGui/qpen.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtGui/qtextoption.h \
+  ../tools/ProgramManager.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/QString \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qstring.h \
   /usr/include/nlohmann/json.hpp \
   /usr/include/nlohmann/adl_serializer.hpp \
   /usr/include/nlohmann/detail/conversions/from_json.hpp \
@@ -983,17 +2346,1729 @@ CMakeFiles/ComputerVisionApp.dir/gui/MainWindow.cpp.o: ../gui/MainWindow.cpp \
   /usr/include/nlohmann/ordered_map.hpp \
   /usr/include/nlohmann/detail/macro_unscope.hpp \
   /usr/include/nlohmann/thirdparty/hedley/hedley_undef.hpp \
-  /home/bartek/anaconda3/include/qt/QtCore/QStringList \
-  /home/bartek/anaconda3/include/qt/QtCore/qstringlist.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/QStringList \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qstringlist.h \
   /usr/include/c++/11/fstream \
   /usr/include/x86_64-linux-gnu/c++/11/bits/basic_file.h \
   /usr/include/x86_64-linux-gnu/c++/11/bits/c++io.h \
   /usr/include/c++/11/bits/fstream.tcc \
-  /home/bartek/anaconda3/include/qt/QtCore/QDebug \
-  /home/bartek/anaconda3/include/qt/QtCore/qdebug.h \
-  /home/bartek/anaconda3/include/qt/QtCore/qtextstream.h \
-  /home/bartek/anaconda3/include/qt/QtCore/qcontiguouscache.h \
-  /usr/include/c++/11/iostream
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/QDebug \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qdebug.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qtextstream.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qcontiguouscache.h \
+  ../gui/editview.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QWidget \
+  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qwidget.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QStackedWidget \
+  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qstackedwidget.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtGui/QMouseEvent \
+  /usr/include/x86_64-linux-gnu/qt5/QtGui/qevent.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qcoreevent.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qurl.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qfile.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qfiledevice.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtGui/qvector2d.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtGui/qtouchdevice.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtGui/QPainter \
+  /usr/include/x86_64-linux-gnu/qt5/QtGui/qpainter.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QLabel \
+  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qlabel.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QMenuBar \
+  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qmenubar.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qmenu.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qaction.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qactiongroup.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QFormLayout \
+  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qformlayout.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QLayout \
+  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qlayout.h \
+  ../imageProcessing/MainProcessing.h \
+  ../imageProcessing/ImageCapture.h \
+  /usr/include/opencv4/opencv2/opencv.hpp \
+  /usr/include/opencv4/opencv2/opencv_modules.hpp \
+  /usr/include/opencv4/opencv2/core.hpp \
+  /usr/include/opencv4/opencv2/core/cvdef.h \
+  /usr/include/opencv4/opencv2/core/version.hpp \
+  /usr/include/opencv4/opencv2/core/hal/interface.h \
+  /usr/include/opencv4/opencv2/core/cv_cpu_dispatch.h \
+  /usr/lib/gcc/x86_64-linux-gnu/11/include/emmintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/11/include/xmmintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/11/include/mmintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/11/include/mm_malloc.h \
+  /usr/include/opencv4/opencv2/core/base.hpp \
+  /usr/include/c++/11/climits \
+  /usr/include/opencv4/opencv2/core/cvstd.hpp \
+  /usr/include/opencv4/opencv2/core/cvstd_wrapper.hpp \
+  /usr/include/opencv4/opencv2/core/neon_utils.hpp \
+  /usr/include/opencv4/opencv2/core/vsx_utils.hpp \
+  /usr/include/opencv4/opencv2/core/check.hpp \
+  /usr/include/opencv4/opencv2/core/traits.hpp \
+  /usr/include/opencv4/opencv2/core/matx.hpp \
+  /usr/include/opencv4/opencv2/core/saturate.hpp \
+  /usr/include/opencv4/opencv2/core/fast_math.hpp \
+  /usr/include/opencv4/opencv2/core/types.hpp \
+  /usr/include/c++/11/cfloat \
+  /usr/lib/gcc/x86_64-linux-gnu/11/include/float.h \
+  /usr/include/opencv4/opencv2/core/mat.hpp \
+  /usr/include/opencv4/opencv2/core/bufferpool.hpp \
+  /usr/include/opencv4/opencv2/core/mat.inl.hpp \
+  /usr/include/opencv4/opencv2/core/persistence.hpp \
+  /usr/include/opencv4/opencv2/core/operations.hpp \
+  /usr/include/opencv4/opencv2/core/cvstd.inl.hpp \
+  /usr/include/c++/11/complex \
+  /usr/include/opencv4/opencv2/core/utility.hpp \
+  /usr/include/c++/11/mutex \
+  /usr/include/c++/11/bits/std_mutex.h \
+  /usr/include/c++/11/bits/unique_lock.h \
+  /usr/include/opencv4/opencv2/core/optim.hpp \
+  /usr/include/opencv4/opencv2/core/ovx.hpp \
+  /usr/include/opencv4/opencv2/core/cvdef.h \
+  /usr/include/opencv4/opencv2/calib3d.hpp \
+  /usr/include/opencv4/opencv2/features2d.hpp \
+  /usr/include/opencv4/opencv2/flann/miniflann.hpp \
+  /usr/include/opencv4/opencv2/flann/defines.h \
+  /usr/include/opencv4/opencv2/flann/config.h \
+  /usr/include/opencv4/opencv2/core/affine.hpp \
+  /usr/include/opencv4/opencv2/dnn.hpp \
+  /usr/include/opencv4/opencv2/dnn/dnn.hpp \
+  /usr/include/opencv4/opencv2/core/async.hpp \
+  /usr/include/opencv4/opencv2/dnn/version.hpp \
+  /usr/include/opencv4/opencv2/dnn/dict.hpp \
+  /usr/include/opencv4/opencv2/dnn/layer.hpp \
+  /usr/include/opencv4/opencv2/dnn/dnn.inl.hpp \
+  /usr/include/opencv4/opencv2/dnn/utils/inference_engine.hpp \
+  /usr/include/opencv4/opencv2/dnn/dnn.hpp \
+  /usr/include/opencv4/opencv2/flann.hpp \
+  /usr/include/opencv4/opencv2/flann/flann_base.hpp \
+  /usr/include/opencv4/opencv2/flann/general.h \
+  /usr/include/opencv4/opencv2/flann/matrix.h \
+  /usr/include/opencv4/opencv2/flann/params.h \
+  /usr/include/opencv4/opencv2/flann/any.h \
+  /usr/include/opencv4/opencv2/flann/defines.h \
+  /usr/include/c++/11/iostream \
+  /usr/include/opencv4/opencv2/flann/saving.h \
+  /usr/include/opencv4/opencv2/flann/nn_index.h \
+  /usr/include/opencv4/opencv2/flann/result_set.h \
+  /usr/include/c++/11/set \
+  /usr/include/c++/11/bits/stl_set.h \
+  /usr/include/c++/11/bits/stl_multiset.h \
+  /usr/include/opencv4/opencv2/flann/all_indices.h \
+  /usr/include/opencv4/opencv2/flann/kdtree_index.h \
+  /usr/include/opencv4/opencv2/flann/dynamic_bitset.h \
+  /usr/include/opencv4/opencv2/flann/dist.h \
+  /usr/include/opencv4/opencv2/flann/heap.h \
+  /usr/include/opencv4/opencv2/flann/allocator.h \
+  /usr/include/opencv4/opencv2/flann/random.h \
+  /usr/include/opencv4/opencv2/flann/kdtree_single_index.h \
+  /usr/include/opencv4/opencv2/flann/kmeans_index.h \
+  /usr/include/opencv4/opencv2/flann/logger.h \
+  /usr/include/opencv4/opencv2/flann/composite_index.h \
+  /usr/include/opencv4/opencv2/flann/linear_index.h \
+  /usr/include/opencv4/opencv2/flann/hierarchical_clustering_index.h \
+  /usr/include/opencv4/opencv2/flann/lsh_index.h \
+  /usr/include/opencv4/opencv2/flann/lsh_table.h \
+  /usr/include/c++/11/math.h \
+  /usr/include/opencv4/opencv2/flann/autotuned_index.h \
+  /usr/include/opencv4/opencv2/flann/ground_truth.h \
+  /usr/include/opencv4/opencv2/flann/index_testing.h \
+  /usr/include/opencv4/opencv2/flann/timer.h \
+  /usr/include/opencv4/opencv2/flann/sampling.h \
+  /usr/include/opencv4/opencv2/highgui.hpp \
+  /usr/include/opencv4/opencv2/imgcodecs.hpp \
+  /usr/include/opencv4/opencv2/videoio.hpp \
+  /usr/include/opencv4/opencv2/imgproc.hpp \
+  /usr/include/opencv4/opencv2/imgproc/segmentation.hpp \
+  /usr/include/opencv4/opencv2/ml.hpp \
+  /usr/include/opencv4/opencv2/ml/ml.inl.hpp \
+  /usr/include/opencv4/opencv2/objdetect.hpp \
+  /usr/include/opencv4/opencv2/objdetect/detection_based_tracker.hpp \
+  /usr/include/opencv4/opencv2/objdetect/face.hpp \
+  /usr/include/opencv4/opencv2/photo.hpp \
+  /usr/include/opencv4/opencv2/stitching.hpp \
+  /usr/include/opencv4/opencv2/stitching/warpers.hpp \
+  /usr/include/opencv4/opencv2/stitching/detail/warpers.hpp \
+  /usr/include/opencv4/opencv2/core/cuda.hpp \
+  /usr/include/opencv4/opencv2/core/cuda_types.hpp \
+  /usr/include/opencv4/opencv2/core/cuda.inl.hpp \
+  /usr/include/opencv4/opencv2/stitching/detail/warpers_inl.hpp \
+  /usr/include/opencv4/opencv2/stitching/detail/warpers.hpp \
+  /usr/include/opencv4/opencv2/stitching/detail/matchers.hpp \
+  /usr/include/opencv4/opencv2/stitching/detail/motion_estimators.hpp \
+  /usr/include/opencv4/opencv2/stitching/detail/matchers.hpp \
+  /usr/include/opencv4/opencv2/stitching/detail/util.hpp \
+  /usr/include/opencv4/opencv2/stitching/detail/util_inl.hpp \
+  /usr/include/c++/11/queue \
+  /usr/include/c++/11/deque \
+  /usr/include/c++/11/bits/stl_deque.h \
+  /usr/include/c++/11/bits/deque.tcc \
+  /usr/include/c++/11/bits/stl_queue.h \
+  /usr/include/opencv4/opencv2/stitching/detail/camera.hpp \
+  /usr/include/opencv4/opencv2/stitching/detail/exposure_compensate.hpp \
+  /usr/include/opencv4/opencv2/stitching/detail/seam_finders.hpp \
+  /usr/include/opencv4/opencv2/stitching/detail/blenders.hpp \
+  /usr/include/opencv4/opencv2/stitching/detail/camera.hpp \
+  /usr/include/opencv4/opencv2/video.hpp \
+  /usr/include/opencv4/opencv2/video/tracking.hpp \
+  /usr/include/opencv4/opencv2/video/background_segm.hpp \
+  /usr/include/x86_64-linux-gnu/qt5/QtGui/QImage \
+  /usr/include/x86_64-linux-gnu/qt5/QtGui/qimage.h \
+  ../gui/ROISelector.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/QObject \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qobject.h \
+  ui_mainwindow.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/QVariant \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qvariant.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QAction \
+  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qaction.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QApplication \
+  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qapplication.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qcoreapplication.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qeventloop.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtGui/qguiapplication.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtGui/qinputmethod.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QLabel \
+  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QListWidget \
+  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QMainWindow \
+  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QMenu \
+  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qmenu.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QMenuBar \
+  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QPushButton \
+  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QSplitter \
+  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qsplitter.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QStackedWidget \
+  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QStatusBar \
+  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qstatusbar.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QTextEdit \
+  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qtextedit.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtGui/qtextdocument.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QVBoxLayout \
+  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QWidget
+
+CMakeFiles/ComputerVisionApp.dir/imageProcessing/CameraWorker.cpp.o: ../imageProcessing/CameraWorker.cpp \
+  /usr/include/stdc-predef.h \
+  ../imageProcessing/CameraWorker.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/QObject \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qobject.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qobjectdefs.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qnamespace.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qglobal.h \
+  /usr/include/c++/11/type_traits \
+  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
+  /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h \
+  /usr/include/features.h \
+  /usr/include/features-time64.h \
+  /usr/include/x86_64-linux-gnu/bits/wordsize.h \
+  /usr/include/x86_64-linux-gnu/bits/timesize.h \
+  /usr/include/x86_64-linux-gnu/sys/cdefs.h \
+  /usr/include/x86_64-linux-gnu/bits/long-double.h \
+  /usr/include/x86_64-linux-gnu/gnu/stubs.h \
+  /usr/include/x86_64-linux-gnu/gnu/stubs-64.h \
+  /usr/include/x86_64-linux-gnu/c++/11/bits/cpu_defines.h \
+  /usr/include/c++/11/pstl/pstl_config.h \
+  /usr/include/c++/11/cstddef \
+  /usr/lib/gcc/x86_64-linux-gnu/11/include/stddef.h \
+  /usr/include/c++/11/utility \
+  /usr/include/c++/11/bits/stl_relops.h \
+  /usr/include/c++/11/bits/stl_pair.h \
+  /usr/include/c++/11/bits/move.h \
+  /usr/include/c++/11/initializer_list \
+  /usr/include/assert.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qconfig.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qtcore-config.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qsystemdetection.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qprocessordetection.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qcompilerdetection.h \
+  /usr/include/c++/11/algorithm \
+  /usr/include/c++/11/bits/stl_algobase.h \
+  /usr/include/c++/11/bits/functexcept.h \
+  /usr/include/c++/11/bits/exception_defines.h \
+  /usr/include/c++/11/bits/cpp_type_traits.h \
+  /usr/include/c++/11/ext/type_traits.h \
+  /usr/include/c++/11/ext/numeric_traits.h \
+  /usr/include/c++/11/bits/stl_iterator_base_types.h \
+  /usr/include/c++/11/bits/stl_iterator_base_funcs.h \
+  /usr/include/c++/11/bits/concept_check.h \
+  /usr/include/c++/11/debug/assertions.h \
+  /usr/include/c++/11/bits/stl_iterator.h \
+  /usr/include/c++/11/bits/ptr_traits.h \
+  /usr/include/c++/11/debug/debug.h \
+  /usr/include/c++/11/bits/predefined_ops.h \
+  /usr/include/c++/11/bits/stl_algo.h \
+  /usr/include/c++/11/cstdlib \
+  /usr/include/stdlib.h \
+  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
+  /usr/include/x86_64-linux-gnu/bits/waitflags.h \
+  /usr/include/x86_64-linux-gnu/bits/waitstatus.h \
+  /usr/include/x86_64-linux-gnu/bits/floatn.h \
+  /usr/include/x86_64-linux-gnu/bits/floatn-common.h \
+  /usr/include/x86_64-linux-gnu/bits/types/locale_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/__locale_t.h \
+  /usr/include/x86_64-linux-gnu/sys/types.h \
+  /usr/include/x86_64-linux-gnu/bits/types.h \
+  /usr/include/x86_64-linux-gnu/bits/typesizes.h \
+  /usr/include/x86_64-linux-gnu/bits/time64.h \
+  /usr/include/x86_64-linux-gnu/bits/types/clock_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/clockid_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/time_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/timer_t.h \
+  /usr/include/x86_64-linux-gnu/bits/stdint-intn.h \
+  /usr/include/endian.h \
+  /usr/include/x86_64-linux-gnu/bits/endian.h \
+  /usr/include/x86_64-linux-gnu/bits/endianness.h \
+  /usr/include/x86_64-linux-gnu/bits/byteswap.h \
+  /usr/include/x86_64-linux-gnu/bits/uintn-identity.h \
+  /usr/include/x86_64-linux-gnu/sys/select.h \
+  /usr/include/x86_64-linux-gnu/bits/select.h \
+  /usr/include/x86_64-linux-gnu/bits/types/sigset_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/__sigset_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/struct_timeval.h \
+  /usr/include/x86_64-linux-gnu/bits/types/struct_timespec.h \
+  /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h \
+  /usr/include/x86_64-linux-gnu/bits/thread-shared-types.h \
+  /usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h \
+  /usr/include/x86_64-linux-gnu/bits/atomic_wide_counter.h \
+  /usr/include/x86_64-linux-gnu/bits/struct_mutex.h \
+  /usr/include/x86_64-linux-gnu/bits/struct_rwlock.h \
+  /usr/include/alloca.h \
+  /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
+  /usr/include/c++/11/bits/std_abs.h \
+  /usr/include/c++/11/bits/algorithmfwd.h \
+  /usr/include/c++/11/bits/stl_heap.h \
+  /usr/include/c++/11/bits/stl_tempbuf.h \
+  /usr/include/c++/11/bits/stl_construct.h \
+  /usr/include/c++/11/new \
+  /usr/include/c++/11/bits/exception.h \
+  /usr/include/c++/11/bits/uniform_int_dist.h \
+  /usr/include/c++/11/pstl/glue_algorithm_defs.h \
+  /usr/include/c++/11/functional \
+  /usr/include/c++/11/bits/stl_function.h \
+  /usr/include/c++/11/backward/binders.h \
+  /usr/include/c++/11/tuple \
+  /usr/include/c++/11/array \
+  /usr/include/c++/11/bits/range_access.h \
+  /usr/include/c++/11/bits/uses_allocator.h \
+  /usr/include/c++/11/bits/invoke.h \
+  /usr/include/c++/11/bits/functional_hash.h \
+  /usr/include/c++/11/bits/hash_bytes.h \
+  /usr/include/c++/11/bits/refwrap.h \
+  /usr/include/c++/11/bits/std_function.h \
+  /usr/include/c++/11/typeinfo \
+  /usr/include/c++/11/unordered_map \
+  /usr/include/c++/11/bits/allocator.h \
+  /usr/include/x86_64-linux-gnu/c++/11/bits/c++allocator.h \
+  /usr/include/c++/11/ext/new_allocator.h \
+  /usr/include/c++/11/bits/memoryfwd.h \
+  /usr/include/c++/11/ext/alloc_traits.h \
+  /usr/include/c++/11/bits/alloc_traits.h \
+  /usr/include/c++/11/ext/aligned_buffer.h \
+  /usr/include/c++/11/bits/hashtable.h \
+  /usr/include/c++/11/bits/hashtable_policy.h \
+  /usr/include/c++/11/bits/enable_special_members.h \
+  /usr/include/c++/11/bits/node_handle.h \
+  /usr/include/c++/11/bits/unordered_map.h \
+  /usr/include/c++/11/bits/erase_if.h \
+  /usr/include/c++/11/vector \
+  /usr/include/c++/11/bits/stl_uninitialized.h \
+  /usr/include/c++/11/bits/stl_vector.h \
+  /usr/include/c++/11/bits/stl_bvector.h \
+  /usr/include/c++/11/bits/vector.tcc \
+  /usr/include/c++/11/pstl/execution_defs.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qtypeinfo.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qsysinfo.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qlogging.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qflags.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qatomic.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qbasicatomic.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qatomic_cxx11.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qgenericatomic.h \
+  /usr/include/c++/11/atomic \
+  /usr/include/c++/11/bits/atomic_base.h \
+  /usr/lib/gcc/x86_64-linux-gnu/11/include/stdint.h \
+  /usr/include/stdint.h \
+  /usr/include/x86_64-linux-gnu/bits/wchar.h \
+  /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h \
+  /usr/include/c++/11/bits/atomic_lockfree_defines.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qglobalstatic.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qnumeric.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qversiontagging.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qobjectdefs_impl.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qstring.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qchar.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qbytearray.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qrefcount.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qarraydata.h \
+  /usr/include/string.h \
+  /usr/include/strings.h \
+  /usr/include/c++/11/stdlib.h \
+  /usr/lib/gcc/x86_64-linux-gnu/11/include/stdarg.h \
+  /usr/include/c++/11/string \
+  /usr/include/c++/11/bits/stringfwd.h \
+  /usr/include/c++/11/bits/char_traits.h \
+  /usr/include/c++/11/bits/postypes.h \
+  /usr/include/c++/11/cwchar \
+  /usr/include/wchar.h \
+  /usr/include/x86_64-linux-gnu/bits/types/wint_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/mbstate_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/__FILE.h \
+  /usr/include/x86_64-linux-gnu/bits/types/FILE.h \
+  /usr/include/c++/11/cstdint \
+  /usr/include/c++/11/bits/localefwd.h \
+  /usr/include/x86_64-linux-gnu/c++/11/bits/c++locale.h \
+  /usr/include/c++/11/clocale \
+  /usr/include/locale.h \
+  /usr/include/x86_64-linux-gnu/bits/locale.h \
+  /usr/include/c++/11/iosfwd \
+  /usr/include/c++/11/cctype \
+  /usr/include/ctype.h \
+  /usr/include/c++/11/bits/ostream_insert.h \
+  /usr/include/c++/11/bits/cxxabi_forced.h \
+  /usr/include/c++/11/bits/basic_string.h \
+  /usr/include/c++/11/ext/atomicity.h \
+  /usr/include/x86_64-linux-gnu/c++/11/bits/gthr.h \
+  /usr/include/x86_64-linux-gnu/c++/11/bits/gthr-default.h \
+  /usr/include/pthread.h \
+  /usr/include/sched.h \
+  /usr/include/x86_64-linux-gnu/bits/sched.h \
+  /usr/include/x86_64-linux-gnu/bits/types/struct_sched_param.h \
+  /usr/include/x86_64-linux-gnu/bits/cpu-set.h \
+  /usr/include/time.h \
+  /usr/include/x86_64-linux-gnu/bits/time.h \
+  /usr/include/x86_64-linux-gnu/bits/timex.h \
+  /usr/include/x86_64-linux-gnu/bits/types/struct_tm.h \
+  /usr/include/x86_64-linux-gnu/bits/types/struct_itimerspec.h \
+  /usr/include/x86_64-linux-gnu/bits/setjmp.h \
+  /usr/include/x86_64-linux-gnu/bits/types/struct___jmp_buf_tag.h \
+  /usr/include/x86_64-linux-gnu/bits/pthread_stack_min-dynamic.h \
+  /usr/include/x86_64-linux-gnu/c++/11/bits/atomic_word.h \
+  /usr/include/x86_64-linux-gnu/sys/single_threaded.h \
+  /usr/include/c++/11/string_view \
+  /usr/include/c++/11/bits/string_view.tcc \
+  /usr/include/c++/11/ext/string_conversions.h \
+  /usr/include/c++/11/cstdio \
+  /usr/include/stdio.h \
+  /usr/include/x86_64-linux-gnu/bits/types/__fpos_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/__fpos64_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h \
+  /usr/include/x86_64-linux-gnu/bits/types/cookie_io_functions_t.h \
+  /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
+  /usr/include/c++/11/cerrno \
+  /usr/include/errno.h \
+  /usr/include/x86_64-linux-gnu/bits/errno.h \
+  /usr/include/linux/errno.h \
+  /usr/include/x86_64-linux-gnu/asm/errno.h \
+  /usr/include/asm-generic/errno.h \
+  /usr/include/asm-generic/errno-base.h \
+  /usr/include/x86_64-linux-gnu/bits/types/error_t.h \
+  /usr/include/c++/11/bits/charconv.h \
+  /usr/include/c++/11/bits/basic_string.tcc \
+  /usr/include/c++/11/iterator \
+  /usr/include/c++/11/bits/stream_iterator.h \
+  /usr/include/c++/11/bits/streambuf_iterator.h \
+  /usr/include/c++/11/streambuf \
+  /usr/include/c++/11/bits/ios_base.h \
+  /usr/include/c++/11/bits/locale_classes.h \
+  /usr/include/c++/11/bits/locale_classes.tcc \
+  /usr/include/c++/11/system_error \
+  /usr/include/x86_64-linux-gnu/c++/11/bits/error_constants.h \
+  /usr/include/c++/11/stdexcept \
+  /usr/include/c++/11/exception \
+  /usr/include/c++/11/bits/exception_ptr.h \
+  /usr/include/c++/11/bits/cxxabi_init_exception.h \
+  /usr/include/c++/11/bits/nested_exception.h \
+  /usr/include/c++/11/bits/streambuf.tcc \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qstringliteral.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qstringalgorithms.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qstringview.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qlist.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qalgorithms.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qiterator.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qhashfunctions.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qpair.h \
+  /usr/include/c++/11/numeric \
+  /usr/include/c++/11/bits/stl_numeric.h \
+  /usr/include/c++/11/bit \
+  /usr/include/c++/11/pstl/glue_numeric_defs.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qvector.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qcontainertools_impl.h \
+  /usr/include/c++/11/list \
+  /usr/include/c++/11/bits/stl_list.h \
+  /usr/include/c++/11/bits/allocated_ptr.h \
+  /usr/include/c++/11/bits/list.tcc \
+  /usr/lib/gcc/x86_64-linux-gnu/11/include/limits.h \
+  /usr/lib/gcc/x86_64-linux-gnu/11/include/syslimits.h \
+  /usr/include/limits.h \
+  /usr/include/x86_64-linux-gnu/bits/posix1_lim.h \
+  /usr/include/x86_64-linux-gnu/bits/local_lim.h \
+  /usr/include/linux/limits.h \
+  /usr/include/x86_64-linux-gnu/bits/posix2_lim.h \
+  /usr/include/x86_64-linux-gnu/bits/xopen_lim.h \
+  /usr/include/x86_64-linux-gnu/bits/uio_lim.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qbytearraylist.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qstringlist.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qregexp.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qstringmatcher.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qscopedpointer.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qmetatype.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qvarlengtharray.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qcontainerfwd.h \
+  /usr/include/c++/11/map \
+  /usr/include/c++/11/bits/stl_tree.h \
+  /usr/include/c++/11/bits/stl_map.h \
+  /usr/include/c++/11/bits/stl_multimap.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qobject_impl.h \
+  /usr/include/c++/11/chrono \
+  /usr/include/c++/11/ratio \
+  /usr/include/c++/11/limits \
+  /usr/include/c++/11/ctime \
+  /usr/include/c++/11/bits/parse_numbers.h \
+  /usr/include/opencv4/opencv2/opencv.hpp \
+  /usr/include/opencv4/opencv2/opencv_modules.hpp \
+  /usr/include/opencv4/opencv2/core.hpp \
+  /usr/include/opencv4/opencv2/core/cvdef.h \
+  /usr/include/opencv4/opencv2/core/version.hpp \
+  /usr/include/opencv4/opencv2/core/hal/interface.h \
+  /usr/include/opencv4/opencv2/core/cv_cpu_dispatch.h \
+  /usr/lib/gcc/x86_64-linux-gnu/11/include/emmintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/11/include/xmmintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/11/include/mmintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/11/include/mm_malloc.h \
+  /usr/include/opencv4/opencv2/core/base.hpp \
+  /usr/include/c++/11/climits \
+  /usr/include/opencv4/opencv2/core/cvstd.hpp \
+  /usr/include/c++/11/cstring \
+  /usr/include/c++/11/cmath \
+  /usr/include/math.h \
+  /usr/include/x86_64-linux-gnu/bits/math-vector.h \
+  /usr/include/x86_64-linux-gnu/bits/libm-simd-decl-stubs.h \
+  /usr/include/x86_64-linux-gnu/bits/flt-eval-method.h \
+  /usr/include/x86_64-linux-gnu/bits/fp-logb.h \
+  /usr/include/x86_64-linux-gnu/bits/fp-fast.h \
+  /usr/include/x86_64-linux-gnu/bits/mathcalls-helper-functions.h \
+  /usr/include/x86_64-linux-gnu/bits/mathcalls.h \
+  /usr/include/x86_64-linux-gnu/bits/mathcalls-narrow.h \
+  /usr/include/x86_64-linux-gnu/bits/iscanonical.h \
+  /usr/include/c++/11/bits/specfun.h \
+  /usr/include/c++/11/tr1/gamma.tcc \
+  /usr/include/c++/11/tr1/special_function_util.h \
+  /usr/include/c++/11/tr1/bessel_function.tcc \
+  /usr/include/c++/11/tr1/beta_function.tcc \
+  /usr/include/c++/11/tr1/ell_integral.tcc \
+  /usr/include/c++/11/tr1/exp_integral.tcc \
+  /usr/include/c++/11/tr1/hypergeometric.tcc \
+  /usr/include/c++/11/tr1/legendre_function.tcc \
+  /usr/include/c++/11/tr1/modified_bessel_func.tcc \
+  /usr/include/c++/11/tr1/poly_hermite.tcc \
+  /usr/include/c++/11/tr1/poly_laguerre.tcc \
+  /usr/include/c++/11/tr1/riemann_zeta.tcc \
+  /usr/include/opencv4/opencv2/core/cvstd_wrapper.hpp \
+  /usr/include/c++/11/memory \
+  /usr/include/c++/11/bits/stl_raw_storage_iter.h \
+  /usr/include/c++/11/bits/align.h \
+  /usr/include/c++/11/bits/unique_ptr.h \
+  /usr/include/c++/11/bits/shared_ptr.h \
+  /usr/include/c++/11/bits/shared_ptr_base.h \
+  /usr/include/c++/11/ext/concurrence.h \
+  /usr/include/c++/11/bits/shared_ptr_atomic.h \
+  /usr/include/c++/11/backward/auto_ptr.h \
+  /usr/include/c++/11/pstl/glue_memory_defs.h \
+  /usr/include/opencv4/opencv2/core/neon_utils.hpp \
+  /usr/include/opencv4/opencv2/core/vsx_utils.hpp \
+  /usr/include/opencv4/opencv2/core/check.hpp \
+  /usr/include/opencv4/opencv2/core/traits.hpp \
+  /usr/include/opencv4/opencv2/core/matx.hpp \
+  /usr/include/opencv4/opencv2/core/saturate.hpp \
+  /usr/include/opencv4/opencv2/core/fast_math.hpp \
+  /usr/include/opencv4/opencv2/core/types.hpp \
+  /usr/include/c++/11/cfloat \
+  /usr/lib/gcc/x86_64-linux-gnu/11/include/float.h \
+  /usr/include/opencv4/opencv2/core/mat.hpp \
+  /usr/include/opencv4/opencv2/core/bufferpool.hpp \
+  /usr/include/opencv4/opencv2/core/mat.inl.hpp \
+  /usr/include/opencv4/opencv2/core/persistence.hpp \
+  /usr/include/opencv4/opencv2/core/operations.hpp \
+  /usr/include/opencv4/opencv2/core/cvstd.inl.hpp \
+  /usr/include/c++/11/complex \
+  /usr/include/c++/11/sstream \
+  /usr/include/c++/11/istream \
+  /usr/include/c++/11/ios \
+  /usr/include/c++/11/bits/basic_ios.h \
+  /usr/include/c++/11/bits/locale_facets.h \
+  /usr/include/c++/11/cwctype \
+  /usr/include/wctype.h \
+  /usr/include/x86_64-linux-gnu/bits/wctype-wchar.h \
+  /usr/include/x86_64-linux-gnu/c++/11/bits/ctype_base.h \
+  /usr/include/x86_64-linux-gnu/c++/11/bits/ctype_inline.h \
+  /usr/include/c++/11/bits/locale_facets.tcc \
+  /usr/include/c++/11/bits/basic_ios.tcc \
+  /usr/include/c++/11/ostream \
+  /usr/include/c++/11/bits/ostream.tcc \
+  /usr/include/c++/11/bits/istream.tcc \
+  /usr/include/c++/11/bits/sstream.tcc \
+  /usr/include/opencv4/opencv2/core/utility.hpp \
+  /usr/include/c++/11/mutex \
+  /usr/include/c++/11/bits/std_mutex.h \
+  /usr/include/c++/11/bits/unique_lock.h \
+  /usr/include/opencv4/opencv2/core/optim.hpp \
+  /usr/include/opencv4/opencv2/core/ovx.hpp \
+  /usr/include/opencv4/opencv2/core/cvdef.h \
+  /usr/include/opencv4/opencv2/calib3d.hpp \
+  /usr/include/opencv4/opencv2/features2d.hpp \
+  /usr/include/opencv4/opencv2/flann/miniflann.hpp \
+  /usr/include/opencv4/opencv2/flann/defines.h \
+  /usr/include/opencv4/opencv2/flann/config.h \
+  /usr/include/opencv4/opencv2/core/affine.hpp \
+  /usr/include/opencv4/opencv2/dnn.hpp \
+  /usr/include/opencv4/opencv2/dnn/dnn.hpp \
+  /usr/include/opencv4/opencv2/core/async.hpp \
+  /usr/include/opencv4/opencv2/dnn/version.hpp \
+  /usr/include/opencv4/opencv2/dnn/dict.hpp \
+  /usr/include/opencv4/opencv2/dnn/layer.hpp \
+  /usr/include/opencv4/opencv2/dnn/dnn.inl.hpp \
+  /usr/include/opencv4/opencv2/dnn/utils/inference_engine.hpp \
+  /usr/include/opencv4/opencv2/dnn/dnn.hpp \
+  /usr/include/opencv4/opencv2/flann.hpp \
+  /usr/include/opencv4/opencv2/flann/flann_base.hpp \
+  /usr/include/opencv4/opencv2/flann/general.h \
+  /usr/include/opencv4/opencv2/flann/matrix.h \
+  /usr/include/opencv4/opencv2/flann/params.h \
+  /usr/include/opencv4/opencv2/flann/any.h \
+  /usr/include/opencv4/opencv2/flann/defines.h \
+  /usr/include/c++/11/iostream \
+  /usr/include/opencv4/opencv2/flann/saving.h \
+  /usr/include/opencv4/opencv2/flann/nn_index.h \
+  /usr/include/opencv4/opencv2/flann/result_set.h \
+  /usr/include/c++/11/set \
+  /usr/include/c++/11/bits/stl_set.h \
+  /usr/include/c++/11/bits/stl_multiset.h \
+  /usr/include/opencv4/opencv2/flann/all_indices.h \
+  /usr/include/opencv4/opencv2/flann/kdtree_index.h \
+  /usr/include/opencv4/opencv2/flann/dynamic_bitset.h \
+  /usr/include/opencv4/opencv2/flann/dist.h \
+  /usr/include/opencv4/opencv2/flann/heap.h \
+  /usr/include/opencv4/opencv2/flann/allocator.h \
+  /usr/include/opencv4/opencv2/flann/random.h \
+  /usr/include/opencv4/opencv2/flann/kdtree_single_index.h \
+  /usr/include/opencv4/opencv2/flann/kmeans_index.h \
+  /usr/include/opencv4/opencv2/flann/logger.h \
+  /usr/include/opencv4/opencv2/flann/composite_index.h \
+  /usr/include/opencv4/opencv2/flann/linear_index.h \
+  /usr/include/opencv4/opencv2/flann/hierarchical_clustering_index.h \
+  /usr/include/opencv4/opencv2/flann/lsh_index.h \
+  /usr/include/opencv4/opencv2/flann/lsh_table.h \
+  /usr/include/c++/11/iomanip \
+  /usr/include/c++/11/locale \
+  /usr/include/c++/11/bits/locale_facets_nonio.h \
+  /usr/include/x86_64-linux-gnu/c++/11/bits/time_members.h \
+  /usr/include/x86_64-linux-gnu/c++/11/bits/messages_members.h \
+  /usr/include/libintl.h \
+  /usr/include/c++/11/bits/codecvt.h \
+  /usr/include/c++/11/bits/locale_facets_nonio.tcc \
+  /usr/include/c++/11/bits/locale_conv.h \
+  /usr/include/c++/11/bits/quoted_string.h \
+  /usr/include/c++/11/math.h \
+  /usr/include/opencv4/opencv2/flann/autotuned_index.h \
+  /usr/include/opencv4/opencv2/flann/ground_truth.h \
+  /usr/include/opencv4/opencv2/flann/index_testing.h \
+  /usr/include/opencv4/opencv2/flann/timer.h \
+  /usr/include/opencv4/opencv2/flann/sampling.h \
+  /usr/include/opencv4/opencv2/highgui.hpp \
+  /usr/include/opencv4/opencv2/imgcodecs.hpp \
+  /usr/include/opencv4/opencv2/videoio.hpp \
+  /usr/include/opencv4/opencv2/imgproc.hpp \
+  /usr/include/opencv4/opencv2/imgproc/segmentation.hpp \
+  /usr/include/opencv4/opencv2/ml.hpp \
+  /usr/include/opencv4/opencv2/ml/ml.inl.hpp \
+  /usr/include/opencv4/opencv2/objdetect.hpp \
+  /usr/include/opencv4/opencv2/objdetect/detection_based_tracker.hpp \
+  /usr/include/opencv4/opencv2/objdetect/face.hpp \
+  /usr/include/opencv4/opencv2/photo.hpp \
+  /usr/include/opencv4/opencv2/stitching.hpp \
+  /usr/include/opencv4/opencv2/stitching/warpers.hpp \
+  /usr/include/opencv4/opencv2/stitching/detail/warpers.hpp \
+  /usr/include/opencv4/opencv2/core/cuda.hpp \
+  /usr/include/opencv4/opencv2/core/cuda_types.hpp \
+  /usr/include/opencv4/opencv2/core/cuda.inl.hpp \
+  /usr/include/opencv4/opencv2/stitching/detail/warpers_inl.hpp \
+  /usr/include/opencv4/opencv2/stitching/detail/warpers.hpp \
+  /usr/include/opencv4/opencv2/stitching/detail/matchers.hpp \
+  /usr/include/opencv4/opencv2/stitching/detail/motion_estimators.hpp \
+  /usr/include/opencv4/opencv2/stitching/detail/matchers.hpp \
+  /usr/include/opencv4/opencv2/stitching/detail/util.hpp \
+  /usr/include/opencv4/opencv2/stitching/detail/util_inl.hpp \
+  /usr/include/c++/11/queue \
+  /usr/include/c++/11/deque \
+  /usr/include/c++/11/bits/stl_deque.h \
+  /usr/include/c++/11/bits/deque.tcc \
+  /usr/include/c++/11/bits/stl_queue.h \
+  /usr/include/opencv4/opencv2/stitching/detail/camera.hpp \
+  /usr/include/opencv4/opencv2/stitching/detail/exposure_compensate.hpp \
+  /usr/include/opencv4/opencv2/stitching/detail/seam_finders.hpp \
+  /usr/include/opencv4/opencv2/stitching/detail/blenders.hpp \
+  /usr/include/opencv4/opencv2/stitching/detail/camera.hpp \
+  /usr/include/opencv4/opencv2/video.hpp \
+  /usr/include/opencv4/opencv2/video/tracking.hpp \
+  /usr/include/opencv4/opencv2/video/background_segm.hpp
+
+CMakeFiles/ComputerVisionApp.dir/imageProcessing/ImageCapture.cpp.o: ../imageProcessing/ImageCapture.cpp \
+  /usr/include/stdc-predef.h \
+  ../imageProcessing/ImageCapture.h \
+  /usr/include/opencv4/opencv2/opencv.hpp \
+  /usr/include/opencv4/opencv2/opencv_modules.hpp \
+  /usr/include/opencv4/opencv2/core.hpp \
+  /usr/include/opencv4/opencv2/core/cvdef.h \
+  /usr/include/opencv4/opencv2/core/version.hpp \
+  /usr/include/c++/11/limits \
+  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
+  /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h \
+  /usr/include/features.h \
+  /usr/include/features-time64.h \
+  /usr/include/x86_64-linux-gnu/bits/wordsize.h \
+  /usr/include/x86_64-linux-gnu/bits/timesize.h \
+  /usr/include/x86_64-linux-gnu/sys/cdefs.h \
+  /usr/include/x86_64-linux-gnu/bits/long-double.h \
+  /usr/include/x86_64-linux-gnu/gnu/stubs.h \
+  /usr/include/x86_64-linux-gnu/gnu/stubs-64.h \
+  /usr/include/x86_64-linux-gnu/c++/11/bits/cpu_defines.h \
+  /usr/include/c++/11/pstl/pstl_config.h \
+  /usr/include/opencv4/opencv2/core/hal/interface.h \
+  /usr/include/c++/11/cstddef \
+  /usr/lib/gcc/x86_64-linux-gnu/11/include/stddef.h \
+  /usr/include/c++/11/cstdint \
+  /usr/lib/gcc/x86_64-linux-gnu/11/include/stdint.h \
+  /usr/include/stdint.h \
+  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
+  /usr/include/x86_64-linux-gnu/bits/types.h \
+  /usr/include/x86_64-linux-gnu/bits/typesizes.h \
+  /usr/include/x86_64-linux-gnu/bits/time64.h \
+  /usr/include/x86_64-linux-gnu/bits/wchar.h \
+  /usr/include/x86_64-linux-gnu/bits/stdint-intn.h \
+  /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h \
+  /usr/include/opencv4/opencv2/core/cv_cpu_dispatch.h \
+  /usr/lib/gcc/x86_64-linux-gnu/11/include/emmintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/11/include/xmmintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/11/include/mmintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/11/include/mm_malloc.h \
+  /usr/include/c++/11/stdlib.h \
+  /usr/include/c++/11/cstdlib \
+  /usr/include/stdlib.h \
+  /usr/include/x86_64-linux-gnu/bits/waitflags.h \
+  /usr/include/x86_64-linux-gnu/bits/waitstatus.h \
+  /usr/include/x86_64-linux-gnu/bits/floatn.h \
+  /usr/include/x86_64-linux-gnu/bits/floatn-common.h \
+  /usr/include/x86_64-linux-gnu/bits/types/locale_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/__locale_t.h \
+  /usr/include/x86_64-linux-gnu/sys/types.h \
+  /usr/include/x86_64-linux-gnu/bits/types/clock_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/clockid_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/time_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/timer_t.h \
+  /usr/include/endian.h \
+  /usr/include/x86_64-linux-gnu/bits/endian.h \
+  /usr/include/x86_64-linux-gnu/bits/endianness.h \
+  /usr/include/x86_64-linux-gnu/bits/byteswap.h \
+  /usr/include/x86_64-linux-gnu/bits/uintn-identity.h \
+  /usr/include/x86_64-linux-gnu/sys/select.h \
+  /usr/include/x86_64-linux-gnu/bits/select.h \
+  /usr/include/x86_64-linux-gnu/bits/types/sigset_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/__sigset_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/struct_timeval.h \
+  /usr/include/x86_64-linux-gnu/bits/types/struct_timespec.h \
+  /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h \
+  /usr/include/x86_64-linux-gnu/bits/thread-shared-types.h \
+  /usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h \
+  /usr/include/x86_64-linux-gnu/bits/atomic_wide_counter.h \
+  /usr/include/x86_64-linux-gnu/bits/struct_mutex.h \
+  /usr/include/x86_64-linux-gnu/bits/struct_rwlock.h \
+  /usr/include/alloca.h \
+  /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
+  /usr/include/c++/11/bits/std_abs.h \
+  /usr/include/c++/11/array \
+  /usr/include/c++/11/utility \
+  /usr/include/c++/11/bits/stl_relops.h \
+  /usr/include/c++/11/bits/stl_pair.h \
+  /usr/include/c++/11/bits/move.h \
+  /usr/include/c++/11/type_traits \
+  /usr/include/c++/11/initializer_list \
+  /usr/include/c++/11/bits/functexcept.h \
+  /usr/include/c++/11/bits/exception_defines.h \
+  /usr/include/c++/11/bits/stl_algobase.h \
+  /usr/include/c++/11/bits/cpp_type_traits.h \
+  /usr/include/c++/11/ext/type_traits.h \
+  /usr/include/c++/11/ext/numeric_traits.h \
+  /usr/include/c++/11/bits/stl_iterator_base_types.h \
+  /usr/include/c++/11/bits/stl_iterator_base_funcs.h \
+  /usr/include/c++/11/bits/concept_check.h \
+  /usr/include/c++/11/debug/assertions.h \
+  /usr/include/c++/11/bits/stl_iterator.h \
+  /usr/include/c++/11/bits/ptr_traits.h \
+  /usr/include/c++/11/debug/debug.h \
+  /usr/include/c++/11/bits/predefined_ops.h \
+  /usr/include/c++/11/bits/range_access.h \
+  /usr/include/opencv4/opencv2/core/base.hpp \
+  /usr/include/c++/11/climits \
+  /usr/lib/gcc/x86_64-linux-gnu/11/include/limits.h \
+  /usr/lib/gcc/x86_64-linux-gnu/11/include/syslimits.h \
+  /usr/include/limits.h \
+  /usr/include/x86_64-linux-gnu/bits/posix1_lim.h \
+  /usr/include/x86_64-linux-gnu/bits/local_lim.h \
+  /usr/include/linux/limits.h \
+  /usr/include/x86_64-linux-gnu/bits/pthread_stack_min-dynamic.h \
+  /usr/include/x86_64-linux-gnu/bits/posix2_lim.h \
+  /usr/include/x86_64-linux-gnu/bits/xopen_lim.h \
+  /usr/include/x86_64-linux-gnu/bits/uio_lim.h \
+  /usr/include/c++/11/algorithm \
+  /usr/include/c++/11/bits/stl_algo.h \
+  /usr/include/c++/11/bits/algorithmfwd.h \
+  /usr/include/c++/11/bits/stl_heap.h \
+  /usr/include/c++/11/bits/stl_tempbuf.h \
+  /usr/include/c++/11/bits/stl_construct.h \
+  /usr/include/c++/11/new \
+  /usr/include/c++/11/bits/exception.h \
+  /usr/include/c++/11/bits/uniform_int_dist.h \
+  /usr/include/c++/11/pstl/glue_algorithm_defs.h \
+  /usr/include/c++/11/functional \
+  /usr/include/c++/11/bits/stl_function.h \
+  /usr/include/c++/11/backward/binders.h \
+  /usr/include/c++/11/tuple \
+  /usr/include/c++/11/bits/uses_allocator.h \
+  /usr/include/c++/11/bits/invoke.h \
+  /usr/include/c++/11/bits/functional_hash.h \
+  /usr/include/c++/11/bits/hash_bytes.h \
+  /usr/include/c++/11/bits/refwrap.h \
+  /usr/include/c++/11/bits/std_function.h \
+  /usr/include/c++/11/typeinfo \
+  /usr/include/c++/11/unordered_map \
+  /usr/include/c++/11/bits/allocator.h \
+  /usr/include/x86_64-linux-gnu/c++/11/bits/c++allocator.h \
+  /usr/include/c++/11/ext/new_allocator.h \
+  /usr/include/c++/11/bits/memoryfwd.h \
+  /usr/include/c++/11/ext/alloc_traits.h \
+  /usr/include/c++/11/bits/alloc_traits.h \
+  /usr/include/c++/11/ext/aligned_buffer.h \
+  /usr/include/c++/11/bits/hashtable.h \
+  /usr/include/c++/11/bits/hashtable_policy.h \
+  /usr/include/c++/11/bits/enable_special_members.h \
+  /usr/include/c++/11/bits/node_handle.h \
+  /usr/include/c++/11/bits/unordered_map.h \
+  /usr/include/c++/11/bits/erase_if.h \
+  /usr/include/c++/11/vector \
+  /usr/include/c++/11/bits/stl_uninitialized.h \
+  /usr/include/c++/11/bits/stl_vector.h \
+  /usr/include/c++/11/bits/stl_bvector.h \
+  /usr/include/c++/11/bits/vector.tcc \
+  /usr/include/c++/11/pstl/execution_defs.h \
+  /usr/include/opencv4/opencv2/core/cvstd.hpp \
+  /usr/include/c++/11/cstring \
+  /usr/include/string.h \
+  /usr/include/strings.h \
+  /usr/include/c++/11/cctype \
+  /usr/include/ctype.h \
+  /usr/include/c++/11/string \
+  /usr/include/c++/11/bits/stringfwd.h \
+  /usr/include/c++/11/bits/char_traits.h \
+  /usr/include/c++/11/bits/postypes.h \
+  /usr/include/c++/11/cwchar \
+  /usr/include/wchar.h \
+  /usr/lib/gcc/x86_64-linux-gnu/11/include/stdarg.h \
+  /usr/include/x86_64-linux-gnu/bits/types/wint_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/mbstate_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/__FILE.h \
+  /usr/include/x86_64-linux-gnu/bits/types/FILE.h \
+  /usr/include/c++/11/bits/localefwd.h \
+  /usr/include/x86_64-linux-gnu/c++/11/bits/c++locale.h \
+  /usr/include/c++/11/clocale \
+  /usr/include/locale.h \
+  /usr/include/x86_64-linux-gnu/bits/locale.h \
+  /usr/include/c++/11/iosfwd \
+  /usr/include/c++/11/bits/ostream_insert.h \
+  /usr/include/c++/11/bits/cxxabi_forced.h \
+  /usr/include/c++/11/bits/basic_string.h \
+  /usr/include/c++/11/ext/atomicity.h \
+  /usr/include/x86_64-linux-gnu/c++/11/bits/gthr.h \
+  /usr/include/x86_64-linux-gnu/c++/11/bits/gthr-default.h \
+  /usr/include/pthread.h \
+  /usr/include/sched.h \
+  /usr/include/x86_64-linux-gnu/bits/sched.h \
+  /usr/include/x86_64-linux-gnu/bits/types/struct_sched_param.h \
+  /usr/include/x86_64-linux-gnu/bits/cpu-set.h \
+  /usr/include/time.h \
+  /usr/include/x86_64-linux-gnu/bits/time.h \
+  /usr/include/x86_64-linux-gnu/bits/timex.h \
+  /usr/include/x86_64-linux-gnu/bits/types/struct_tm.h \
+  /usr/include/x86_64-linux-gnu/bits/types/struct_itimerspec.h \
+  /usr/include/x86_64-linux-gnu/bits/setjmp.h \
+  /usr/include/x86_64-linux-gnu/bits/types/struct___jmp_buf_tag.h \
+  /usr/include/x86_64-linux-gnu/c++/11/bits/atomic_word.h \
+  /usr/include/x86_64-linux-gnu/sys/single_threaded.h \
+  /usr/include/c++/11/string_view \
+  /usr/include/c++/11/bits/string_view.tcc \
+  /usr/include/c++/11/ext/string_conversions.h \
+  /usr/include/c++/11/cstdio \
+  /usr/include/stdio.h \
+  /usr/include/x86_64-linux-gnu/bits/types/__fpos_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/__fpos64_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h \
+  /usr/include/x86_64-linux-gnu/bits/types/cookie_io_functions_t.h \
+  /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
+  /usr/include/c++/11/cerrno \
+  /usr/include/errno.h \
+  /usr/include/x86_64-linux-gnu/bits/errno.h \
+  /usr/include/linux/errno.h \
+  /usr/include/x86_64-linux-gnu/asm/errno.h \
+  /usr/include/asm-generic/errno.h \
+  /usr/include/asm-generic/errno-base.h \
+  /usr/include/x86_64-linux-gnu/bits/types/error_t.h \
+  /usr/include/c++/11/bits/charconv.h \
+  /usr/include/c++/11/bits/basic_string.tcc \
+  /usr/include/c++/11/cmath \
+  /usr/include/math.h \
+  /usr/include/x86_64-linux-gnu/bits/math-vector.h \
+  /usr/include/x86_64-linux-gnu/bits/libm-simd-decl-stubs.h \
+  /usr/include/x86_64-linux-gnu/bits/flt-eval-method.h \
+  /usr/include/x86_64-linux-gnu/bits/fp-logb.h \
+  /usr/include/x86_64-linux-gnu/bits/fp-fast.h \
+  /usr/include/x86_64-linux-gnu/bits/mathcalls-helper-functions.h \
+  /usr/include/x86_64-linux-gnu/bits/mathcalls.h \
+  /usr/include/x86_64-linux-gnu/bits/mathcalls-narrow.h \
+  /usr/include/x86_64-linux-gnu/bits/iscanonical.h \
+  /usr/include/c++/11/bits/specfun.h \
+  /usr/include/c++/11/tr1/gamma.tcc \
+  /usr/include/c++/11/tr1/special_function_util.h \
+  /usr/include/c++/11/tr1/bessel_function.tcc \
+  /usr/include/c++/11/tr1/beta_function.tcc \
+  /usr/include/c++/11/tr1/ell_integral.tcc \
+  /usr/include/c++/11/tr1/exp_integral.tcc \
+  /usr/include/c++/11/tr1/hypergeometric.tcc \
+  /usr/include/c++/11/tr1/legendre_function.tcc \
+  /usr/include/c++/11/tr1/modified_bessel_func.tcc \
+  /usr/include/c++/11/tr1/poly_hermite.tcc \
+  /usr/include/c++/11/tr1/poly_laguerre.tcc \
+  /usr/include/c++/11/tr1/riemann_zeta.tcc \
+  /usr/include/opencv4/opencv2/core/cvstd_wrapper.hpp \
+  /usr/include/c++/11/memory \
+  /usr/include/c++/11/bits/stl_raw_storage_iter.h \
+  /usr/include/c++/11/bits/align.h \
+  /usr/include/c++/11/bit \
+  /usr/include/c++/11/bits/unique_ptr.h \
+  /usr/include/c++/11/bits/shared_ptr.h \
+  /usr/include/c++/11/bits/shared_ptr_base.h \
+  /usr/include/c++/11/bits/allocated_ptr.h \
+  /usr/include/c++/11/ext/concurrence.h \
+  /usr/include/c++/11/exception \
+  /usr/include/c++/11/bits/exception_ptr.h \
+  /usr/include/c++/11/bits/cxxabi_init_exception.h \
+  /usr/include/c++/11/bits/nested_exception.h \
+  /usr/include/c++/11/bits/shared_ptr_atomic.h \
+  /usr/include/c++/11/bits/atomic_base.h \
+  /usr/include/c++/11/bits/atomic_lockfree_defines.h \
+  /usr/include/c++/11/backward/auto_ptr.h \
+  /usr/include/c++/11/pstl/glue_memory_defs.h \
+  /usr/include/opencv4/opencv2/core/neon_utils.hpp \
+  /usr/include/opencv4/opencv2/core/vsx_utils.hpp \
+  /usr/include/assert.h \
+  /usr/include/opencv4/opencv2/core/check.hpp \
+  /usr/include/opencv4/opencv2/core/traits.hpp \
+  /usr/include/opencv4/opencv2/core/matx.hpp \
+  /usr/include/opencv4/opencv2/core/saturate.hpp \
+  /usr/include/opencv4/opencv2/core/fast_math.hpp \
+  /usr/include/opencv4/opencv2/core/types.hpp \
+  /usr/include/c++/11/cfloat \
+  /usr/lib/gcc/x86_64-linux-gnu/11/include/float.h \
+  /usr/include/opencv4/opencv2/core/mat.hpp \
+  /usr/include/opencv4/opencv2/core/bufferpool.hpp \
+  /usr/include/opencv4/opencv2/core/mat.inl.hpp \
+  /usr/include/opencv4/opencv2/core/persistence.hpp \
+  /usr/include/opencv4/opencv2/core/operations.hpp \
+  /usr/include/opencv4/opencv2/core/cvstd.inl.hpp \
+  /usr/include/c++/11/complex \
+  /usr/include/c++/11/sstream \
+  /usr/include/c++/11/istream \
+  /usr/include/c++/11/ios \
+  /usr/include/c++/11/bits/ios_base.h \
+  /usr/include/c++/11/bits/locale_classes.h \
+  /usr/include/c++/11/bits/locale_classes.tcc \
+  /usr/include/c++/11/system_error \
+  /usr/include/x86_64-linux-gnu/c++/11/bits/error_constants.h \
+  /usr/include/c++/11/stdexcept \
+  /usr/include/c++/11/streambuf \
+  /usr/include/c++/11/bits/streambuf.tcc \
+  /usr/include/c++/11/bits/basic_ios.h \
+  /usr/include/c++/11/bits/locale_facets.h \
+  /usr/include/c++/11/cwctype \
+  /usr/include/wctype.h \
+  /usr/include/x86_64-linux-gnu/bits/wctype-wchar.h \
+  /usr/include/x86_64-linux-gnu/c++/11/bits/ctype_base.h \
+  /usr/include/c++/11/bits/streambuf_iterator.h \
+  /usr/include/x86_64-linux-gnu/c++/11/bits/ctype_inline.h \
+  /usr/include/c++/11/bits/locale_facets.tcc \
+  /usr/include/c++/11/bits/basic_ios.tcc \
+  /usr/include/c++/11/ostream \
+  /usr/include/c++/11/bits/ostream.tcc \
+  /usr/include/c++/11/bits/istream.tcc \
+  /usr/include/c++/11/bits/sstream.tcc \
+  /usr/include/opencv4/opencv2/core/utility.hpp \
+  /usr/include/c++/11/mutex \
+  /usr/include/c++/11/chrono \
+  /usr/include/c++/11/ratio \
+  /usr/include/c++/11/ctime \
+  /usr/include/c++/11/bits/parse_numbers.h \
+  /usr/include/c++/11/bits/std_mutex.h \
+  /usr/include/c++/11/bits/unique_lock.h \
+  /usr/include/opencv4/opencv2/core/optim.hpp \
+  /usr/include/opencv4/opencv2/core/ovx.hpp \
+  /usr/include/opencv4/opencv2/core/cvdef.h \
+  /usr/include/opencv4/opencv2/calib3d.hpp \
+  /usr/include/opencv4/opencv2/features2d.hpp \
+  /usr/include/opencv4/opencv2/flann/miniflann.hpp \
+  /usr/include/opencv4/opencv2/flann/defines.h \
+  /usr/include/opencv4/opencv2/flann/config.h \
+  /usr/include/opencv4/opencv2/core/affine.hpp \
+  /usr/include/opencv4/opencv2/dnn.hpp \
+  /usr/include/opencv4/opencv2/dnn/dnn.hpp \
+  /usr/include/opencv4/opencv2/core/async.hpp \
+  /usr/include/opencv4/opencv2/dnn/version.hpp \
+  /usr/include/opencv4/opencv2/dnn/dict.hpp \
+  /usr/include/c++/11/map \
+  /usr/include/c++/11/bits/stl_tree.h \
+  /usr/include/c++/11/bits/stl_map.h \
+  /usr/include/c++/11/bits/stl_multimap.h \
+  /usr/include/opencv4/opencv2/dnn/layer.hpp \
+  /usr/include/opencv4/opencv2/dnn/dnn.inl.hpp \
+  /usr/include/opencv4/opencv2/dnn/utils/inference_engine.hpp \
+  /usr/include/opencv4/opencv2/dnn/dnn.hpp \
+  /usr/include/opencv4/opencv2/flann.hpp \
+  /usr/include/opencv4/opencv2/flann/flann_base.hpp \
+  /usr/include/opencv4/opencv2/flann/general.h \
+  /usr/include/opencv4/opencv2/flann/matrix.h \
+  /usr/include/opencv4/opencv2/flann/params.h \
+  /usr/include/opencv4/opencv2/flann/any.h \
+  /usr/include/opencv4/opencv2/flann/defines.h \
+  /usr/include/c++/11/iostream \
+  /usr/include/opencv4/opencv2/flann/saving.h \
+  /usr/include/opencv4/opencv2/flann/nn_index.h \
+  /usr/include/opencv4/opencv2/flann/result_set.h \
+  /usr/include/c++/11/set \
+  /usr/include/c++/11/bits/stl_set.h \
+  /usr/include/c++/11/bits/stl_multiset.h \
+  /usr/include/opencv4/opencv2/flann/all_indices.h \
+  /usr/include/opencv4/opencv2/flann/kdtree_index.h \
+  /usr/include/opencv4/opencv2/flann/dynamic_bitset.h \
+  /usr/include/opencv4/opencv2/flann/dist.h \
+  /usr/include/opencv4/opencv2/flann/heap.h \
+  /usr/include/opencv4/opencv2/flann/allocator.h \
+  /usr/include/opencv4/opencv2/flann/random.h \
+  /usr/include/opencv4/opencv2/flann/kdtree_single_index.h \
+  /usr/include/opencv4/opencv2/flann/kmeans_index.h \
+  /usr/include/opencv4/opencv2/flann/logger.h \
+  /usr/include/opencv4/opencv2/flann/composite_index.h \
+  /usr/include/opencv4/opencv2/flann/linear_index.h \
+  /usr/include/opencv4/opencv2/flann/hierarchical_clustering_index.h \
+  /usr/include/opencv4/opencv2/flann/lsh_index.h \
+  /usr/include/opencv4/opencv2/flann/lsh_table.h \
+  /usr/include/c++/11/iomanip \
+  /usr/include/c++/11/locale \
+  /usr/include/c++/11/bits/locale_facets_nonio.h \
+  /usr/include/x86_64-linux-gnu/c++/11/bits/time_members.h \
+  /usr/include/x86_64-linux-gnu/c++/11/bits/messages_members.h \
+  /usr/include/libintl.h \
+  /usr/include/c++/11/bits/codecvt.h \
+  /usr/include/c++/11/bits/locale_facets_nonio.tcc \
+  /usr/include/c++/11/bits/locale_conv.h \
+  /usr/include/c++/11/bits/quoted_string.h \
+  /usr/include/c++/11/math.h \
+  /usr/include/opencv4/opencv2/flann/autotuned_index.h \
+  /usr/include/opencv4/opencv2/flann/ground_truth.h \
+  /usr/include/opencv4/opencv2/flann/index_testing.h \
+  /usr/include/opencv4/opencv2/flann/timer.h \
+  /usr/include/opencv4/opencv2/flann/sampling.h \
+  /usr/include/opencv4/opencv2/highgui.hpp \
+  /usr/include/opencv4/opencv2/imgcodecs.hpp \
+  /usr/include/opencv4/opencv2/videoio.hpp \
+  /usr/include/opencv4/opencv2/imgproc.hpp \
+  /usr/include/opencv4/opencv2/imgproc/segmentation.hpp \
+  /usr/include/opencv4/opencv2/ml.hpp \
+  /usr/include/opencv4/opencv2/ml/ml.inl.hpp \
+  /usr/include/opencv4/opencv2/objdetect.hpp \
+  /usr/include/opencv4/opencv2/objdetect/detection_based_tracker.hpp \
+  /usr/include/opencv4/opencv2/objdetect/face.hpp \
+  /usr/include/opencv4/opencv2/photo.hpp \
+  /usr/include/opencv4/opencv2/stitching.hpp \
+  /usr/include/opencv4/opencv2/stitching/warpers.hpp \
+  /usr/include/opencv4/opencv2/stitching/detail/warpers.hpp \
+  /usr/include/opencv4/opencv2/core/cuda.hpp \
+  /usr/include/opencv4/opencv2/core/cuda_types.hpp \
+  /usr/include/opencv4/opencv2/core/cuda.inl.hpp \
+  /usr/include/opencv4/opencv2/stitching/detail/warpers_inl.hpp \
+  /usr/include/opencv4/opencv2/stitching/detail/warpers.hpp \
+  /usr/include/opencv4/opencv2/stitching/detail/matchers.hpp \
+  /usr/include/opencv4/opencv2/stitching/detail/motion_estimators.hpp \
+  /usr/include/opencv4/opencv2/stitching/detail/matchers.hpp \
+  /usr/include/opencv4/opencv2/stitching/detail/util.hpp \
+  /usr/include/c++/11/list \
+  /usr/include/c++/11/bits/stl_list.h \
+  /usr/include/c++/11/bits/list.tcc \
+  /usr/include/opencv4/opencv2/stitching/detail/util_inl.hpp \
+  /usr/include/c++/11/queue \
+  /usr/include/c++/11/deque \
+  /usr/include/c++/11/bits/stl_deque.h \
+  /usr/include/c++/11/bits/deque.tcc \
+  /usr/include/c++/11/bits/stl_queue.h \
+  /usr/include/opencv4/opencv2/stitching/detail/camera.hpp \
+  /usr/include/opencv4/opencv2/stitching/detail/exposure_compensate.hpp \
+  /usr/include/opencv4/opencv2/stitching/detail/seam_finders.hpp \
+  /usr/include/opencv4/opencv2/stitching/detail/blenders.hpp \
+  /usr/include/opencv4/opencv2/stitching/detail/camera.hpp \
+  /usr/include/opencv4/opencv2/video.hpp \
+  /usr/include/opencv4/opencv2/video/tracking.hpp \
+  /usr/include/opencv4/opencv2/video/background_segm.hpp \
+  /usr/include/x86_64-linux-gnu/qt5/QtGui/QImage \
+  /usr/include/x86_64-linux-gnu/qt5/QtGui/qimage.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtGui/qtguiglobal.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qglobal.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qconfig.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qtcore-config.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qsystemdetection.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qprocessordetection.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qcompilerdetection.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qtypeinfo.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qsysinfo.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qlogging.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qflags.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qatomic.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qbasicatomic.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qatomic_cxx11.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qgenericatomic.h \
+  /usr/include/c++/11/atomic \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qglobalstatic.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qnumeric.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qversiontagging.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtGui/qtgui-config.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtGui/qcolor.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtGui/qrgb.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qnamespace.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qstringlist.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qlist.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qalgorithms.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qiterator.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qrefcount.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qarraydata.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qhashfunctions.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qstring.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qchar.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qbytearray.h \
+  /usr/include/c++/11/iterator \
+  /usr/include/c++/11/bits/stream_iterator.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qstringliteral.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qstringalgorithms.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qstringview.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qpair.h \
+  /usr/include/c++/11/numeric \
+  /usr/include/c++/11/bits/stl_numeric.h \
+  /usr/include/c++/11/pstl/glue_numeric_defs.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qvector.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qcontainertools_impl.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qbytearraylist.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qregexp.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qstringmatcher.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtGui/qrgba64.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtGui/qpaintdevice.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtGui/qwindowdefs.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qobjectdefs.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qobjectdefs_impl.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qrect.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qmargins.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qsize.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qpoint.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtGui/qpixelformat.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtGui/qtransform.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtGui/qmatrix.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtGui/qpolygon.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtGui/qregion.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qdatastream.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qscopedpointer.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qiodevice.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qobject.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qmetatype.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qvarlengtharray.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qcontainerfwd.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qobject_impl.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qline.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/QDebug \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qdebug.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qhash.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qmap.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qtextstream.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qlocale.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qvariant.h \
+  /usr/include/c++/11/variant \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qshareddata.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qset.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qcontiguouscache.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qsharedpointer.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qsharedpointer_impl.h
+
+CMakeFiles/ComputerVisionApp.dir/imageProcessing/MainProcessing.cpp.o: ../imageProcessing/MainProcessing.cpp \
+  /usr/include/stdc-predef.h \
+  ../imageProcessing/MainProcessing.h \
+  ../imageProcessing/ImageCapture.h \
+  /usr/include/opencv4/opencv2/opencv.hpp \
+  /usr/include/opencv4/opencv2/opencv_modules.hpp \
+  /usr/include/opencv4/opencv2/core.hpp \
+  /usr/include/opencv4/opencv2/core/cvdef.h \
+  /usr/include/opencv4/opencv2/core/version.hpp \
+  /usr/include/c++/11/limits \
+  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
+  /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h \
+  /usr/include/features.h \
+  /usr/include/features-time64.h \
+  /usr/include/x86_64-linux-gnu/bits/wordsize.h \
+  /usr/include/x86_64-linux-gnu/bits/timesize.h \
+  /usr/include/x86_64-linux-gnu/sys/cdefs.h \
+  /usr/include/x86_64-linux-gnu/bits/long-double.h \
+  /usr/include/x86_64-linux-gnu/gnu/stubs.h \
+  /usr/include/x86_64-linux-gnu/gnu/stubs-64.h \
+  /usr/include/x86_64-linux-gnu/c++/11/bits/cpu_defines.h \
+  /usr/include/c++/11/pstl/pstl_config.h \
+  /usr/include/opencv4/opencv2/core/hal/interface.h \
+  /usr/include/c++/11/cstddef \
+  /usr/lib/gcc/x86_64-linux-gnu/11/include/stddef.h \
+  /usr/include/c++/11/cstdint \
+  /usr/lib/gcc/x86_64-linux-gnu/11/include/stdint.h \
+  /usr/include/stdint.h \
+  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
+  /usr/include/x86_64-linux-gnu/bits/types.h \
+  /usr/include/x86_64-linux-gnu/bits/typesizes.h \
+  /usr/include/x86_64-linux-gnu/bits/time64.h \
+  /usr/include/x86_64-linux-gnu/bits/wchar.h \
+  /usr/include/x86_64-linux-gnu/bits/stdint-intn.h \
+  /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h \
+  /usr/include/opencv4/opencv2/core/cv_cpu_dispatch.h \
+  /usr/lib/gcc/x86_64-linux-gnu/11/include/emmintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/11/include/xmmintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/11/include/mmintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/11/include/mm_malloc.h \
+  /usr/include/c++/11/stdlib.h \
+  /usr/include/c++/11/cstdlib \
+  /usr/include/stdlib.h \
+  /usr/include/x86_64-linux-gnu/bits/waitflags.h \
+  /usr/include/x86_64-linux-gnu/bits/waitstatus.h \
+  /usr/include/x86_64-linux-gnu/bits/floatn.h \
+  /usr/include/x86_64-linux-gnu/bits/floatn-common.h \
+  /usr/include/x86_64-linux-gnu/bits/types/locale_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/__locale_t.h \
+  /usr/include/x86_64-linux-gnu/sys/types.h \
+  /usr/include/x86_64-linux-gnu/bits/types/clock_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/clockid_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/time_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/timer_t.h \
+  /usr/include/endian.h \
+  /usr/include/x86_64-linux-gnu/bits/endian.h \
+  /usr/include/x86_64-linux-gnu/bits/endianness.h \
+  /usr/include/x86_64-linux-gnu/bits/byteswap.h \
+  /usr/include/x86_64-linux-gnu/bits/uintn-identity.h \
+  /usr/include/x86_64-linux-gnu/sys/select.h \
+  /usr/include/x86_64-linux-gnu/bits/select.h \
+  /usr/include/x86_64-linux-gnu/bits/types/sigset_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/__sigset_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/struct_timeval.h \
+  /usr/include/x86_64-linux-gnu/bits/types/struct_timespec.h \
+  /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h \
+  /usr/include/x86_64-linux-gnu/bits/thread-shared-types.h \
+  /usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h \
+  /usr/include/x86_64-linux-gnu/bits/atomic_wide_counter.h \
+  /usr/include/x86_64-linux-gnu/bits/struct_mutex.h \
+  /usr/include/x86_64-linux-gnu/bits/struct_rwlock.h \
+  /usr/include/alloca.h \
+  /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
+  /usr/include/c++/11/bits/std_abs.h \
+  /usr/include/c++/11/array \
+  /usr/include/c++/11/utility \
+  /usr/include/c++/11/bits/stl_relops.h \
+  /usr/include/c++/11/bits/stl_pair.h \
+  /usr/include/c++/11/bits/move.h \
+  /usr/include/c++/11/type_traits \
+  /usr/include/c++/11/initializer_list \
+  /usr/include/c++/11/bits/functexcept.h \
+  /usr/include/c++/11/bits/exception_defines.h \
+  /usr/include/c++/11/bits/stl_algobase.h \
+  /usr/include/c++/11/bits/cpp_type_traits.h \
+  /usr/include/c++/11/ext/type_traits.h \
+  /usr/include/c++/11/ext/numeric_traits.h \
+  /usr/include/c++/11/bits/stl_iterator_base_types.h \
+  /usr/include/c++/11/bits/stl_iterator_base_funcs.h \
+  /usr/include/c++/11/bits/concept_check.h \
+  /usr/include/c++/11/debug/assertions.h \
+  /usr/include/c++/11/bits/stl_iterator.h \
+  /usr/include/c++/11/bits/ptr_traits.h \
+  /usr/include/c++/11/debug/debug.h \
+  /usr/include/c++/11/bits/predefined_ops.h \
+  /usr/include/c++/11/bits/range_access.h \
+  /usr/include/opencv4/opencv2/core/base.hpp \
+  /usr/include/c++/11/climits \
+  /usr/lib/gcc/x86_64-linux-gnu/11/include/limits.h \
+  /usr/lib/gcc/x86_64-linux-gnu/11/include/syslimits.h \
+  /usr/include/limits.h \
+  /usr/include/x86_64-linux-gnu/bits/posix1_lim.h \
+  /usr/include/x86_64-linux-gnu/bits/local_lim.h \
+  /usr/include/linux/limits.h \
+  /usr/include/x86_64-linux-gnu/bits/pthread_stack_min-dynamic.h \
+  /usr/include/x86_64-linux-gnu/bits/posix2_lim.h \
+  /usr/include/x86_64-linux-gnu/bits/xopen_lim.h \
+  /usr/include/x86_64-linux-gnu/bits/uio_lim.h \
+  /usr/include/c++/11/algorithm \
+  /usr/include/c++/11/bits/stl_algo.h \
+  /usr/include/c++/11/bits/algorithmfwd.h \
+  /usr/include/c++/11/bits/stl_heap.h \
+  /usr/include/c++/11/bits/stl_tempbuf.h \
+  /usr/include/c++/11/bits/stl_construct.h \
+  /usr/include/c++/11/new \
+  /usr/include/c++/11/bits/exception.h \
+  /usr/include/c++/11/bits/uniform_int_dist.h \
+  /usr/include/c++/11/pstl/glue_algorithm_defs.h \
+  /usr/include/c++/11/functional \
+  /usr/include/c++/11/bits/stl_function.h \
+  /usr/include/c++/11/backward/binders.h \
+  /usr/include/c++/11/tuple \
+  /usr/include/c++/11/bits/uses_allocator.h \
+  /usr/include/c++/11/bits/invoke.h \
+  /usr/include/c++/11/bits/functional_hash.h \
+  /usr/include/c++/11/bits/hash_bytes.h \
+  /usr/include/c++/11/bits/refwrap.h \
+  /usr/include/c++/11/bits/std_function.h \
+  /usr/include/c++/11/typeinfo \
+  /usr/include/c++/11/unordered_map \
+  /usr/include/c++/11/bits/allocator.h \
+  /usr/include/x86_64-linux-gnu/c++/11/bits/c++allocator.h \
+  /usr/include/c++/11/ext/new_allocator.h \
+  /usr/include/c++/11/bits/memoryfwd.h \
+  /usr/include/c++/11/ext/alloc_traits.h \
+  /usr/include/c++/11/bits/alloc_traits.h \
+  /usr/include/c++/11/ext/aligned_buffer.h \
+  /usr/include/c++/11/bits/hashtable.h \
+  /usr/include/c++/11/bits/hashtable_policy.h \
+  /usr/include/c++/11/bits/enable_special_members.h \
+  /usr/include/c++/11/bits/node_handle.h \
+  /usr/include/c++/11/bits/unordered_map.h \
+  /usr/include/c++/11/bits/erase_if.h \
+  /usr/include/c++/11/vector \
+  /usr/include/c++/11/bits/stl_uninitialized.h \
+  /usr/include/c++/11/bits/stl_vector.h \
+  /usr/include/c++/11/bits/stl_bvector.h \
+  /usr/include/c++/11/bits/vector.tcc \
+  /usr/include/c++/11/pstl/execution_defs.h \
+  /usr/include/opencv4/opencv2/core/cvstd.hpp \
+  /usr/include/c++/11/cstring \
+  /usr/include/string.h \
+  /usr/include/strings.h \
+  /usr/include/c++/11/cctype \
+  /usr/include/ctype.h \
+  /usr/include/c++/11/string \
+  /usr/include/c++/11/bits/stringfwd.h \
+  /usr/include/c++/11/bits/char_traits.h \
+  /usr/include/c++/11/bits/postypes.h \
+  /usr/include/c++/11/cwchar \
+  /usr/include/wchar.h \
+  /usr/lib/gcc/x86_64-linux-gnu/11/include/stdarg.h \
+  /usr/include/x86_64-linux-gnu/bits/types/wint_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/mbstate_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/__FILE.h \
+  /usr/include/x86_64-linux-gnu/bits/types/FILE.h \
+  /usr/include/c++/11/bits/localefwd.h \
+  /usr/include/x86_64-linux-gnu/c++/11/bits/c++locale.h \
+  /usr/include/c++/11/clocale \
+  /usr/include/locale.h \
+  /usr/include/x86_64-linux-gnu/bits/locale.h \
+  /usr/include/c++/11/iosfwd \
+  /usr/include/c++/11/bits/ostream_insert.h \
+  /usr/include/c++/11/bits/cxxabi_forced.h \
+  /usr/include/c++/11/bits/basic_string.h \
+  /usr/include/c++/11/ext/atomicity.h \
+  /usr/include/x86_64-linux-gnu/c++/11/bits/gthr.h \
+  /usr/include/x86_64-linux-gnu/c++/11/bits/gthr-default.h \
+  /usr/include/pthread.h \
+  /usr/include/sched.h \
+  /usr/include/x86_64-linux-gnu/bits/sched.h \
+  /usr/include/x86_64-linux-gnu/bits/types/struct_sched_param.h \
+  /usr/include/x86_64-linux-gnu/bits/cpu-set.h \
+  /usr/include/time.h \
+  /usr/include/x86_64-linux-gnu/bits/time.h \
+  /usr/include/x86_64-linux-gnu/bits/timex.h \
+  /usr/include/x86_64-linux-gnu/bits/types/struct_tm.h \
+  /usr/include/x86_64-linux-gnu/bits/types/struct_itimerspec.h \
+  /usr/include/x86_64-linux-gnu/bits/setjmp.h \
+  /usr/include/x86_64-linux-gnu/bits/types/struct___jmp_buf_tag.h \
+  /usr/include/x86_64-linux-gnu/c++/11/bits/atomic_word.h \
+  /usr/include/x86_64-linux-gnu/sys/single_threaded.h \
+  /usr/include/c++/11/string_view \
+  /usr/include/c++/11/bits/string_view.tcc \
+  /usr/include/c++/11/ext/string_conversions.h \
+  /usr/include/c++/11/cstdio \
+  /usr/include/stdio.h \
+  /usr/include/x86_64-linux-gnu/bits/types/__fpos_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/__fpos64_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h \
+  /usr/include/x86_64-linux-gnu/bits/types/cookie_io_functions_t.h \
+  /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
+  /usr/include/c++/11/cerrno \
+  /usr/include/errno.h \
+  /usr/include/x86_64-linux-gnu/bits/errno.h \
+  /usr/include/linux/errno.h \
+  /usr/include/x86_64-linux-gnu/asm/errno.h \
+  /usr/include/asm-generic/errno.h \
+  /usr/include/asm-generic/errno-base.h \
+  /usr/include/x86_64-linux-gnu/bits/types/error_t.h \
+  /usr/include/c++/11/bits/charconv.h \
+  /usr/include/c++/11/bits/basic_string.tcc \
+  /usr/include/c++/11/cmath \
+  /usr/include/math.h \
+  /usr/include/x86_64-linux-gnu/bits/math-vector.h \
+  /usr/include/x86_64-linux-gnu/bits/libm-simd-decl-stubs.h \
+  /usr/include/x86_64-linux-gnu/bits/flt-eval-method.h \
+  /usr/include/x86_64-linux-gnu/bits/fp-logb.h \
+  /usr/include/x86_64-linux-gnu/bits/fp-fast.h \
+  /usr/include/x86_64-linux-gnu/bits/mathcalls-helper-functions.h \
+  /usr/include/x86_64-linux-gnu/bits/mathcalls.h \
+  /usr/include/x86_64-linux-gnu/bits/mathcalls-narrow.h \
+  /usr/include/x86_64-linux-gnu/bits/iscanonical.h \
+  /usr/include/c++/11/bits/specfun.h \
+  /usr/include/c++/11/tr1/gamma.tcc \
+  /usr/include/c++/11/tr1/special_function_util.h \
+  /usr/include/c++/11/tr1/bessel_function.tcc \
+  /usr/include/c++/11/tr1/beta_function.tcc \
+  /usr/include/c++/11/tr1/ell_integral.tcc \
+  /usr/include/c++/11/tr1/exp_integral.tcc \
+  /usr/include/c++/11/tr1/hypergeometric.tcc \
+  /usr/include/c++/11/tr1/legendre_function.tcc \
+  /usr/include/c++/11/tr1/modified_bessel_func.tcc \
+  /usr/include/c++/11/tr1/poly_hermite.tcc \
+  /usr/include/c++/11/tr1/poly_laguerre.tcc \
+  /usr/include/c++/11/tr1/riemann_zeta.tcc \
+  /usr/include/opencv4/opencv2/core/cvstd_wrapper.hpp \
+  /usr/include/c++/11/memory \
+  /usr/include/c++/11/bits/stl_raw_storage_iter.h \
+  /usr/include/c++/11/bits/align.h \
+  /usr/include/c++/11/bit \
+  /usr/include/c++/11/bits/unique_ptr.h \
+  /usr/include/c++/11/bits/shared_ptr.h \
+  /usr/include/c++/11/bits/shared_ptr_base.h \
+  /usr/include/c++/11/bits/allocated_ptr.h \
+  /usr/include/c++/11/ext/concurrence.h \
+  /usr/include/c++/11/exception \
+  /usr/include/c++/11/bits/exception_ptr.h \
+  /usr/include/c++/11/bits/cxxabi_init_exception.h \
+  /usr/include/c++/11/bits/nested_exception.h \
+  /usr/include/c++/11/bits/shared_ptr_atomic.h \
+  /usr/include/c++/11/bits/atomic_base.h \
+  /usr/include/c++/11/bits/atomic_lockfree_defines.h \
+  /usr/include/c++/11/backward/auto_ptr.h \
+  /usr/include/c++/11/pstl/glue_memory_defs.h \
+  /usr/include/opencv4/opencv2/core/neon_utils.hpp \
+  /usr/include/opencv4/opencv2/core/vsx_utils.hpp \
+  /usr/include/assert.h \
+  /usr/include/opencv4/opencv2/core/check.hpp \
+  /usr/include/opencv4/opencv2/core/traits.hpp \
+  /usr/include/opencv4/opencv2/core/matx.hpp \
+  /usr/include/opencv4/opencv2/core/saturate.hpp \
+  /usr/include/opencv4/opencv2/core/fast_math.hpp \
+  /usr/include/opencv4/opencv2/core/types.hpp \
+  /usr/include/c++/11/cfloat \
+  /usr/lib/gcc/x86_64-linux-gnu/11/include/float.h \
+  /usr/include/opencv4/opencv2/core/mat.hpp \
+  /usr/include/opencv4/opencv2/core/bufferpool.hpp \
+  /usr/include/opencv4/opencv2/core/mat.inl.hpp \
+  /usr/include/opencv4/opencv2/core/persistence.hpp \
+  /usr/include/opencv4/opencv2/core/operations.hpp \
+  /usr/include/opencv4/opencv2/core/cvstd.inl.hpp \
+  /usr/include/c++/11/complex \
+  /usr/include/c++/11/sstream \
+  /usr/include/c++/11/istream \
+  /usr/include/c++/11/ios \
+  /usr/include/c++/11/bits/ios_base.h \
+  /usr/include/c++/11/bits/locale_classes.h \
+  /usr/include/c++/11/bits/locale_classes.tcc \
+  /usr/include/c++/11/system_error \
+  /usr/include/x86_64-linux-gnu/c++/11/bits/error_constants.h \
+  /usr/include/c++/11/stdexcept \
+  /usr/include/c++/11/streambuf \
+  /usr/include/c++/11/bits/streambuf.tcc \
+  /usr/include/c++/11/bits/basic_ios.h \
+  /usr/include/c++/11/bits/locale_facets.h \
+  /usr/include/c++/11/cwctype \
+  /usr/include/wctype.h \
+  /usr/include/x86_64-linux-gnu/bits/wctype-wchar.h \
+  /usr/include/x86_64-linux-gnu/c++/11/bits/ctype_base.h \
+  /usr/include/c++/11/bits/streambuf_iterator.h \
+  /usr/include/x86_64-linux-gnu/c++/11/bits/ctype_inline.h \
+  /usr/include/c++/11/bits/locale_facets.tcc \
+  /usr/include/c++/11/bits/basic_ios.tcc \
+  /usr/include/c++/11/ostream \
+  /usr/include/c++/11/bits/ostream.tcc \
+  /usr/include/c++/11/bits/istream.tcc \
+  /usr/include/c++/11/bits/sstream.tcc \
+  /usr/include/opencv4/opencv2/core/utility.hpp \
+  /usr/include/c++/11/mutex \
+  /usr/include/c++/11/chrono \
+  /usr/include/c++/11/ratio \
+  /usr/include/c++/11/ctime \
+  /usr/include/c++/11/bits/parse_numbers.h \
+  /usr/include/c++/11/bits/std_mutex.h \
+  /usr/include/c++/11/bits/unique_lock.h \
+  /usr/include/opencv4/opencv2/core/optim.hpp \
+  /usr/include/opencv4/opencv2/core/ovx.hpp \
+  /usr/include/opencv4/opencv2/core/cvdef.h \
+  /usr/include/opencv4/opencv2/calib3d.hpp \
+  /usr/include/opencv4/opencv2/features2d.hpp \
+  /usr/include/opencv4/opencv2/flann/miniflann.hpp \
+  /usr/include/opencv4/opencv2/flann/defines.h \
+  /usr/include/opencv4/opencv2/flann/config.h \
+  /usr/include/opencv4/opencv2/core/affine.hpp \
+  /usr/include/opencv4/opencv2/dnn.hpp \
+  /usr/include/opencv4/opencv2/dnn/dnn.hpp \
+  /usr/include/opencv4/opencv2/core/async.hpp \
+  /usr/include/opencv4/opencv2/dnn/version.hpp \
+  /usr/include/opencv4/opencv2/dnn/dict.hpp \
+  /usr/include/c++/11/map \
+  /usr/include/c++/11/bits/stl_tree.h \
+  /usr/include/c++/11/bits/stl_map.h \
+  /usr/include/c++/11/bits/stl_multimap.h \
+  /usr/include/opencv4/opencv2/dnn/layer.hpp \
+  /usr/include/opencv4/opencv2/dnn/dnn.inl.hpp \
+  /usr/include/opencv4/opencv2/dnn/utils/inference_engine.hpp \
+  /usr/include/opencv4/opencv2/dnn/dnn.hpp \
+  /usr/include/opencv4/opencv2/flann.hpp \
+  /usr/include/opencv4/opencv2/flann/flann_base.hpp \
+  /usr/include/opencv4/opencv2/flann/general.h \
+  /usr/include/opencv4/opencv2/flann/matrix.h \
+  /usr/include/opencv4/opencv2/flann/params.h \
+  /usr/include/opencv4/opencv2/flann/any.h \
+  /usr/include/opencv4/opencv2/flann/defines.h \
+  /usr/include/c++/11/iostream \
+  /usr/include/opencv4/opencv2/flann/saving.h \
+  /usr/include/opencv4/opencv2/flann/nn_index.h \
+  /usr/include/opencv4/opencv2/flann/result_set.h \
+  /usr/include/c++/11/set \
+  /usr/include/c++/11/bits/stl_set.h \
+  /usr/include/c++/11/bits/stl_multiset.h \
+  /usr/include/opencv4/opencv2/flann/all_indices.h \
+  /usr/include/opencv4/opencv2/flann/kdtree_index.h \
+  /usr/include/opencv4/opencv2/flann/dynamic_bitset.h \
+  /usr/include/opencv4/opencv2/flann/dist.h \
+  /usr/include/opencv4/opencv2/flann/heap.h \
+  /usr/include/opencv4/opencv2/flann/allocator.h \
+  /usr/include/opencv4/opencv2/flann/random.h \
+  /usr/include/opencv4/opencv2/flann/kdtree_single_index.h \
+  /usr/include/opencv4/opencv2/flann/kmeans_index.h \
+  /usr/include/opencv4/opencv2/flann/logger.h \
+  /usr/include/opencv4/opencv2/flann/composite_index.h \
+  /usr/include/opencv4/opencv2/flann/linear_index.h \
+  /usr/include/opencv4/opencv2/flann/hierarchical_clustering_index.h \
+  /usr/include/opencv4/opencv2/flann/lsh_index.h \
+  /usr/include/opencv4/opencv2/flann/lsh_table.h \
+  /usr/include/c++/11/iomanip \
+  /usr/include/c++/11/locale \
+  /usr/include/c++/11/bits/locale_facets_nonio.h \
+  /usr/include/x86_64-linux-gnu/c++/11/bits/time_members.h \
+  /usr/include/x86_64-linux-gnu/c++/11/bits/messages_members.h \
+  /usr/include/libintl.h \
+  /usr/include/c++/11/bits/codecvt.h \
+  /usr/include/c++/11/bits/locale_facets_nonio.tcc \
+  /usr/include/c++/11/bits/locale_conv.h \
+  /usr/include/c++/11/bits/quoted_string.h \
+  /usr/include/c++/11/math.h \
+  /usr/include/opencv4/opencv2/flann/autotuned_index.h \
+  /usr/include/opencv4/opencv2/flann/ground_truth.h \
+  /usr/include/opencv4/opencv2/flann/index_testing.h \
+  /usr/include/opencv4/opencv2/flann/timer.h \
+  /usr/include/opencv4/opencv2/flann/sampling.h \
+  /usr/include/opencv4/opencv2/highgui.hpp \
+  /usr/include/opencv4/opencv2/imgcodecs.hpp \
+  /usr/include/opencv4/opencv2/videoio.hpp \
+  /usr/include/opencv4/opencv2/imgproc.hpp \
+  /usr/include/opencv4/opencv2/imgproc/segmentation.hpp \
+  /usr/include/opencv4/opencv2/ml.hpp \
+  /usr/include/opencv4/opencv2/ml/ml.inl.hpp \
+  /usr/include/opencv4/opencv2/objdetect.hpp \
+  /usr/include/opencv4/opencv2/objdetect/detection_based_tracker.hpp \
+  /usr/include/opencv4/opencv2/objdetect/face.hpp \
+  /usr/include/opencv4/opencv2/photo.hpp \
+  /usr/include/opencv4/opencv2/stitching.hpp \
+  /usr/include/opencv4/opencv2/stitching/warpers.hpp \
+  /usr/include/opencv4/opencv2/stitching/detail/warpers.hpp \
+  /usr/include/opencv4/opencv2/core/cuda.hpp \
+  /usr/include/opencv4/opencv2/core/cuda_types.hpp \
+  /usr/include/opencv4/opencv2/core/cuda.inl.hpp \
+  /usr/include/opencv4/opencv2/stitching/detail/warpers_inl.hpp \
+  /usr/include/opencv4/opencv2/stitching/detail/warpers.hpp \
+  /usr/include/opencv4/opencv2/stitching/detail/matchers.hpp \
+  /usr/include/opencv4/opencv2/stitching/detail/motion_estimators.hpp \
+  /usr/include/opencv4/opencv2/stitching/detail/matchers.hpp \
+  /usr/include/opencv4/opencv2/stitching/detail/util.hpp \
+  /usr/include/c++/11/list \
+  /usr/include/c++/11/bits/stl_list.h \
+  /usr/include/c++/11/bits/list.tcc \
+  /usr/include/opencv4/opencv2/stitching/detail/util_inl.hpp \
+  /usr/include/c++/11/queue \
+  /usr/include/c++/11/deque \
+  /usr/include/c++/11/bits/stl_deque.h \
+  /usr/include/c++/11/bits/deque.tcc \
+  /usr/include/c++/11/bits/stl_queue.h \
+  /usr/include/opencv4/opencv2/stitching/detail/camera.hpp \
+  /usr/include/opencv4/opencv2/stitching/detail/exposure_compensate.hpp \
+  /usr/include/opencv4/opencv2/stitching/detail/seam_finders.hpp \
+  /usr/include/opencv4/opencv2/stitching/detail/blenders.hpp \
+  /usr/include/opencv4/opencv2/stitching/detail/camera.hpp \
+  /usr/include/opencv4/opencv2/video.hpp \
+  /usr/include/opencv4/opencv2/video/tracking.hpp \
+  /usr/include/opencv4/opencv2/video/background_segm.hpp \
+  /usr/include/x86_64-linux-gnu/qt5/QtGui/QImage \
+  /usr/include/x86_64-linux-gnu/qt5/QtGui/qimage.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtGui/qtguiglobal.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qglobal.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qconfig.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qtcore-config.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qsystemdetection.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qprocessordetection.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qcompilerdetection.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qtypeinfo.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qsysinfo.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qlogging.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qflags.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qatomic.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qbasicatomic.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qatomic_cxx11.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qgenericatomic.h \
+  /usr/include/c++/11/atomic \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qglobalstatic.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qnumeric.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qversiontagging.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtGui/qtgui-config.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtGui/qcolor.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtGui/qrgb.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qnamespace.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qstringlist.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qlist.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qalgorithms.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qiterator.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qrefcount.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qarraydata.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qhashfunctions.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qstring.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qchar.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qbytearray.h \
+  /usr/include/c++/11/iterator \
+  /usr/include/c++/11/bits/stream_iterator.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qstringliteral.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qstringalgorithms.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qstringview.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qpair.h \
+  /usr/include/c++/11/numeric \
+  /usr/include/c++/11/bits/stl_numeric.h \
+  /usr/include/c++/11/pstl/glue_numeric_defs.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qvector.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qcontainertools_impl.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qbytearraylist.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qregexp.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qstringmatcher.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtGui/qrgba64.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtGui/qpaintdevice.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtGui/qwindowdefs.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qobjectdefs.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qobjectdefs_impl.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qrect.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qmargins.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qsize.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qpoint.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtGui/qpixelformat.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtGui/qtransform.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtGui/qmatrix.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtGui/qpolygon.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtGui/qregion.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qdatastream.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qscopedpointer.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qiodevice.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qobject.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qmetatype.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qvarlengtharray.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qcontainerfwd.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qobject_impl.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qline.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/QDebug \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qdebug.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qhash.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qmap.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qtextstream.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qlocale.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qvariant.h \
+  /usr/include/c++/11/variant \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qshareddata.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qset.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qcontiguouscache.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qsharedpointer.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qsharedpointer_impl.h \
+  /usr/include/nlohmann/json.hpp \
+  /usr/include/nlohmann/adl_serializer.hpp \
+  /usr/include/nlohmann/detail/conversions/from_json.hpp \
+  /usr/include/c++/11/forward_list \
+  /usr/include/c++/11/bits/forward_list.h \
+  /usr/include/c++/11/bits/forward_list.tcc \
+  /usr/include/c++/11/valarray \
+  /usr/include/c++/11/bits/valarray_array.h \
+  /usr/include/c++/11/bits/valarray_array.tcc \
+  /usr/include/c++/11/bits/valarray_before.h \
+  /usr/include/c++/11/bits/slice_array.h \
+  /usr/include/c++/11/bits/valarray_after.h \
+  /usr/include/c++/11/bits/gslice.h \
+  /usr/include/c++/11/bits/gslice_array.h \
+  /usr/include/c++/11/bits/mask_array.h \
+  /usr/include/c++/11/bits/indirect_array.h \
+  /usr/include/nlohmann/detail/exceptions.hpp \
+  /usr/include/nlohmann/detail/value_t.hpp \
+  /usr/include/nlohmann/detail/string_escape.hpp \
+  /usr/include/nlohmann/detail/macro_scope.hpp \
+  /usr/include/nlohmann/thirdparty/hedley/hedley.hpp \
+  /usr/include/nlohmann/detail/meta/detected.hpp \
+  /usr/include/nlohmann/detail/meta/void_t.hpp \
+  /usr/include/c++/11/cassert \
+  /usr/include/nlohmann/detail/input/position_t.hpp \
+  /usr/include/nlohmann/detail/meta/cpp_future.hpp \
+  /usr/include/nlohmann/detail/meta/identity_tag.hpp \
+  /usr/include/nlohmann/detail/meta/type_traits.hpp \
+  /usr/include/nlohmann/detail/iterators/iterator_traits.hpp \
+  /usr/include/nlohmann/detail/meta/call_std/begin.hpp \
+  /usr/include/nlohmann/detail/meta/call_std/end.hpp \
+  /usr/include/nlohmann/json_fwd.hpp \
+  /usr/include/c++/11/filesystem \
+  /usr/include/c++/11/bits/fs_fwd.h \
+  /usr/include/c++/11/bits/fs_path.h \
+  /usr/include/c++/11/codecvt \
+  /usr/include/c++/11/bits/fs_dir.h \
+  /usr/include/c++/11/bits/fs_ops.h \
+  /usr/include/nlohmann/detail/conversions/to_json.hpp \
+  /usr/include/nlohmann/detail/iterators/iteration_proxy.hpp \
+  /usr/include/nlohmann/byte_container_with_subtype.hpp \
+  /usr/include/nlohmann/detail/hash.hpp \
+  /usr/include/nlohmann/detail/input/binary_reader.hpp \
+  /usr/include/nlohmann/detail/input/input_adapters.hpp \
+  /usr/include/nlohmann/detail/input/json_sax.hpp \
+  /usr/include/nlohmann/detail/input/lexer.hpp \
+  /usr/include/nlohmann/detail/meta/is_sax.hpp \
+  /usr/include/nlohmann/detail/input/parser.hpp \
+  /usr/include/nlohmann/detail/iterators/internal_iterator.hpp \
+  /usr/include/nlohmann/detail/iterators/primitive_iterator.hpp \
+  /usr/include/nlohmann/detail/iterators/iter_impl.hpp \
+  /usr/include/nlohmann/detail/iterators/json_reverse_iterator.hpp \
+  /usr/include/nlohmann/detail/json_pointer.hpp \
+  /usr/include/nlohmann/detail/json_ref.hpp \
+  /usr/include/nlohmann/detail/output/binary_writer.hpp \
+  /usr/include/nlohmann/detail/output/output_adapters.hpp \
+  /usr/include/nlohmann/detail/output/serializer.hpp \
+  /usr/include/nlohmann/detail/conversions/to_chars.hpp \
+  /usr/include/nlohmann/ordered_map.hpp \
+  /usr/include/nlohmann/detail/macro_unscope.hpp \
+  /usr/include/nlohmann/thirdparty/hedley/hedley_undef.hpp
 
 CMakeFiles/ComputerVisionApp.dir/main.cpp.o: ../main.cpp \
   /usr/include/stdc-predef.h \
@@ -1175,20 +4250,20 @@ CMakeFiles/ComputerVisionApp.dir/main.cpp.o: ../main.cpp \
   /usr/include/c++/11/bits/ostream.tcc \
   /usr/include/c++/11/istream \
   /usr/include/c++/11/bits/istream.tcc \
-  /home/bartek/anaconda3/include/qt/QtWidgets/QApplication \
-  /home/bartek/anaconda3/include/qt/QtWidgets/qapplication.h \
-  /home/bartek/anaconda3/include/qt/QtWidgets/qtwidgetsglobal.h \
-  /home/bartek/anaconda3/include/qt/QtGui/qtguiglobal.h \
-  /home/bartek/anaconda3/include/qt/QtCore/qglobal.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QApplication \
+  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qapplication.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qtwidgetsglobal.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtGui/qtguiglobal.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qglobal.h \
   /usr/include/c++/11/cstddef \
   /usr/include/c++/11/utility \
   /usr/include/c++/11/bits/stl_relops.h \
   /usr/include/assert.h \
-  /home/bartek/anaconda3/include/qt/QtCore/qconfig.h \
-  /home/bartek/anaconda3/include/qt/QtCore/qtcore-config.h \
-  /home/bartek/anaconda3/include/qt/QtCore/qsystemdetection.h \
-  /home/bartek/anaconda3/include/qt/QtCore/qprocessordetection.h \
-  /home/bartek/anaconda3/include/qt/QtCore/qcompilerdetection.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qconfig.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qtcore-config.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qsystemdetection.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qprocessordetection.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qcompilerdetection.h \
   /usr/include/c++/11/algorithm \
   /usr/include/c++/11/bits/stl_algo.h \
   /usr/include/c++/11/bits/algorithmfwd.h \
@@ -1217,51 +4292,51 @@ CMakeFiles/ComputerVisionApp.dir/main.cpp.o: ../main.cpp \
   /usr/include/c++/11/bits/stl_bvector.h \
   /usr/include/c++/11/bits/vector.tcc \
   /usr/include/c++/11/pstl/execution_defs.h \
-  /home/bartek/anaconda3/include/qt/QtCore/qtypeinfo.h \
-  /home/bartek/anaconda3/include/qt/QtCore/qsysinfo.h \
-  /home/bartek/anaconda3/include/qt/QtCore/qlogging.h \
-  /home/bartek/anaconda3/include/qt/QtCore/qflags.h \
-  /home/bartek/anaconda3/include/qt/QtCore/qatomic.h \
-  /home/bartek/anaconda3/include/qt/QtCore/qbasicatomic.h \
-  /home/bartek/anaconda3/include/qt/QtCore/qatomic_cxx11.h \
-  /home/bartek/anaconda3/include/qt/QtCore/qgenericatomic.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qtypeinfo.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qsysinfo.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qlogging.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qflags.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qatomic.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qbasicatomic.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qatomic_cxx11.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qgenericatomic.h \
   /usr/include/c++/11/atomic \
   /usr/include/c++/11/bits/atomic_base.h \
   /usr/include/c++/11/bits/atomic_lockfree_defines.h \
-  /home/bartek/anaconda3/include/qt/QtCore/qglobalstatic.h \
-  /home/bartek/anaconda3/include/qt/QtCore/qnumeric.h \
-  /home/bartek/anaconda3/include/qt/QtCore/qversiontagging.h \
-  /home/bartek/anaconda3/include/qt/QtGui/qtgui-config.h \
-  /home/bartek/anaconda3/include/qt/QtWidgets/qtwidgets-config.h \
-  /home/bartek/anaconda3/include/qt/QtCore/qcoreapplication.h \
-  /home/bartek/anaconda3/include/qt/QtCore/qstring.h \
-  /home/bartek/anaconda3/include/qt/QtCore/qchar.h \
-  /home/bartek/anaconda3/include/qt/QtCore/qbytearray.h \
-  /home/bartek/anaconda3/include/qt/QtCore/qrefcount.h \
-  /home/bartek/anaconda3/include/qt/QtCore/qnamespace.h \
-  /home/bartek/anaconda3/include/qt/QtCore/qarraydata.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qglobalstatic.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qnumeric.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qversiontagging.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtGui/qtgui-config.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qtwidgets-config.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qcoreapplication.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qstring.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qchar.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qbytearray.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qrefcount.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qnamespace.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qarraydata.h \
   /usr/include/string.h \
   /usr/include/strings.h \
   /usr/include/c++/11/stdlib.h \
   /usr/include/c++/11/iterator \
   /usr/include/c++/11/bits/stream_iterator.h \
-  /home/bartek/anaconda3/include/qt/QtCore/qstringliteral.h \
-  /home/bartek/anaconda3/include/qt/QtCore/qstringalgorithms.h \
-  /home/bartek/anaconda3/include/qt/QtCore/qstringview.h \
-  /home/bartek/anaconda3/include/qt/QtCore/qobject.h \
-  /home/bartek/anaconda3/include/qt/QtCore/qobjectdefs.h \
-  /home/bartek/anaconda3/include/qt/QtCore/qobjectdefs_impl.h \
-  /home/bartek/anaconda3/include/qt/QtCore/qlist.h \
-  /home/bartek/anaconda3/include/qt/QtCore/qalgorithms.h \
-  /home/bartek/anaconda3/include/qt/QtCore/qiterator.h \
-  /home/bartek/anaconda3/include/qt/QtCore/qhashfunctions.h \
-  /home/bartek/anaconda3/include/qt/QtCore/qpair.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qstringliteral.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qstringalgorithms.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qstringview.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qobject.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qobjectdefs.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qobjectdefs_impl.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qlist.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qalgorithms.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qiterator.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qhashfunctions.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qpair.h \
   /usr/include/c++/11/numeric \
   /usr/include/c++/11/bits/stl_numeric.h \
   /usr/include/c++/11/bit \
   /usr/include/c++/11/pstl/glue_numeric_defs.h \
-  /home/bartek/anaconda3/include/qt/QtCore/qvector.h \
-  /home/bartek/anaconda3/include/qt/QtCore/qcontainertools_impl.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qvector.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qcontainertools_impl.h \
   /usr/include/c++/11/list \
   /usr/include/c++/11/bits/stl_list.h \
   /usr/include/c++/11/bits/allocated_ptr.h \
@@ -1275,62 +4350,62 @@ CMakeFiles/ComputerVisionApp.dir/main.cpp.o: ../main.cpp \
   /usr/include/x86_64-linux-gnu/bits/posix2_lim.h \
   /usr/include/x86_64-linux-gnu/bits/xopen_lim.h \
   /usr/include/x86_64-linux-gnu/bits/uio_lim.h \
-  /home/bartek/anaconda3/include/qt/QtCore/qbytearraylist.h \
-  /home/bartek/anaconda3/include/qt/QtCore/qstringlist.h \
-  /home/bartek/anaconda3/include/qt/QtCore/qregexp.h \
-  /home/bartek/anaconda3/include/qt/QtCore/qstringmatcher.h \
-  /home/bartek/anaconda3/include/qt/QtCore/qscopedpointer.h \
-  /home/bartek/anaconda3/include/qt/QtCore/qmetatype.h \
-  /home/bartek/anaconda3/include/qt/QtCore/qvarlengtharray.h \
-  /home/bartek/anaconda3/include/qt/QtCore/qcontainerfwd.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qbytearraylist.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qstringlist.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qregexp.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qstringmatcher.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qscopedpointer.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qmetatype.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qvarlengtharray.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qcontainerfwd.h \
   /usr/include/c++/11/map \
   /usr/include/c++/11/bits/stl_tree.h \
   /usr/include/c++/11/bits/stl_map.h \
   /usr/include/c++/11/bits/stl_multimap.h \
-  /home/bartek/anaconda3/include/qt/QtCore/qobject_impl.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qobject_impl.h \
   /usr/include/c++/11/chrono \
   /usr/include/c++/11/ratio \
   /usr/include/c++/11/limits \
   /usr/include/c++/11/ctime \
   /usr/include/c++/11/bits/parse_numbers.h \
-  /home/bartek/anaconda3/include/qt/QtCore/qcoreevent.h \
-  /home/bartek/anaconda3/include/qt/QtCore/qeventloop.h \
-  /home/bartek/anaconda3/include/qt/QtGui/qwindowdefs.h \
-  /home/bartek/anaconda3/include/qt/QtCore/qpoint.h \
-  /home/bartek/anaconda3/include/qt/QtCore/qsize.h \
-  /home/bartek/anaconda3/include/qt/QtCore/qmargins.h \
-  /home/bartek/anaconda3/include/qt/QtGui/qcursor.h \
-  /home/bartek/anaconda3/include/qt/QtGui/qguiapplication.h \
-  /home/bartek/anaconda3/include/qt/QtGui/qinputmethod.h \
-  /home/bartek/anaconda3/include/qt/QtCore/qlocale.h \
-  /home/bartek/anaconda3/include/qt/QtCore/qvariant.h \
-  /home/bartek/anaconda3/include/qt/QtCore/qmap.h \
-  /home/bartek/anaconda3/include/qt/QtCore/qhash.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qcoreevent.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qeventloop.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtGui/qwindowdefs.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qpoint.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qsize.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qmargins.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtGui/qcursor.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtGui/qguiapplication.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtGui/qinputmethod.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qlocale.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qvariant.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qmap.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qhash.h \
   /usr/include/c++/11/variant \
-  /home/bartek/anaconda3/include/qt/QtCore/qshareddata.h \
-  ../gui/MainWindow.h \
-  /home/bartek/anaconda3/include/qt/QtWidgets/QMainWindow \
-  /home/bartek/anaconda3/include/qt/QtWidgets/qmainwindow.h \
-  /home/bartek/anaconda3/include/qt/QtWidgets/qwidget.h \
-  /home/bartek/anaconda3/include/qt/QtGui/qpaintdevice.h \
-  /home/bartek/anaconda3/include/qt/QtCore/qrect.h \
-  /home/bartek/anaconda3/include/qt/QtGui/qpalette.h \
-  /home/bartek/anaconda3/include/qt/QtGui/qcolor.h \
-  /home/bartek/anaconda3/include/qt/QtGui/qrgb.h \
-  /home/bartek/anaconda3/include/qt/QtGui/qrgba64.h \
-  /home/bartek/anaconda3/include/qt/QtGui/qbrush.h \
-  /home/bartek/anaconda3/include/qt/QtGui/qmatrix.h \
-  /home/bartek/anaconda3/include/qt/QtGui/qpolygon.h \
-  /home/bartek/anaconda3/include/qt/QtGui/qregion.h \
-  /home/bartek/anaconda3/include/qt/QtCore/qdatastream.h \
-  /home/bartek/anaconda3/include/qt/QtCore/qiodevice.h \
-  /home/bartek/anaconda3/include/qt/QtCore/qline.h \
-  /home/bartek/anaconda3/include/qt/QtGui/qtransform.h \
-  /home/bartek/anaconda3/include/qt/QtGui/qimage.h \
-  /home/bartek/anaconda3/include/qt/QtGui/qpixelformat.h \
-  /home/bartek/anaconda3/include/qt/QtGui/qpixmap.h \
-  /home/bartek/anaconda3/include/qt/QtCore/qsharedpointer.h \
-  /home/bartek/anaconda3/include/qt/QtCore/qsharedpointer_impl.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qshareddata.h \
+  ../gui/mainwindow.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QMainWindow \
+  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qmainwindow.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qwidget.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtGui/qpaintdevice.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qrect.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtGui/qpalette.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtGui/qcolor.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtGui/qrgb.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtGui/qrgba64.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtGui/qbrush.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtGui/qmatrix.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtGui/qpolygon.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtGui/qregion.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qdatastream.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qiodevice.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qline.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtGui/qtransform.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtGui/qimage.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtGui/qpixelformat.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtGui/qpixmap.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qsharedpointer.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qsharedpointer_impl.h \
   /usr/include/c++/11/memory \
   /usr/include/c++/11/bits/stl_raw_storage_iter.h \
   /usr/include/c++/11/bits/align.h \
@@ -1341,55 +4416,55 @@ CMakeFiles/ComputerVisionApp.dir/main.cpp.o: ../main.cpp \
   /usr/include/c++/11/bits/shared_ptr_atomic.h \
   /usr/include/c++/11/backward/auto_ptr.h \
   /usr/include/c++/11/pstl/glue_memory_defs.h \
-  /home/bartek/anaconda3/include/qt/QtGui/qfont.h \
-  /home/bartek/anaconda3/include/qt/QtGui/qfontmetrics.h \
-  /home/bartek/anaconda3/include/qt/QtGui/qfontinfo.h \
-  /home/bartek/anaconda3/include/qt/QtWidgets/qsizepolicy.h \
-  /home/bartek/anaconda3/include/qt/QtGui/qkeysequence.h \
-  /home/bartek/anaconda3/include/qt/QtWidgets/qtabwidget.h \
-  /home/bartek/anaconda3/include/qt/QtGui/qicon.h \
-  /home/bartek/anaconda3/include/qt/QtWidgets/QListWidget \
-  /home/bartek/anaconda3/include/qt/QtWidgets/qlistwidget.h \
-  /home/bartek/anaconda3/include/qt/QtWidgets/qlistview.h \
-  /home/bartek/anaconda3/include/qt/QtWidgets/qabstractitemview.h \
-  /home/bartek/anaconda3/include/qt/QtWidgets/qabstractscrollarea.h \
-  /home/bartek/anaconda3/include/qt/QtWidgets/qframe.h \
-  /home/bartek/anaconda3/include/qt/QtCore/qabstractitemmodel.h \
-  /home/bartek/anaconda3/include/qt/QtCore/qitemselectionmodel.h \
-  /home/bartek/anaconda3/include/qt/QtCore/qset.h \
-  /home/bartek/anaconda3/include/qt/QtWidgets/qabstractitemdelegate.h \
-  /home/bartek/anaconda3/include/qt/QtWidgets/qstyleoption.h \
-  /home/bartek/anaconda3/include/qt/QtWidgets/qabstractspinbox.h \
-  /home/bartek/anaconda3/include/qt/QtGui/qvalidator.h \
-  /home/bartek/anaconda3/include/qt/QtCore/qregularexpression.h \
-  /home/bartek/anaconda3/include/qt/QtWidgets/qslider.h \
-  /home/bartek/anaconda3/include/qt/QtWidgets/qabstractslider.h \
-  /home/bartek/anaconda3/include/qt/QtWidgets/qstyle.h \
-  /home/bartek/anaconda3/include/qt/QtWidgets/qtabbar.h \
-  /home/bartek/anaconda3/include/qt/QtWidgets/qrubberband.h \
-  /home/bartek/anaconda3/include/qt/QtWidgets/QPushButton \
-  /home/bartek/anaconda3/include/qt/QtWidgets/qpushbutton.h \
-  /home/bartek/anaconda3/include/qt/QtWidgets/qabstractbutton.h \
-  /home/bartek/anaconda3/include/qt/QtWidgets/QVBoxLayout \
-  /home/bartek/anaconda3/include/qt/QtWidgets/qboxlayout.h \
-  /home/bartek/anaconda3/include/qt/QtWidgets/qlayout.h \
-  /home/bartek/anaconda3/include/qt/QtWidgets/qlayoutitem.h \
-  /home/bartek/anaconda3/include/qt/QtWidgets/qboxlayout.h \
-  /home/bartek/anaconda3/include/qt/QtWidgets/qgridlayout.h \
-  /home/bartek/anaconda3/include/qt/QtWidgets/QHBoxLayout \
-  /home/bartek/anaconda3/include/qt/QtWidgets/QMessageBox \
-  /home/bartek/anaconda3/include/qt/QtWidgets/qmessagebox.h \
-  /home/bartek/anaconda3/include/qt/QtWidgets/qdialog.h \
-  /home/bartek/anaconda3/include/qt/QtWidgets/QInputDialog \
-  /home/bartek/anaconda3/include/qt/QtWidgets/qinputdialog.h \
-  /home/bartek/anaconda3/include/qt/QtWidgets/qlineedit.h \
-  /home/bartek/anaconda3/include/qt/QtGui/qtextcursor.h \
-  /home/bartek/anaconda3/include/qt/QtGui/qtextformat.h \
-  /home/bartek/anaconda3/include/qt/QtGui/qpen.h \
-  /home/bartek/anaconda3/include/qt/QtGui/qtextoption.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtGui/qfont.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtGui/qfontmetrics.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtGui/qfontinfo.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qsizepolicy.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtGui/qkeysequence.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qtabwidget.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtGui/qicon.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QListWidget \
+  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qlistwidget.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qlistview.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qabstractitemview.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qabstractscrollarea.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qframe.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qabstractitemmodel.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qitemselectionmodel.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qset.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qabstractitemdelegate.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qstyleoption.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qabstractspinbox.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtGui/qvalidator.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qregularexpression.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qslider.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qabstractslider.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qstyle.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qtabbar.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qrubberband.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QPushButton \
+  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qpushbutton.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qabstractbutton.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QVBoxLayout \
+  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qboxlayout.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qlayout.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qlayoutitem.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qboxlayout.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qgridlayout.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QHBoxLayout \
+  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QMessageBox \
+  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qmessagebox.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qdialog.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QInputDialog \
+  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qinputdialog.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qlineedit.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtGui/qtextcursor.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtGui/qtextformat.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtGui/qpen.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtGui/qtextoption.h \
   ../tools/ProgramManager.h \
-  /home/bartek/anaconda3/include/qt/QtCore/QString \
-  /home/bartek/anaconda3/include/qt/QtCore/qstring.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/QString \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qstring.h \
   /usr/include/nlohmann/json.hpp \
   /usr/include/nlohmann/adl_serializer.hpp \
   /usr/include/nlohmann/detail/conversions/from_json.hpp \
@@ -1488,24 +4563,182 @@ CMakeFiles/ComputerVisionApp.dir/main.cpp.o: ../main.cpp \
   /usr/include/nlohmann/ordered_map.hpp \
   /usr/include/nlohmann/detail/macro_unscope.hpp \
   /usr/include/nlohmann/thirdparty/hedley/hedley_undef.hpp \
-  /home/bartek/anaconda3/include/qt/QtCore/QStringList \
-  /home/bartek/anaconda3/include/qt/QtCore/qstringlist.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/QStringList \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qstringlist.h \
   /usr/include/c++/11/fstream \
   /usr/include/x86_64-linux-gnu/c++/11/bits/basic_file.h \
   /usr/include/x86_64-linux-gnu/c++/11/bits/c++io.h \
   /usr/include/c++/11/bits/fstream.tcc \
-  /home/bartek/anaconda3/include/qt/QtCore/QDebug \
-  /home/bartek/anaconda3/include/qt/QtCore/qdebug.h \
-  /home/bartek/anaconda3/include/qt/QtCore/qtextstream.h \
-  /home/bartek/anaconda3/include/qt/QtCore/qcontiguouscache.h
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/QDebug \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qdebug.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qtextstream.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qcontiguouscache.h \
+  ../gui/editview.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QWidget \
+  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qwidget.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QStackedWidget \
+  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qstackedwidget.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtGui/QMouseEvent \
+  /usr/include/x86_64-linux-gnu/qt5/QtGui/qevent.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qurl.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qfile.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qfiledevice.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtGui/qvector2d.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtGui/qtouchdevice.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtGui/QPainter \
+  /usr/include/x86_64-linux-gnu/qt5/QtGui/qpainter.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QLabel \
+  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qlabel.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QMenuBar \
+  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qmenubar.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qmenu.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qaction.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qactiongroup.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QFormLayout \
+  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qformlayout.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QLayout \
+  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qlayout.h \
+  ../imageProcessing/MainProcessing.h \
+  ../imageProcessing/ImageCapture.h \
+  /usr/include/opencv4/opencv2/opencv.hpp \
+  /usr/include/opencv4/opencv2/opencv_modules.hpp \
+  /usr/include/opencv4/opencv2/core.hpp \
+  /usr/include/opencv4/opencv2/core/cvdef.h \
+  /usr/include/opencv4/opencv2/core/version.hpp \
+  /usr/include/opencv4/opencv2/core/hal/interface.h \
+  /usr/include/opencv4/opencv2/core/cv_cpu_dispatch.h \
+  /usr/lib/gcc/x86_64-linux-gnu/11/include/emmintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/11/include/xmmintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/11/include/mmintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/11/include/mm_malloc.h \
+  /usr/include/opencv4/opencv2/core/base.hpp \
+  /usr/include/c++/11/climits \
+  /usr/include/opencv4/opencv2/core/cvstd.hpp \
+  /usr/include/opencv4/opencv2/core/cvstd_wrapper.hpp \
+  /usr/include/opencv4/opencv2/core/neon_utils.hpp \
+  /usr/include/opencv4/opencv2/core/vsx_utils.hpp \
+  /usr/include/opencv4/opencv2/core/check.hpp \
+  /usr/include/opencv4/opencv2/core/traits.hpp \
+  /usr/include/opencv4/opencv2/core/matx.hpp \
+  /usr/include/opencv4/opencv2/core/saturate.hpp \
+  /usr/include/opencv4/opencv2/core/fast_math.hpp \
+  /usr/include/opencv4/opencv2/core/types.hpp \
+  /usr/include/c++/11/cfloat \
+  /usr/lib/gcc/x86_64-linux-gnu/11/include/float.h \
+  /usr/include/opencv4/opencv2/core/mat.hpp \
+  /usr/include/opencv4/opencv2/core/bufferpool.hpp \
+  /usr/include/opencv4/opencv2/core/mat.inl.hpp \
+  /usr/include/opencv4/opencv2/core/persistence.hpp \
+  /usr/include/opencv4/opencv2/core/operations.hpp \
+  /usr/include/opencv4/opencv2/core/cvstd.inl.hpp \
+  /usr/include/c++/11/complex \
+  /usr/include/opencv4/opencv2/core/utility.hpp \
+  /usr/include/c++/11/mutex \
+  /usr/include/c++/11/bits/std_mutex.h \
+  /usr/include/c++/11/bits/unique_lock.h \
+  /usr/include/opencv4/opencv2/core/optim.hpp \
+  /usr/include/opencv4/opencv2/core/ovx.hpp \
+  /usr/include/opencv4/opencv2/core/cvdef.h \
+  /usr/include/opencv4/opencv2/calib3d.hpp \
+  /usr/include/opencv4/opencv2/features2d.hpp \
+  /usr/include/opencv4/opencv2/flann/miniflann.hpp \
+  /usr/include/opencv4/opencv2/flann/defines.h \
+  /usr/include/opencv4/opencv2/flann/config.h \
+  /usr/include/opencv4/opencv2/core/affine.hpp \
+  /usr/include/opencv4/opencv2/dnn.hpp \
+  /usr/include/opencv4/opencv2/dnn/dnn.hpp \
+  /usr/include/opencv4/opencv2/core/async.hpp \
+  /usr/include/opencv4/opencv2/dnn/version.hpp \
+  /usr/include/opencv4/opencv2/dnn/dict.hpp \
+  /usr/include/opencv4/opencv2/dnn/layer.hpp \
+  /usr/include/opencv4/opencv2/dnn/dnn.inl.hpp \
+  /usr/include/opencv4/opencv2/dnn/utils/inference_engine.hpp \
+  /usr/include/opencv4/opencv2/dnn/dnn.hpp \
+  /usr/include/opencv4/opencv2/flann.hpp \
+  /usr/include/opencv4/opencv2/flann/flann_base.hpp \
+  /usr/include/opencv4/opencv2/flann/general.h \
+  /usr/include/opencv4/opencv2/flann/matrix.h \
+  /usr/include/opencv4/opencv2/flann/params.h \
+  /usr/include/opencv4/opencv2/flann/any.h \
+  /usr/include/opencv4/opencv2/flann/defines.h \
+  /usr/include/opencv4/opencv2/flann/saving.h \
+  /usr/include/opencv4/opencv2/flann/nn_index.h \
+  /usr/include/opencv4/opencv2/flann/result_set.h \
+  /usr/include/c++/11/set \
+  /usr/include/c++/11/bits/stl_set.h \
+  /usr/include/c++/11/bits/stl_multiset.h \
+  /usr/include/opencv4/opencv2/flann/all_indices.h \
+  /usr/include/opencv4/opencv2/flann/kdtree_index.h \
+  /usr/include/opencv4/opencv2/flann/dynamic_bitset.h \
+  /usr/include/opencv4/opencv2/flann/dist.h \
+  /usr/include/opencv4/opencv2/flann/heap.h \
+  /usr/include/opencv4/opencv2/flann/allocator.h \
+  /usr/include/opencv4/opencv2/flann/random.h \
+  /usr/include/opencv4/opencv2/flann/kdtree_single_index.h \
+  /usr/include/opencv4/opencv2/flann/kmeans_index.h \
+  /usr/include/opencv4/opencv2/flann/logger.h \
+  /usr/include/opencv4/opencv2/flann/composite_index.h \
+  /usr/include/opencv4/opencv2/flann/linear_index.h \
+  /usr/include/opencv4/opencv2/flann/hierarchical_clustering_index.h \
+  /usr/include/opencv4/opencv2/flann/lsh_index.h \
+  /usr/include/opencv4/opencv2/flann/lsh_table.h \
+  /usr/include/c++/11/math.h \
+  /usr/include/opencv4/opencv2/flann/autotuned_index.h \
+  /usr/include/opencv4/opencv2/flann/ground_truth.h \
+  /usr/include/opencv4/opencv2/flann/index_testing.h \
+  /usr/include/opencv4/opencv2/flann/timer.h \
+  /usr/include/opencv4/opencv2/flann/sampling.h \
+  /usr/include/opencv4/opencv2/highgui.hpp \
+  /usr/include/opencv4/opencv2/imgcodecs.hpp \
+  /usr/include/opencv4/opencv2/videoio.hpp \
+  /usr/include/opencv4/opencv2/imgproc.hpp \
+  /usr/include/opencv4/opencv2/imgproc/segmentation.hpp \
+  /usr/include/opencv4/opencv2/ml.hpp \
+  /usr/include/opencv4/opencv2/ml/ml.inl.hpp \
+  /usr/include/opencv4/opencv2/objdetect.hpp \
+  /usr/include/opencv4/opencv2/objdetect/detection_based_tracker.hpp \
+  /usr/include/opencv4/opencv2/objdetect/face.hpp \
+  /usr/include/opencv4/opencv2/photo.hpp \
+  /usr/include/opencv4/opencv2/stitching.hpp \
+  /usr/include/opencv4/opencv2/stitching/warpers.hpp \
+  /usr/include/opencv4/opencv2/stitching/detail/warpers.hpp \
+  /usr/include/opencv4/opencv2/core/cuda.hpp \
+  /usr/include/opencv4/opencv2/core/cuda_types.hpp \
+  /usr/include/opencv4/opencv2/core/cuda.inl.hpp \
+  /usr/include/opencv4/opencv2/stitching/detail/warpers_inl.hpp \
+  /usr/include/opencv4/opencv2/stitching/detail/warpers.hpp \
+  /usr/include/opencv4/opencv2/stitching/detail/matchers.hpp \
+  /usr/include/opencv4/opencv2/stitching/detail/motion_estimators.hpp \
+  /usr/include/opencv4/opencv2/stitching/detail/matchers.hpp \
+  /usr/include/opencv4/opencv2/stitching/detail/util.hpp \
+  /usr/include/opencv4/opencv2/stitching/detail/util_inl.hpp \
+  /usr/include/c++/11/queue \
+  /usr/include/c++/11/deque \
+  /usr/include/c++/11/bits/stl_deque.h \
+  /usr/include/c++/11/bits/deque.tcc \
+  /usr/include/c++/11/bits/stl_queue.h \
+  /usr/include/opencv4/opencv2/stitching/detail/camera.hpp \
+  /usr/include/opencv4/opencv2/stitching/detail/exposure_compensate.hpp \
+  /usr/include/opencv4/opencv2/stitching/detail/seam_finders.hpp \
+  /usr/include/opencv4/opencv2/stitching/detail/blenders.hpp \
+  /usr/include/opencv4/opencv2/stitching/detail/camera.hpp \
+  /usr/include/opencv4/opencv2/video.hpp \
+  /usr/include/opencv4/opencv2/video/tracking.hpp \
+  /usr/include/opencv4/opencv2/video/background_segm.hpp \
+  /usr/include/x86_64-linux-gnu/qt5/QtGui/QImage \
+  /usr/include/x86_64-linux-gnu/qt5/QtGui/qimage.h \
+  ../gui/ROISelector.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/QObject \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qobject.h \
+  ../gui/mainwindow.h
 
 CMakeFiles/ComputerVisionApp.dir/tools/ProgramManager.cpp.o: ../tools/ProgramManager.cpp \
   /usr/include/stdc-predef.h \
   ../tools/ProgramManager.h \
-  /home/bartek/anaconda3/include/qt/QtCore/QString \
-  /home/bartek/anaconda3/include/qt/QtCore/qstring.h \
-  /home/bartek/anaconda3/include/qt/QtCore/qchar.h \
-  /home/bartek/anaconda3/include/qt/QtCore/qglobal.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/QString \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qstring.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qchar.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qglobal.h \
   /usr/include/c++/11/type_traits \
   /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
   /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h \
@@ -1527,11 +4760,11 @@ CMakeFiles/ComputerVisionApp.dir/tools/ProgramManager.cpp.o: ../tools/ProgramMan
   /usr/include/c++/11/bits/move.h \
   /usr/include/c++/11/initializer_list \
   /usr/include/assert.h \
-  /home/bartek/anaconda3/include/qt/QtCore/qconfig.h \
-  /home/bartek/anaconda3/include/qt/QtCore/qtcore-config.h \
-  /home/bartek/anaconda3/include/qt/QtCore/qsystemdetection.h \
-  /home/bartek/anaconda3/include/qt/QtCore/qprocessordetection.h \
-  /home/bartek/anaconda3/include/qt/QtCore/qcompilerdetection.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qconfig.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qtcore-config.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qsystemdetection.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qprocessordetection.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qcompilerdetection.h \
   /usr/include/c++/11/algorithm \
   /usr/include/c++/11/bits/stl_algobase.h \
   /usr/include/c++/11/bits/functexcept.h \
@@ -1627,14 +4860,14 @@ CMakeFiles/ComputerVisionApp.dir/tools/ProgramManager.cpp.o: ../tools/ProgramMan
   /usr/include/c++/11/bits/stl_bvector.h \
   /usr/include/c++/11/bits/vector.tcc \
   /usr/include/c++/11/pstl/execution_defs.h \
-  /home/bartek/anaconda3/include/qt/QtCore/qtypeinfo.h \
-  /home/bartek/anaconda3/include/qt/QtCore/qsysinfo.h \
-  /home/bartek/anaconda3/include/qt/QtCore/qlogging.h \
-  /home/bartek/anaconda3/include/qt/QtCore/qflags.h \
-  /home/bartek/anaconda3/include/qt/QtCore/qatomic.h \
-  /home/bartek/anaconda3/include/qt/QtCore/qbasicatomic.h \
-  /home/bartek/anaconda3/include/qt/QtCore/qatomic_cxx11.h \
-  /home/bartek/anaconda3/include/qt/QtCore/qgenericatomic.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qtypeinfo.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qsysinfo.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qlogging.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qflags.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qatomic.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qbasicatomic.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qatomic_cxx11.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qgenericatomic.h \
   /usr/include/c++/11/atomic \
   /usr/include/c++/11/bits/atomic_base.h \
   /usr/lib/gcc/x86_64-linux-gnu/11/include/stdint.h \
@@ -1642,13 +4875,13 @@ CMakeFiles/ComputerVisionApp.dir/tools/ProgramManager.cpp.o: ../tools/ProgramMan
   /usr/include/x86_64-linux-gnu/bits/wchar.h \
   /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h \
   /usr/include/c++/11/bits/atomic_lockfree_defines.h \
-  /home/bartek/anaconda3/include/qt/QtCore/qglobalstatic.h \
-  /home/bartek/anaconda3/include/qt/QtCore/qnumeric.h \
-  /home/bartek/anaconda3/include/qt/QtCore/qversiontagging.h \
-  /home/bartek/anaconda3/include/qt/QtCore/qbytearray.h \
-  /home/bartek/anaconda3/include/qt/QtCore/qrefcount.h \
-  /home/bartek/anaconda3/include/qt/QtCore/qnamespace.h \
-  /home/bartek/anaconda3/include/qt/QtCore/qarraydata.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qglobalstatic.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qnumeric.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qversiontagging.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qbytearray.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qrefcount.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qnamespace.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qarraydata.h \
   /usr/include/string.h \
   /usr/include/strings.h \
   /usr/include/c++/11/stdlib.h \
@@ -1729,9 +4962,9 @@ CMakeFiles/ComputerVisionApp.dir/tools/ProgramManager.cpp.o: ../tools/ProgramMan
   /usr/include/c++/11/bits/cxxabi_init_exception.h \
   /usr/include/c++/11/bits/nested_exception.h \
   /usr/include/c++/11/bits/streambuf.tcc \
-  /home/bartek/anaconda3/include/qt/QtCore/qstringliteral.h \
-  /home/bartek/anaconda3/include/qt/QtCore/qstringalgorithms.h \
-  /home/bartek/anaconda3/include/qt/QtCore/qstringview.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qstringliteral.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qstringalgorithms.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qstringview.h \
   /usr/include/nlohmann/json.hpp \
   /usr/include/c++/11/memory \
   /usr/include/c++/11/bits/stl_raw_storage_iter.h \
@@ -1868,16 +5101,16 @@ CMakeFiles/ComputerVisionApp.dir/tools/ProgramManager.cpp.o: ../tools/ProgramMan
   /usr/include/nlohmann/ordered_map.hpp \
   /usr/include/nlohmann/detail/macro_unscope.hpp \
   /usr/include/nlohmann/thirdparty/hedley/hedley_undef.hpp \
-  /home/bartek/anaconda3/include/qt/QtCore/QStringList \
-  /home/bartek/anaconda3/include/qt/QtCore/qstringlist.h \
-  /home/bartek/anaconda3/include/qt/QtCore/qlist.h \
-  /home/bartek/anaconda3/include/qt/QtCore/qalgorithms.h \
-  /home/bartek/anaconda3/include/qt/QtCore/qiterator.h \
-  /home/bartek/anaconda3/include/qt/QtCore/qhashfunctions.h \
-  /home/bartek/anaconda3/include/qt/QtCore/qstring.h \
-  /home/bartek/anaconda3/include/qt/QtCore/qpair.h \
-  /home/bartek/anaconda3/include/qt/QtCore/qvector.h \
-  /home/bartek/anaconda3/include/qt/QtCore/qcontainertools_impl.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/QStringList \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qstringlist.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qlist.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qalgorithms.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qiterator.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qhashfunctions.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qstring.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qpair.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qvector.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qcontainertools_impl.h \
   /usr/include/c++/11/list \
   /usr/include/c++/11/bits/stl_list.h \
   /usr/include/c++/11/bits/list.tcc \
@@ -1890,1043 +5123,1385 @@ CMakeFiles/ComputerVisionApp.dir/tools/ProgramManager.cpp.o: ../tools/ProgramMan
   /usr/include/x86_64-linux-gnu/bits/posix2_lim.h \
   /usr/include/x86_64-linux-gnu/bits/xopen_lim.h \
   /usr/include/x86_64-linux-gnu/bits/uio_lim.h \
-  /home/bartek/anaconda3/include/qt/QtCore/qbytearraylist.h \
-  /home/bartek/anaconda3/include/qt/QtCore/qstringlist.h \
-  /home/bartek/anaconda3/include/qt/QtCore/qregexp.h \
-  /home/bartek/anaconda3/include/qt/QtCore/qstringmatcher.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qbytearraylist.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qstringlist.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qregexp.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qstringmatcher.h \
   /usr/include/c++/11/fstream \
   /usr/include/x86_64-linux-gnu/c++/11/bits/basic_file.h \
   /usr/include/x86_64-linux-gnu/c++/11/bits/c++io.h \
   /usr/include/c++/11/bits/fstream.tcc \
-  /home/bartek/anaconda3/include/qt/QtCore/QDebug \
-  /home/bartek/anaconda3/include/qt/QtCore/qdebug.h \
-  /home/bartek/anaconda3/include/qt/QtCore/qhash.h \
-  /home/bartek/anaconda3/include/qt/QtCore/qmap.h \
-  /home/bartek/anaconda3/include/qt/QtCore/qtextstream.h \
-  /home/bartek/anaconda3/include/qt/QtCore/qiodevice.h \
-  /home/bartek/anaconda3/include/qt/QtCore/qobject.h \
-  /home/bartek/anaconda3/include/qt/QtCore/qobjectdefs.h \
-  /home/bartek/anaconda3/include/qt/QtCore/qobjectdefs_impl.h \
-  /home/bartek/anaconda3/include/qt/QtCore/qscopedpointer.h \
-  /home/bartek/anaconda3/include/qt/QtCore/qmetatype.h \
-  /home/bartek/anaconda3/include/qt/QtCore/qvarlengtharray.h \
-  /home/bartek/anaconda3/include/qt/QtCore/qcontainerfwd.h \
-  /home/bartek/anaconda3/include/qt/QtCore/qobject_impl.h \
-  /home/bartek/anaconda3/include/qt/QtCore/qlocale.h \
-  /home/bartek/anaconda3/include/qt/QtCore/qvariant.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/QDebug \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qdebug.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qhash.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qmap.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qtextstream.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qiodevice.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qobject.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qobjectdefs.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qobjectdefs_impl.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qscopedpointer.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qmetatype.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qvarlengtharray.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qcontainerfwd.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qobject_impl.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qlocale.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qvariant.h \
   /usr/include/c++/11/variant \
-  /home/bartek/anaconda3/include/qt/QtCore/qshareddata.h \
-  /home/bartek/anaconda3/include/qt/QtCore/qset.h \
-  /home/bartek/anaconda3/include/qt/QtCore/qcontiguouscache.h \
-  /home/bartek/anaconda3/include/qt/QtCore/qsharedpointer.h \
-  /home/bartek/anaconda3/include/qt/QtCore/qsharedpointer_impl.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qshareddata.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qset.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qcontiguouscache.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qsharedpointer.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qsharedpointer_impl.h \
   /usr/include/c++/11/iostream
 
 
-../tools/ProgramManager.cpp:
+../main.cpp:
 
-/home/bartek/anaconda3/include/qt/QtCore/qeventloop.h:
+../imageProcessing/MainProcessing.cpp:
 
-/home/bartek/anaconda3/include/qt/QtWidgets/QApplication:
+../imageProcessing/ImageCapture.cpp:
 
-../gui/MainWindow.cpp:
+../imageProcessing/CameraWorker.cpp:
 
-/home/bartek/anaconda3/include/qt/QtCore/qtextstream.h:
+/usr/include/x86_64-linux-gnu/qt5/QtGui/qtextdocument.h:
 
-/home/bartek/anaconda3/include/qt/QtCore/qdebug.h:
+/usr/include/x86_64-linux-gnu/qt5/QtWidgets/QTextEdit:
+
+/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qstatusbar.h:
+
+/usr/include/x86_64-linux-gnu/qt5/QtWidgets/QStatusBar:
+
+/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qsplitter.h:
+
+/usr/include/x86_64-linux-gnu/qt5/QtWidgets/QSplitter:
+
+/usr/include/x86_64-linux-gnu/qt5/QtWidgets/QAction:
+
+ui_mainwindow.h:
+
+/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qspinbox.h:
+
+/usr/include/x86_64-linux-gnu/qt5/QtWidgets/QSpinBox:
+
+/usr/include/x86_64-linux-gnu/qt5/QtWidgets/QGridLayout:
+
+/usr/include/x86_64-linux-gnu/qt5/QtGui/qinputmethod.h:
+
+/usr/include/x86_64-linux-gnu/qt5/QtGui/qguiapplication.h:
+
+ComputerVisionApp_autogen/include/ui_editview.h:
+
+../gui/editview.cpp:
+
+../imageProcessing/CameraWorker.h:
+
+ComputerVisionApp_autogen/3TWXQI5MAF/moc_CameraWorker.cpp:
+
+ComputerVisionApp_autogen/DMHXEJ42XS/moc_mainwindow.cpp:
 
 /usr/include/c++/11/bits/fstream.tcc:
 
-/usr/include/x86_64-linux-gnu/c++/11/bits/c++io.h:
-
-/usr/include/nlohmann/thirdparty/hedley/hedley_undef.hpp:
-
-/usr/include/nlohmann/detail/macro_unscope.hpp:
-
-/usr/include/nlohmann/ordered_map.hpp:
-
-/usr/include/nlohmann/detail/conversions/to_chars.hpp:
-
-/usr/include/nlohmann/detail/output/serializer.hpp:
+/usr/include/x86_64-linux-gnu/c++/11/bits/basic_file.h:
 
 /usr/include/c++/11/fstream:
+
+/usr/include/x86_64-linux-gnu/qt5/QtCore/QStringList:
+
+/usr/include/x86_64-linux-gnu/qt5/QtCore/QString:
+
+../tools/ProgramManager.h:
+
+/usr/include/x86_64-linux-gnu/qt5/QtGui/qtextformat.h:
+
+/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qinputdialog.h:
+
+/usr/include/x86_64-linux-gnu/qt5/QtWidgets/QInputDialog:
+
+/usr/include/x86_64-linux-gnu/qt5/QtWidgets/QMessageBox:
+
+/usr/include/x86_64-linux-gnu/qt5/QtWidgets/QVBoxLayout:
+
+/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qabstractbutton.h:
+
+/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qstyle.h:
+
+/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qstyleoption.h:
+
+/usr/include/x86_64-linux-gnu/qt5/QtCore/qabstractitemmodel.h:
+
+/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qabstractitemview.h:
+
+/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qtabwidget.h:
+
+/usr/include/x86_64-linux-gnu/qt5/QtWidgets/QMainWindow:
+
+../gui/mainwindow.h:
+
+/usr/include/nlohmann/ordered_map.hpp:
 
 /usr/include/nlohmann/detail/output/output_adapters.hpp:
 
 /usr/include/nlohmann/detail/output/binary_writer.hpp:
 
-/usr/include/nlohmann/detail/iterators/iter_impl.hpp:
+/usr/include/nlohmann/detail/json_pointer.hpp:
 
 /usr/include/nlohmann/detail/iterators/internal_iterator.hpp:
 
 /usr/include/nlohmann/detail/input/parser.hpp:
 
-/usr/include/nlohmann/detail/meta/is_sax.hpp:
-
 /usr/include/nlohmann/detail/input/input_adapters.hpp:
 
 /usr/include/nlohmann/detail/hash.hpp:
 
-/usr/include/nlohmann/byte_container_with_subtype.hpp:
-
-/usr/include/nlohmann/detail/conversions/to_json.hpp:
+/usr/include/c++/11/bits/fs_ops.h:
 
 /usr/include/c++/11/bits/fs_dir.h:
 
-/usr/include/c++/11/sstream:
+/usr/include/c++/11/bits/fs_path.h:
 
-/usr/include/c++/11/bits/quoted_string.h:
-
-/usr/include/c++/11/bits/locale_facets_nonio.tcc:
-
-/usr/include/x86_64-linux-gnu/c++/11/bits/messages_members.h:
-
-/usr/include/c++/11/bits/locale_facets_nonio.h:
-
-/usr/include/x86_64-linux-gnu/c++/11/bits/ctype_base.h:
-
-/usr/include/x86_64-linux-gnu/bits/wctype-wchar.h:
-
-/usr/include/nlohmann/detail/json_pointer.hpp:
+/usr/include/c++/11/bits/fs_fwd.h:
 
 /usr/include/c++/11/filesystem:
-
-/usr/include/nlohmann/detail/input/json_sax.hpp:
 
 /usr/include/nlohmann/detail/meta/call_std/end.hpp:
 
 /usr/include/nlohmann/detail/meta/call_std/begin.hpp:
 
-/usr/include/nlohmann/detail/iterators/iterator_traits.hpp:
-
 /usr/include/nlohmann/detail/meta/identity_tag.hpp:
+
+/usr/include/nlohmann/detail/meta/cpp_future.hpp:
+
+/usr/include/nlohmann/detail/input/position_t.hpp:
 
 /usr/include/c++/11/cassert:
 
-/usr/include/nlohmann/detail/meta/void_t.hpp:
-
-/usr/include/c++/11/bits/ostream.tcc:
-
 /usr/include/nlohmann/detail/meta/detected.hpp:
-
-/usr/include/nlohmann/thirdparty/hedley/hedley.hpp:
 
 /usr/include/nlohmann/detail/macro_scope.hpp:
 
-/usr/include/x86_64-linux-gnu/c++/11/bits/ctype_inline.h:
+/usr/include/nlohmann/detail/string_escape.hpp:
 
 /usr/include/nlohmann/detail/value_t.hpp:
 
-/usr/include/c++/11/bits/indirect_array.h:
+/usr/include/c++/11/bits/mask_array.h:
 
 /usr/include/c++/11/bits/gslice_array.h:
 
 /usr/include/c++/11/bits/valarray_after.h:
 
+/usr/include/x86_64-linux-gnu/qt5/QtWidgets/QHBoxLayout:
+
+/usr/include/x86_64-linux-gnu/qt5/QtCore/qregularexpression.h:
+
 /usr/include/c++/11/bits/slice_array.h:
 
-/usr/include/c++/11/bits/valarray_array.h:
-
-/usr/include/c++/11/tr1/riemann_zeta.tcc:
-
-/usr/include/c++/11/tr1/poly_laguerre.tcc:
-
-/usr/include/c++/11/tr1/poly_hermite.tcc:
-
-/usr/include/c++/11/tr1/exp_integral.tcc:
-
-/usr/include/c++/11/tr1/ell_integral.tcc:
-
-/usr/include/c++/11/tr1/bessel_function.tcc:
-
-/usr/include/c++/11/tr1/special_function_util.h:
-
-/usr/include/c++/11/bits/specfun.h:
-
-/usr/include/x86_64-linux-gnu/bits/mathcalls.h:
-
-/usr/include/x86_64-linux-gnu/bits/mathcalls-helper-functions.h:
-
-/usr/include/x86_64-linux-gnu/bits/flt-eval-method.h:
-
-/usr/include/x86_64-linux-gnu/bits/math-vector.h:
+/usr/include/c++/11/bits/valarray_array.tcc:
 
 /usr/include/c++/11/valarray:
+
+/usr/include/c++/11/bits/forward_list.tcc:
+
+/usr/include/c++/11/bits/forward_list.h:
+
+/usr/include/c++/11/forward_list:
 
 /usr/include/nlohmann/adl_serializer.hpp:
 
 /usr/include/nlohmann/json.hpp:
 
-/usr/include/nlohmann/detail/meta/cpp_future.hpp:
+/usr/include/x86_64-linux-gnu/qt5/QtCore/qhashfunctions.h:
 
-/home/bartek/anaconda3/include/qt/QtCore/QString:
+/usr/include/opencv4/opencv2/flann/hierarchical_clustering_index.h:
 
-/usr/include/x86_64-linux-gnu/c++/11/bits/basic_file.h:
+/usr/include/x86_64-linux-gnu/qt5/QtCore/qstringview.h:
 
-/home/bartek/anaconda3/include/qt/QtGui/qtextoption.h:
+/usr/include/x86_64-linux-gnu/qt5/QtCore/qalgorithms.h:
 
-/home/bartek/anaconda3/include/qt/QtGui/qpen.h:
+/usr/include/x86_64-linux-gnu/qt5/QtCore/qstringalgorithms.h:
 
-/home/bartek/anaconda3/include/qt/QtGui/qtextcursor.h:
-
-/home/bartek/anaconda3/include/qt/QtWidgets/qinputdialog.h:
-
-/home/bartek/anaconda3/include/qt/QtWidgets/QInputDialog:
-
-/home/bartek/anaconda3/include/qt/QtWidgets/QMessageBox:
-
-/home/bartek/anaconda3/include/qt/QtWidgets/qgridlayout.h:
-
-/usr/include/c++/11/bits/mask_array.h:
-
-/home/bartek/anaconda3/include/qt/QtWidgets/qlayout.h:
-
-/home/bartek/anaconda3/include/qt/QtWidgets/qboxlayout.h:
-
-/home/bartek/anaconda3/include/qt/QtWidgets/qabstractbutton.h:
-
-/home/bartek/anaconda3/include/qt/QtWidgets/qpushbutton.h:
-
-/home/bartek/anaconda3/include/qt/QtWidgets/QPushButton:
-
-/home/bartek/anaconda3/include/qt/QtWidgets/qstyle.h:
-
-/home/bartek/anaconda3/include/qt/QtWidgets/qabstractslider.h:
-
-/home/bartek/anaconda3/include/qt/QtWidgets/qapplication.h:
-
-/home/bartek/anaconda3/include/qt/QtWidgets/qslider.h:
-
-/home/bartek/anaconda3/include/qt/QtWidgets/qabstractspinbox.h:
-
-/home/bartek/anaconda3/include/qt/QtWidgets/qstyleoption.h:
-
-/home/bartek/anaconda3/include/qt/QtCore/qset.h:
-
-/usr/include/c++/11/variant:
-
-/home/bartek/anaconda3/include/qt/QtCore/qvariant.h:
-
-/home/bartek/anaconda3/include/qt/QtWidgets/qabstractscrollarea.h:
-
-/home/bartek/anaconda3/include/qt/QtWidgets/qlistview.h:
-
-/home/bartek/anaconda3/include/qt/QtGui/qvalidator.h:
-
-/home/bartek/anaconda3/include/qt/QtWidgets/QListWidget:
-
-/home/bartek/anaconda3/include/qt/QtWidgets/qtabwidget.h:
-
-/home/bartek/anaconda3/include/qt/QtGui/qcursor.h:
-
-/home/bartek/anaconda3/include/qt/QtCore/QStringList:
-
-/usr/include/nlohmann/detail/iterators/json_reverse_iterator.hpp:
-
-/home/bartek/anaconda3/include/qt/QtGui/qfont.h:
-
-/home/bartek/anaconda3/include/qt/QtWidgets/qtabbar.h:
-
-/home/bartek/anaconda3/include/qt/QtCore/qsharedpointer_impl.h:
-
-/home/bartek/anaconda3/include/qt/QtCore/qhash.h:
-
-/usr/include/c++/11/istream:
-
-/home/bartek/anaconda3/include/qt/QtCore/qsharedpointer.h:
-
-/home/bartek/anaconda3/include/qt/QtGui/qpixmap.h:
-
-/home/bartek/anaconda3/include/qt/QtGui/qimage.h:
-
-/home/bartek/anaconda3/include/qt/QtGui/qtransform.h:
-
-/home/bartek/anaconda3/include/qt/QtCore/qline.h:
-
-/home/bartek/anaconda3/include/qt/QtCore/qdatastream.h:
-
-/home/bartek/anaconda3/include/qt/QtGui/qbrush.h:
-
-/home/bartek/anaconda3/include/qt/QtGui/qrgba64.h:
-
-/home/bartek/anaconda3/include/qt/QtGui/qicon.h:
-
-/home/bartek/anaconda3/include/qt/QtCore/qpoint.h:
-
-/home/bartek/anaconda3/include/qt/QtCore/qsize.h:
-
-/home/bartek/anaconda3/include/qt/QtCore/qrect.h:
-
-/home/bartek/anaconda3/include/qt/QtCore/qmargins.h:
-
-/usr/include/c++/11/ctime:
-
-/usr/include/c++/11/limits:
-
-/usr/include/c++/11/ratio:
-
-/home/bartek/anaconda3/include/qt/QtCore/qobject_impl.h:
-
-../main.cpp:
-
-/usr/include/c++/11/bits/stl_multimap.h:
-
-/usr/include/c++/11/bits/stl_map.h:
-
-/usr/include/c++/11/bits/stl_tree.h:
-
-/home/bartek/anaconda3/include/qt/QtGui/qpolygon.h:
-
-/usr/include/c++/11/map:
-
-/home/bartek/anaconda3/include/qt/QtCore/qcontainerfwd.h:
-
-/usr/include/c++/11/bits/locale_conv.h:
-
-/usr/include/nlohmann/detail/exceptions.hpp:
-
-/home/bartek/anaconda3/include/qt/QtCore/qmetatype.h:
-
-/home/bartek/anaconda3/include/qt/QtGui/qfontinfo.h:
-
-/home/bartek/anaconda3/include/qt/QtCore/qscopedpointer.h:
-
-/home/bartek/anaconda3/include/qt/QtCore/qstringmatcher.h:
-
-/home/bartek/anaconda3/include/qt/QtCore/qregexp.h:
-
-/home/bartek/anaconda3/include/qt/QtCore/qstringlist.h:
-
-/home/bartek/anaconda3/include/qt/QtWidgets/qlayoutitem.h:
-
-/usr/include/x86_64-linux-gnu/bits/xopen_lim.h:
-
-/usr/include/x86_64-linux-gnu/bits/posix2_lim.h:
-
-/usr/include/x86_64-linux-gnu/bits/posix1_lim.h:
-
-/usr/include/c++/11/bits/valarray_before.h:
-
-/usr/lib/gcc/x86_64-linux-gnu/11/include/limits.h:
-
-/usr/include/c++/11/bits/list.tcc:
-
-/usr/include/x86_64-linux-gnu/bits/iscanonical.h:
-
-/usr/include/c++/11/bits/stl_list.h:
-
-/home/bartek/anaconda3/include/qt/QtCore/qcontainertools_impl.h:
-
-/home/bartek/anaconda3/include/qt/QtWidgets/qrubberband.h:
-
-/home/bartek/anaconda3/include/qt/QtCore/qvector.h:
-
-/home/bartek/anaconda3/include/qt/QtCore/qshareddata.h:
-
-/usr/include/c++/11/bits/stl_numeric.h:
-
-/usr/include/c++/11/numeric:
-
-/home/bartek/anaconda3/include/qt/QtCore/qhashfunctions.h:
-
-/usr/include/libintl.h:
-
-/home/bartek/anaconda3/include/qt/QtCore/qalgorithms.h:
-
-/usr/include/c++/11/exception:
-
-/usr/include/c++/11/ext/concurrence.h:
-
-/usr/include/x86_64-linux-gnu/c++/11/bits/gthr-default.h:
-
-/usr/include/c++/11/pstl/pstl_config.h:
-
-/usr/include/c++/11/cmath:
-
-/usr/include/c++/11/bits/allocator.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/__fpos64_t.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/timer_t.h:
-
-/usr/include/c++/11/ext/atomicity.h:
-
-/usr/include/c++/11/bits/stl_pair.h:
-
-/usr/include/x86_64-linux-gnu/bits/setjmp.h:
-
-/usr/include/time.h:
-
-/home/bartek/anaconda3/include/qt/QtWidgets/qmessagebox.h:
-
-/home/bartek/anaconda3/include/qt/QtCore/qpair.h:
-
-/usr/include/x86_64-linux-gnu/bits/cpu-set.h:
-
-/usr/include/c++/11/bits/unordered_map.h:
-
-/usr/include/x86_64-linux-gnu/bits/endianness.h:
-
-/usr/include/x86_64-linux-gnu/bits/endian.h:
-
-/usr/include/x86_64-linux-gnu/gnu/stubs.h:
-
-/home/bartek/anaconda3/include/qt/QtCore/qiodevice.h:
-
-/usr/include/linux/limits.h:
-
-/usr/include/c++/11/bits/shared_ptr_base.h:
-
-/usr/include/c++/11/bits/basic_string.h:
-
-/usr/include/wctype.h:
-
-/usr/include/sched.h:
-
-/home/bartek/anaconda3/include/qt/QtWidgets/QHBoxLayout:
-
-/home/bartek/anaconda3/include/qt/QtGui/qfontmetrics.h:
-
-/usr/include/pthread.h:
-
-/usr/include/x86_64-linux-gnu/bits/struct_rwlock.h:
-
-/usr/include/strings.h:
-
-/usr/include/c++/11/bits/refwrap.h:
-
-/usr/include/c++/11/bits/allocated_ptr.h:
-
-/usr/include/x86_64-linux-gnu/bits/pthreadtypes.h:
-
-/usr/include/x86_64-linux-gnu/bits/thread-shared-types.h:
-
-/usr/include/c++/11/ext/new_allocator.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/__locale_t.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/locale_t.h:
-
-/usr/include/c++/11/bits/locale_facets.tcc:
-
-/usr/include/x86_64-linux-gnu/bits/types/struct_tm.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/FILE.h:
-
-/usr/include/c++/11/iostream:
-
-/usr/include/x86_64-linux-gnu/bits/fp-fast.h:
-
-/usr/include/c++/11/bits/node_handle.h:
-
-../tools/ProgramManager.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/mbstate_t.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/wint_t.h:
-
-/usr/include/x86_64-linux-gnu/bits/floatn-common.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/struct_itimerspec.h:
-
-/usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h:
-
-/home/bartek/anaconda3/include/qt/QtCore/qflags.h:
-
-/usr/include/locale.h:
-
-/usr/include/wchar.h:
-
-/usr/include/c++/11/bits/basic_ios.h:
-
-ComputerVisionApp_autogen/DMHXEJ42XS/moc_MainWindow.cpp:
-
-/usr/include/c++/11/bits/uniform_int_dist.h:
-
-/usr/include/x86_64-linux-gnu/bits/stdio_lim.h:
-
-/usr/include/x86_64-linux-gnu/bits/timex.h:
-
-/usr/include/c++/11/bits/invoke.h:
-
-/usr/include/x86_64-linux-gnu/bits/mathcalls-narrow.h:
-
-/usr/include/c++/11/bits/postypes.h:
-
-/home/bartek/anaconda3/include/qt/QtCore/qconfig.h:
-
-/home/bartek/anaconda3/include/qt/QtCore/qbytearray.h:
-
-/usr/include/c++/11/bits/string_view.tcc:
-
-/home/bartek/anaconda3/include/qt/QtCore/qiterator.h:
-
-/usr/include/c++/11/bits/functional_hash.h:
-
-/usr/include/c++/11/backward/binders.h:
-
-/usr/include/c++/11/algorithm:
-
-/home/bartek/anaconda3/include/qt/QtGui/qcolor.h:
-
-/usr/include/x86_64-linux-gnu/bits/time.h:
-
-/usr/include/x86_64-linux-gnu/bits/select.h:
-
-/usr/include/c++/11/bits/memoryfwd.h:
-
-/usr/include/c++/11/bits/stl_function.h:
-
-/usr/include/c++/11/ext/type_traits.h:
-
-/usr/include/c++/11/forward_list:
-
-/usr/include/c++/11/pstl/glue_memory_defs.h:
-
-/usr/include/c++/11/tr1/modified_bessel_func.tcc:
-
-/home/bartek/anaconda3/include/qt/QtWidgets/qdialog.h:
-
-/home/bartek/anaconda3/include/qt/QtCore/qnumeric.h:
-
-/usr/include/x86_64-linux-gnu/c++/11/bits/atomic_word.h:
-
-/home/bartek/anaconda3/include/qt/QtCore/qcoreevent.h:
-
-/home/bartek/anaconda3/include/qt/QtCore/qcoreapplication.h:
-
-/usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h:
-
-/usr/include/c++/11/bits/exception_defines.h:
-
-/home/bartek/anaconda3/include/qt/QtGui/qkeysequence.h:
-
-/usr/include/c++/11/atomic:
-
-/usr/include/c++/11/bit:
-
-/usr/include/c++/11/bits/stl_iterator_base_types.h:
-
-/usr/include/assert.h:
-
-/usr/include/c++/11/cstdlib:
-
-/home/bartek/anaconda3/include/qt/QtWidgets/qabstractitemdelegate.h:
-
-/usr/include/c++/11/bits/stl_construct.h:
-
-/usr/include/c++/11/bits/shared_ptr.h:
-
-/usr/include/x86_64-linux-gnu/bits/byteswap.h:
-
-/usr/include/nlohmann/detail/input/position_t.hpp:
-
-/usr/include/x86_64-linux-gnu/bits/atomic_wide_counter.h:
-
-/usr/include/c++/11/bits/hash_bytes.h:
-
-/usr/include/c++/11/bits/move.h:
-
-/usr/include/x86_64-linux-gnu/bits/types.h:
-
-/usr/lib/gcc/x86_64-linux-gnu/11/include/stdarg.h:
-
-/usr/include/c++/11/debug/assertions.h:
-
-/usr/include/c++/11/bits/forward_list.tcc:
-
-/usr/include/c++/11/chrono:
-
-/usr/include/x86_64-linux-gnu/bits/wordsize.h:
-
-/usr/include/c++/11/bits/fs_ops.h:
-
-/home/bartek/anaconda3/include/qt/QtCore/qnamespace.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/struct_timeval.h:
-
-/usr/include/nlohmann/detail/meta/type_traits.hpp:
-
-/usr/include/x86_64-linux-gnu/asm/errno.h:
-
-/usr/include/x86_64-linux-gnu/sys/cdefs.h:
-
-/usr/include/c++/11/bits/stl_algobase.h:
-
-/usr/include/c++/11/bits/forward_list.h:
-
-/usr/lib/gcc/x86_64-linux-gnu/11/include/stdint.h:
-
-/usr/include/x86_64-linux-gnu/sys/single_threaded.h:
-
-/usr/include/c++/11/type_traits:
-
-/home/bartek/anaconda3/include/qt/QtCore/qitemselectionmodel.h:
-
-/usr/include/c++/11/tuple:
-
-/usr/include/c++/11/bits/parse_numbers.h:
-
-/home/bartek/anaconda3/include/qt/QtCore/qsysinfo.h:
-
-/usr/include/limits.h:
-
-/usr/include/c++/11/bits/stl_relops.h:
-
-/usr/include/c++/11/bits/unique_ptr.h:
-
-/usr/include/c++/11/bits/stl_raw_storage_iter.h:
-
-/usr/include/x86_64-linux-gnu/c++/11/bits/gthr.h:
-
-/usr/include/c++/11/bits/functexcept.h:
-
-/home/bartek/anaconda3/include/qt/QtWidgets/qabstractitemview.h:
-
-/usr/include/c++/11/streambuf:
-
-/home/bartek/anaconda3/include/qt/QtGui/qinputmethod.h:
-
-/usr/include/nlohmann/json_fwd.hpp:
-
-/usr/include/c++/11/tr1/beta_function.tcc:
-
-/usr/include/c++/11/array:
-
-/home/bartek/anaconda3/include/qt/QtCore/QDebug:
-
-/usr/include/c++/11/bits/sstream.tcc:
-
-/usr/include/c++/11/new:
-
-/usr/include/x86_64-linux-gnu/bits/struct_mutex.h:
-
-/usr/include/c++/11/bits/stl_iterator.h:
-
-/usr/include/c++/11/initializer_list:
-
-/usr/include/c++/11/iosfwd:
-
-/usr/include/x86_64-linux-gnu/bits/stdint-intn.h:
-
-/home/bartek/anaconda3/include/qt/QtWidgets/qtwidgetsglobal.h:
-
-/usr/include/x86_64-linux-gnu/bits/time64.h:
-
-/home/bartek/anaconda3/include/qt/QtGui/qpaintdevice.h:
-
-/usr/lib/gcc/x86_64-linux-gnu/11/include/syslimits.h:
-
-/usr/include/c++/11/debug/debug.h:
-
-/usr/include/features-time64.h:
-
-/home/bartek/anaconda3/include/qt/QtCore/qmap.h:
-
-/usr/include/x86_64-linux-gnu/bits/timesize.h:
-
-/usr/include/x86_64-linux-gnu/c++/11/bits/cpu_defines.h:
-
-/home/bartek/anaconda3/include/qt/QtGui/qtguiglobal.h:
-
-/usr/include/c++/11/list:
-
-/home/bartek/anaconda3/include/qt/QtWidgets/qtwidgets-config.h:
-
-/usr/include/c++/11/bits/exception_ptr.h:
-
-/usr/include/c++/11/ext/string_conversions.h:
-
-/home/bartek/anaconda3/include/qt/QtWidgets/qlistwidget.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/sigset_t.h:
-
-/usr/include/c++/11/bits/concept_check.h:
-
-/usr/include/x86_64-linux-gnu/bits/fp-logb.h:
-
-/home/bartek/anaconda3/include/qt/QtCore/qrefcount.h:
-
-/usr/include/c++/11/tr1/legendre_function.tcc:
-
-/usr/include/x86_64-linux-gnu/bits/pthread_stack_min-dynamic.h:
-
-/usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h:
-
-/usr/include/c++/11/tr1/gamma.tcc:
-
-/usr/include/x86_64-linux-gnu/gnu/stubs-64.h:
-
-/usr/include/c++/11/tr1/hypergeometric.tcc:
-
-/home/bartek/anaconda3/include/qt/QtGui/qrgb.h:
-
-/home/bartek/anaconda3/include/qt/QtGui/qtgui-config.h:
-
-ComputerVisionApp_autogen/mocs_compilation.cpp:
-
-/usr/include/x86_64-linux-gnu/sys/select.h:
-
-/usr/include/x86_64-linux-gnu/bits/stdint-uintn.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/struct_timespec.h:
-
-/usr/include/c++/11/memory:
-
-/usr/include/c++/11/bits/uses_allocator.h:
-
-/home/bartek/anaconda3/include/qt/QtWidgets/QVBoxLayout:
-
-/home/bartek/anaconda3/include/qt/QtCore/qabstractitemmodel.h:
-
-/home/bartek/anaconda3/include/qt/QtCore/qbytearraylist.h:
-
-/usr/include/c++/11/ext/numeric_traits.h:
-
-/usr/include/c++/11/bits/atomic_base.h:
-
-/usr/include/features.h:
-
-/usr/include/errno.h:
-
-/usr/include/c++/11/ostream:
-
-/home/bartek/anaconda3/include/qt/QtCore/qatomic_cxx11.h:
-
-/usr/include/nlohmann/detail/json_ref.hpp:
-
-/usr/include/x86_64-linux-gnu/bits/types/__sigset_t.h:
-
-/usr/include/x86_64-linux-gnu/bits/long-double.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/clock_t.h:
-
-/home/bartek/anaconda3/include/qt/QtCore/qarraydata.h:
-
-/usr/include/c++/11/cstring:
-
-/usr/include/math.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/__FILE.h:
-
-/usr/include/c++/11/bits/std_function.h:
-
-/usr/include/c++/11/bits/stl_tempbuf.h:
-
-/usr/include/x86_64-linux-gnu/c++/11/bits/c++allocator.h:
-
-/usr/include/x86_64-linux-gnu/bits/sched.h:
-
-/usr/include/c++/11/ext/alloc_traits.h:
-
-/home/bartek/anaconda3/include/qt/QtGui/qpalette.h:
-
-/usr/include/c++/11/bits/cxxabi_forced.h:
-
-/usr/include/x86_64-linux-gnu/bits/floatn.h:
-
-/usr/include/c++/11/iterator:
-
-/usr/include/c++/11/bits/range_access.h:
-
-/usr/include/x86_64-linux-gnu/bits/wchar.h:
-
-/usr/include/c++/11/bits/locale_facets.h:
-
-/usr/include/c++/11/bits/exception.h:
-
-/usr/include/c++/11/bits/cpp_type_traits.h:
-
-/usr/include/c++/11/bits/stl_iterator_base_funcs.h:
-
-/usr/include/c++/11/bits/stl_uninitialized.h:
-
-/usr/include/nlohmann/detail/iterators/primitive_iterator.hpp:
-
-/usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h:
-
-/usr/include/c++/11/typeinfo:
-
-/usr/include/c++/11/bits/align.h:
-
-/usr/include/c++/11/vector:
-
-/usr/include/x86_64-linux-gnu/bits/libc-header-start.h:
-
-/usr/include/nlohmann/detail/iterators/iteration_proxy.hpp:
-
-/usr/include/c++/11/bits/predefined_ops.h:
-
-/usr/include/x86_64-linux-gnu/bits/typesizes.h:
-
-/usr/include/nlohmann/detail/input/lexer.hpp:
-
-/usr/include/c++/11/bits/nested_exception.h:
-
-/usr/include/c++/11/bits/shared_ptr_atomic.h:
-
-/usr/include/c++/11/bits/valarray_array.tcc:
-
-/home/bartek/anaconda3/include/qt/QtCore/qlogging.h:
-
-/usr/include/c++/11/bits/atomic_lockfree_defines.h:
-
-../gui/MainWindow.h:
-
-/home/bartek/anaconda3/include/qt/QtWidgets/qmainwindow.h:
-
-/home/bartek/anaconda3/include/qt/QtWidgets/QMainWindow:
-
-/usr/include/nlohmann/detail/conversions/from_json.hpp:
-
-/usr/include/c++/11/backward/auto_ptr.h:
-
-/home/bartek/anaconda3/include/qt/QtCore/qglobal.h:
-
-/usr/include/nlohmann/detail/input/binary_reader.hpp:
-
-/usr/include/x86_64-linux-gnu/bits/types/time_t.h:
-
-/home/bartek/anaconda3/include/qt/QtCore/qtcore-config.h:
-
-/usr/include/c++/11/cwchar:
-
-/home/bartek/anaconda3/include/qt/QtCore/qsystemdetection.h:
-
-/home/bartek/anaconda3/include/qt/QtCore/qprocessordetection.h:
-
-/home/bartek/anaconda3/include/qt/QtCore/qcontiguouscache.h:
-
-/home/bartek/anaconda3/include/qt/QtCore/qcompilerdetection.h:
-
-/usr/include/x86_64-linux-gnu/bits/waitflags.h:
-
-/usr/include/c++/11/bits/stl_algo.h:
-
-/home/bartek/anaconda3/include/qt/QtWidgets/qframe.h:
-
-/usr/include/stdlib.h:
-
-/usr/include/c++/11/ext/aligned_buffer.h:
-
-/usr/include/x86_64-linux-gnu/sys/types.h:
-
-/usr/include/c++/11/bits/istream.tcc:
-
-/home/bartek/anaconda3/include/qt/QtCore/qobject.h:
-
-/usr/include/x86_64-linux-gnu/bits/uintn-identity.h:
-
-/usr/include/c++/11/bits/fs_path.h:
-
-/usr/include/x86_64-linux-gnu/bits/stdlib-float.h:
-
-/usr/include/alloca.h:
-
-/usr/include/c++/11/pstl/execution_defs.h:
-
-/home/bartek/anaconda3/include/qt/QtCore/qlist.h:
-
-/usr/include/c++/11/bits/algorithmfwd.h:
-
-/home/bartek/anaconda3/include/qt/QtGui/qpixelformat.h:
-
-/usr/include/c++/11/bits/std_abs.h:
-
-/usr/include/c++/11/bits/stl_heap.h:
-
-/usr/include/linux/errno.h:
-
-/usr/include/c++/11/functional:
-
-/usr/include/c++/11/bits/char_traits.h:
-
-/home/bartek/anaconda3/include/qt/QtWidgets/qwidget.h:
-
-/home/bartek/anaconda3/include/qt/QtCore/qversiontagging.h:
-
-/usr/include/asm-generic/errno-base.h:
-
-/usr/include/c++/11/unordered_map:
-
-/usr/include/c++/11/bits/cxxabi_init_exception.h:
-
-/home/bartek/anaconda3/include/qt/QtCore/qgenericatomic.h:
-
-/usr/include/c++/11/iomanip:
-
-/usr/include/c++/11/cctype:
-
-/usr/include/c++/11/bits/hashtable.h:
-
-/usr/include/c++/11/bits/hashtable_policy.h:
-
-/usr/include/c++/11/bits/basic_ios.tcc:
-
-/usr/include/c++/11/bits/codecvt.h:
-
-/usr/include/c++/11/bits/enable_special_members.h:
-
-/usr/include/c++/11/bits/ptr_traits.h:
-
-/usr/include/endian.h:
-
-/usr/include/stdint.h:
-
-/usr/include/c++/11/bits/erase_if.h:
-
-/usr/include/c++/11/cstddef:
-
-/usr/include/c++/11/bits/stl_vector.h:
-
-/home/bartek/anaconda3/include/qt/QtWidgets/qsizepolicy.h:
-
-/usr/include/c++/11/system_error:
-
-/usr/include/c++/11/bits/fs_fwd.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/struct___jmp_buf_tag.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/clockid_t.h:
-
-/usr/include/c++/11/bits/stl_bvector.h:
-
-/usr/include/nlohmann/detail/string_escape.hpp:
-
-/usr/include/c++/11/bits/vector.tcc:
-
-/usr/include/x86_64-linux-gnu/c++/11/bits/time_members.h:
-
-/home/bartek/anaconda3/include/qt/QtCore/qtypeinfo.h:
-
-/usr/include/x86_64-linux-gnu/bits/waitstatus.h:
-
-/usr/include/c++/11/cstdint:
-
-/home/bartek/anaconda3/include/qt/QtCore/qatomic.h:
-
-/usr/include/c++/11/bits/gslice.h:
-
-/home/bartek/anaconda3/include/qt/QtCore/qbasicatomic.h:
-
-/home/bartek/anaconda3/include/qt/QtWidgets/qlineedit.h:
-
-/usr/include/c++/11/bits/stringfwd.h:
-
-/home/bartek/anaconda3/include/qt/QtCore/qglobalstatic.h:
-
-/home/bartek/anaconda3/include/qt/QtCore/qobjectdefs.h:
-
-/usr/include/stdc-predef.h:
-
-/usr/include/c++/11/bits/alloc_traits.h:
-
-/home/bartek/anaconda3/include/qt/QtCore/qobjectdefs_impl.h:
-
-/home/bartek/anaconda3/include/qt/QtCore/qstring.h:
-
-/usr/include/c++/11/cwctype:
-
-/home/bartek/anaconda3/include/qt/QtCore/qchar.h:
-
-/usr/include/c++/11/codecvt:
-
-/home/bartek/anaconda3/include/qt/QtGui/qwindowdefs.h:
-
-/usr/include/c++/11/bits/streambuf.tcc:
-
-/usr/include/string.h:
-
-/home/bartek/anaconda3/include/qt/QtCore/qlocale.h:
-
-/usr/include/c++/11/stdlib.h:
-
-/home/bartek/anaconda3/include/qt/QtCore/qvarlengtharray.h:
-
-/usr/include/x86_64-linux-gnu/bits/uio_lim.h:
-
-/usr/include/c++/11/string:
-
-/usr/include/c++/11/bits/localefwd.h:
-
-/usr/include/x86_64-linux-gnu/c++/11/bits/c++locale.h:
-
-/usr/include/c++/11/clocale:
-
-/usr/include/c++/11/pstl/glue_numeric_defs.h:
-
-/usr/include/x86_64-linux-gnu/bits/locale.h:
-
-/usr/include/c++/11/locale:
-
-/home/bartek/anaconda3/include/qt/QtCore/qregularexpression.h:
-
-/usr/include/ctype.h:
-
-/usr/include/c++/11/bits/stream_iterator.h:
-
-/home/bartek/anaconda3/include/qt/QtGui/qguiapplication.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/__fpos_t.h:
-
-/usr/include/c++/11/bits/ostream_insert.h:
-
-/usr/include/x86_64-linux-gnu/bits/libm-simd-decl-stubs.h:
-
-/usr/lib/gcc/x86_64-linux-gnu/11/include/stddef.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h:
-
-/usr/include/c++/11/string_view:
-
-/usr/include/c++/11/cstdio:
-
-/usr/include/stdio.h:
-
-/usr/include/x86_64-linux-gnu/bits/local_lim.h:
-
-/home/bartek/anaconda3/include/qt/QtCore/qstringalgorithms.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/cookie_io_functions_t.h:
-
-/usr/include/c++/11/cerrno:
-
-/usr/include/x86_64-linux-gnu/bits/errno.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/struct_sched_param.h:
-
-/usr/include/asm-generic/errno.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/error_t.h:
-
-/usr/include/c++/11/bits/charconv.h:
-
-/home/bartek/anaconda3/include/qt/QtGui/qregion.h:
-
-/home/bartek/anaconda3/include/qt/QtGui/qmatrix.h:
-
-/usr/include/c++/11/bits/basic_string.tcc:
-
-/usr/include/c++/11/bits/streambuf_iterator.h:
-
-/usr/include/c++/11/bits/ios_base.h:
-
-/home/bartek/anaconda3/include/qt/QtCore/qstringview.h:
-
-/usr/include/c++/11/bits/locale_classes.h:
-
-/usr/include/c++/11/bits/locale_classes.tcc:
-
-/usr/include/c++/11/ios:
-
-/usr/include/c++/11/utility:
-
-/usr/include/x86_64-linux-gnu/c++/11/bits/error_constants.h:
-
-/usr/include/c++/11/pstl/glue_algorithm_defs.h:
+/usr/include/opencv4/opencv2/stitching.hpp:
 
 /usr/include/c++/11/stdexcept:
 
-/home/bartek/anaconda3/include/qt/QtGui/qtextformat.h:
+/usr/include/c++/11/pstl/glue_algorithm_defs.h:
 
-/home/bartek/anaconda3/include/qt/QtCore/qstringliteral.h:
+/usr/include/c++/11/utility:
+
+/usr/include/c++/11/ios:
+
+/usr/include/c++/11/bits/ios_base.h:
+
+/usr/include/x86_64-linux-gnu/qt5/QtCore/qcoreapplication.h:
+
+/usr/include/c++/11/bits/streambuf_iterator.h:
+
+/usr/include/asm-generic/errno.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/struct_sched_param.h:
+
+/usr/include/x86_64-linux-gnu/bits/errno.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/cookie_io_functions_t.h:
+
+/usr/include/stdio.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/__fpos_t.h:
+
+/usr/include/ctype.h:
+
+/usr/include/c++/11/locale:
+
+/usr/include/opencv4/opencv2/stitching/detail/matchers.hpp:
+
+/usr/include/c++/11/bits/localefwd.h:
+
+/usr/include/c++/11/cstdint:
+
+/usr/include/x86_64-linux-gnu/bits/waitstatus.h:
+
+/usr/include/opencv4/opencv2/core/mat.hpp:
+
+/usr/include/x86_64-linux-gnu/bits/uio_lim.h:
+
+/usr/include/c++/11/stdlib.h:
+
+/usr/include/string.h:
+
+/usr/include/opencv4/opencv2/dnn/dict.hpp:
+
+/usr/include/nlohmann/detail/meta/type_traits.hpp:
+
+/usr/include/c++/11/bits/stl_iterator_base_types.h:
+
+/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qmenubar.h:
+
+/usr/include/x86_64-linux-gnu/qt5/QtWidgets/QApplication:
+
+/usr/include/x86_64-linux-gnu/qt5/QtCore/qrefcount.h:
+
+/usr/include/c++/11/bits/basic_string.h:
+
+/usr/include/c++/11/bits/shared_ptr_base.h:
+
+/usr/include/linux/limits.h:
+
+/usr/include/x86_64-linux-gnu/qt5/QtCore/qobjectdefs_impl.h:
+
+/usr/include/nlohmann/json_fwd.hpp:
+
+/usr/include/x86_64-linux-gnu/qt5/QtCore/qnumeric.h:
+
+/usr/include/opencv4/opencv2/core/cvstd.hpp:
+
+/usr/include/x86_64-linux-gnu/qt5/QtCore/qgenericatomic.h:
+
+/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qlistview.h:
+
+/usr/include/x86_64-linux-gnu/qt5/QtCore/qflags.h:
+
+/usr/include/c++/11/string_view:
+
+/usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h:
+
+/usr/include/x86_64-linux-gnu/bits/libm-simd-decl-stubs.h:
+
+../gui/editview.h:
+
+/usr/include/c++/11/bits/vector.tcc:
+
+/usr/include/x86_64-linux-gnu/qt5/QtWidgets/QMenu:
+
+/usr/include/c++/11/bits/valarray_before.h:
+
+/usr/include/c++/11/bits/stl_bvector.h:
+
+../gui/mainwindow.cpp:
+
+/usr/include/x86_64-linux-gnu/bits/types/struct___jmp_buf_tag.h:
+
+/usr/include/c++/11/bits/stl_vector.h:
+
+/usr/include/c++/11/cstddef:
+
+/usr/include/x86_64-linux-gnu/qt5/QtWidgets/QMenuBar:
+
+/usr/include/stdint.h:
+
+/usr/include/c++/11/bits/ptr_traits.h:
+
+/usr/include/opencv4/opencv2/photo.hpp:
+
+/usr/include/c++/11/bits/basic_ios.tcc:
+
+/usr/include/opencv4/opencv2/flann/kmeans_index.h:
+
+/usr/include/x86_64-linux-gnu/qt5/QtCore/qtypeinfo.h:
+
+/usr/include/c++/11/bits/codecvt.h:
+
+/usr/include/c++/11/bits/hashtable_policy.h:
+
+/usr/include/c++/11/bits/hashtable.h:
+
+/usr/include/nlohmann/detail/macro_unscope.hpp:
+
+/usr/include/x86_64-linux-gnu/qt5/QtGui/QPainter:
+
+/usr/include/c++/11/cctype:
+
+/usr/include/opencv4/opencv2/flann/linear_index.h:
+
+/usr/include/c++/11/iomanip:
+
+/usr/include/nlohmann/detail/meta/void_t.hpp:
+
+/usr/include/c++/11/unordered_map:
+
+/usr/include/asm-generic/errno-base.h:
+
+/usr/include/c++/11/functional:
+
+/usr/include/c++/11/bits/stl_heap.h:
+
+/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qdialog.h:
+
+/usr/include/c++/11/bits/std_abs.h:
+
+/usr/include/x86_64-linux-gnu/qt5/QtCore/qchar.h:
+
+/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qpushbutton.h:
+
+/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qabstractspinbox.h:
+
+/usr/include/opencv4/opencv2/core/bufferpool.hpp:
+
+/usr/include/c++/11/pstl/execution_defs.h:
+
+/usr/include/x86_64-linux-gnu/qt5/QtCore/qiodevice.h:
+
+/usr/include/x86_64-linux-gnu/qt5/QtCore/QObject:
+
+/usr/include/alloca.h:
+
+/usr/include/opencv4/opencv2/flann/sampling.h:
+
+/usr/include/x86_64-linux-gnu/sys/types.h:
+
+/usr/include/c++/11/bits/locale_classes.tcc:
+
+/usr/include/c++/11/ext/aligned_buffer.h:
+
+/usr/include/x86_64-linux-gnu/bits/waitflags.h:
+
+/usr/include/c++/11/bits/locale_classes.h:
+
+/usr/include/opencv4/opencv2/stitching/detail/camera.hpp:
+
+/usr/include/stdlib.h:
+
+/usr/include/c++/11/bits/stl_algo.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/error_t.h:
+
+/usr/include/x86_64-linux-gnu/qt5/QtCore/qtcore-config.h:
+
+/usr/include/c++/11/clocale:
+
+/usr/include/x86_64-linux-gnu/qt5/QtCore/qglobal.h:
+
+/usr/include/linux/errno.h:
+
+/usr/include/x86_64-linux-gnu/c++/11/bits/c++locale.h:
+
+/usr/include/x86_64-linux-gnu/bits/select.h:
+
+/usr/include/x86_64-linux-gnu/qt5/QtCore/qobjectdefs.h:
+
+/usr/include/c++/11/bits/atomic_lockfree_defines.h:
+
+/usr/include/x86_64-linux-gnu/qt5/QtCore/qatomic.h:
+
+ComputerVisionApp_autogen/DMHXEJ42XS/moc_ROISelector.cpp:
+
+/usr/include/c++/11/bits/shared_ptr_atomic.h:
+
+/usr/include/c++/11/queue:
+
+/usr/include/opencv4/opencv2/core/async.hpp:
+
+/usr/include/c++/11/bits/nested_exception.h:
+
+/usr/include/c++/11/bits/valarray_array.h:
+
+/usr/include/x86_64-linux-gnu/qt5/QtCore/qstring.h:
+
+/usr/include/x86_64-linux-gnu/qt5/QtCore/qbasicatomic.h:
+
+/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qtabbar.h:
+
+/usr/include/nlohmann/detail/json_ref.hpp:
+
+/usr/include/x86_64-linux-gnu/bits/typesizes.h:
+
+/usr/include/c++/11/bits/predefined_ops.h:
+
+/usr/include/x86_64-linux-gnu/qt5/QtCore/qfile.h:
+
+/usr/include/x86_64-linux-gnu/bits/libc-header-start.h:
+
+/usr/include/c++/11/vector:
+
+/usr/include/c++/11/bits/align.h:
+
+/usr/include/c++/11/typeinfo:
+
+/usr/include/c++/11/bits/stl_numeric.h:
+
+/usr/include/c++/11/bits/stl_uninitialized.h:
+
+/usr/include/opencv4/opencv2/dnn/layer.hpp:
+
+/usr/include/c++/11/bits/streambuf.tcc:
+
+/usr/include/c++/11/bits/stl_iterator_base_funcs.h:
+
+/usr/include/x86_64-linux-gnu/qt5/QtCore/qvector.h:
+
+/usr/include/c++/11/bits/exception.h:
+
+/usr/include/c++/11/bits/locale_facets.h:
+
+/usr/include/x86_64-linux-gnu/bits/wchar.h:
+
+/usr/include/c++/11/iterator:
+
+/usr/include/c++/11/bits/algorithmfwd.h:
+
+/usr/include/c++/11/bits/cxxabi_forced.h:
+
+/usr/include/opencv4/opencv2/flann/miniflann.hpp:
+
+/usr/include/c++/11/ext/alloc_traits.h:
+
+/usr/include/x86_64-linux-gnu/bits/sched.h:
+
+/usr/include/c++/11/bits/stl_tempbuf.h:
+
+/usr/include/c++/11/backward/auto_ptr.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/__FILE.h:
+
+/usr/include/c++/11/cstring:
+
+/usr/include/x86_64-linux-gnu/bits/types/clock_t.h:
+
+/usr/include/x86_64-linux-gnu/bits/long-double.h:
+
+/usr/include/features.h:
+
+/usr/include/c++/11/ext/numeric_traits.h:
+
+/usr/include/opencv4/opencv2/ml.hpp:
+
+/usr/include/c++/11/bits/uses_allocator.h:
+
+/usr/include/c++/11/bits/unique_lock.h:
+
+/usr/include/c++/11/memory:
+
+/usr/include/x86_64-linux-gnu/qt5/QtCore/qcontainertools_impl.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/struct_timespec.h:
+
+/usr/include/c++/11/bits/stl_queue.h:
+
+/usr/include/x86_64-linux-gnu/sys/select.h:
+
+ComputerVisionApp_autogen/mocs_compilation.cpp:
+
+/usr/include/x86_64-linux-gnu/gnu/stubs-64.h:
+
+/usr/include/x86_64-linux-gnu/qt5/QtGui/qrgba64.h:
+
+/usr/include/c++/11/tr1/gamma.tcc:
+
+/usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h:
+
+/usr/include/x86_64-linux-gnu/bits/pthread_stack_min-dynamic.h:
+
+/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qtextedit.h:
+
+/usr/include/c++/11/tr1/legendre_function.tcc:
+
+/usr/include/c++/11/bits/concept_check.h:
+
+/usr/include/x86_64-linux-gnu/qt5/QtCore/qpair.h:
+
+/usr/include/c++/11/string:
+
+/usr/include/x86_64-linux-gnu/qt5/QtCore/qatomic_cxx11.h:
+
+/usr/include/x86_64-linux-gnu/c++/11/bits/cpu_defines.h:
+
+/usr/include/x86_64-linux-gnu/qt5/QtGui/qtextcursor.h:
+
+/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qabstractitemdelegate.h:
+
+/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qabstractscrollarea.h:
+
+/usr/include/x86_64-linux-gnu/bits/timesize.h:
+
+/usr/include/c++/11/debug/debug.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/11/include/syslimits.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/11/include/mm_malloc.h:
+
+/usr/include/x86_64-linux-gnu/bits/time64.h:
+
+/usr/include/x86_64-linux-gnu/qt5/QtWidgets/QPushButton:
+
+/usr/include/opencv4/opencv2/stitching/detail/util_inl.hpp:
+
+/usr/include/c++/11/iosfwd:
+
+/usr/include/c++/11/initializer_list:
+
+/usr/include/x86_64-linux-gnu/bits/stdint-uintn.h:
+
+/usr/include/c++/11/bits/stl_iterator.h:
+
+/usr/include/x86_64-linux-gnu/bits/struct_mutex.h:
+
+/usr/include/c++/11/cstdio:
+
+/usr/include/opencv4/opencv2/stitching/detail/warpers.hpp:
+
+/usr/include/c++/11/new:
+
+/usr/include/c++/11/climits:
+
+/usr/include/opencv4/opencv2/core/cvdef.h:
+
+/usr/include/c++/11/bits/sstream.tcc:
+
+/usr/include/c++/11/streambuf:
+
+/usr/include/c++/11/bits/functexcept.h:
+
+/usr/include/x86_64-linux-gnu/qt5/QtCore/qsharedpointer_impl.h:
+
+/usr/include/c++/11/bits/stl_raw_storage_iter.h:
+
+/usr/include/c++/11/bits/unique_ptr.h:
+
+/usr/include/x86_64-linux-gnu/qt5/QtCore/qcompilerdetection.h:
+
+/usr/include/c++/11/bits/stl_relops.h:
+
+/usr/include/x86_64-linux-gnu/qt5/QtCore/qlist.h:
+
+/usr/include/limits.h:
+
+/usr/include/c++/11/tuple:
+
+/usr/include/c++/11/type_traits:
+
+/usr/include/x86_64-linux-gnu/sys/single_threaded.h:
+
+/usr/include/nlohmann/thirdparty/hedley/hedley_undef.hpp:
+
+/usr/include/errno.h:
+
+/usr/include/c++/11/bits/alloc_traits.h:
+
+/usr/include/stdc-predef.h:
+
+/usr/include/x86_64-linux-gnu/sys/cdefs.h:
+
+/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qlayout.h:
+
+/usr/include/x86_64-linux-gnu/asm/errno.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/struct_timeval.h:
+
+/usr/include/x86_64-linux-gnu/bits/wordsize.h:
+
+/usr/include/c++/11/chrono:
+
+/usr/include/c++/11/debug/assertions.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/sigset_t.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/11/include/stdarg.h:
+
+/usr/include/x86_64-linux-gnu/qt5/QtCore/qsharedpointer.h:
+
+/usr/include/c++/11/cfloat:
+
+/usr/include/x86_64-linux-gnu/bits/types.h:
+
+/usr/include/c++/11/bits/move.h:
+
+/usr/include/c++/11/bits/hash_bytes.h:
+
+/usr/include/x86_64-linux-gnu/bits/atomic_wide_counter.h:
+
+/usr/include/x86_64-linux-gnu/qt5/QtCore/qdatastream.h:
+
+/usr/include/x86_64-linux-gnu/qt5/QtWidgets/QWidget:
+
+/usr/include/x86_64-linux-gnu/bits/byteswap.h:
+
+/usr/include/c++/11/bits/shared_ptr.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/11/include/stddef.h:
+
+/usr/include/c++/11/bits/stl_construct.h:
+
+/usr/include/c++/11/bits/ostream_insert.h:
+
+/usr/include/x86_64-linux-gnu/qt5/QtGui/qfont.h:
+
+/usr/include/c++/11/cstdlib:
+
+/usr/include/opencv4/opencv2/core/version.hpp:
+
+/usr/include/c++/11/bit:
+
+/usr/include/c++/11/atomic:
+
+../gui/ROISelector.h:
+
+/usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h:
+
+/usr/include/x86_64-linux-gnu/c++/11/bits/atomic_word.h:
+
+/usr/include/c++/11/pstl/glue_memory_defs.h:
+
+/usr/include/x86_64-linux-gnu/qt5/QtCore/qiterator.h:
+
+/usr/include/opencv4/opencv2/flann/all_indices.h:
+
+/usr/include/c++/11/ext/type_traits.h:
+
+/usr/include/c++/11/bits/stl_function.h:
+
+/usr/include/c++/11/bits/memoryfwd.h:
+
+/usr/include/c++/11/algorithm:
+
+/usr/include/c++/11/backward/binders.h:
+
+/usr/include/x86_64-linux-gnu/qt5/QtCore/qitemselectionmodel.h:
+
+/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qboxlayout.h:
+
+/usr/include/c++/11/bits/functional_hash.h:
+
+/usr/include/c++/11/bits/string_view.tcc:
+
+/usr/include/c++/11/bits/postypes.h:
+
+/usr/include/x86_64-linux-gnu/bits/mathcalls-narrow.h:
+
+/usr/include/x86_64-linux-gnu/qt5/QtWidgets/QListWidget:
+
+ComputerVisionApp_autogen/DMHXEJ42XS/moc_editview.cpp:
+
+/usr/include/x86_64-linux-gnu/bits/locale.h:
+
+/usr/include/x86_64-linux-gnu/bits/posix1_lim.h:
+
+/usr/include/opencv4/opencv2/flann/lsh_index.h:
+
+/usr/include/opencv4/opencv2/stitching/detail/util.hpp:
+
+/usr/include/x86_64-linux-gnu/bits/timex.h:
+
+/usr/include/x86_64-linux-gnu/qt5/QtGui/qpalette.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/11/include/stdint.h:
+
+/usr/include/c++/11/bits/stl_algobase.h:
+
+/usr/include/c++/11/cwchar:
+
+/usr/include/c++/11/bits/uniform_int_dist.h:
+
+/usr/include/c++/11/bits/cxxabi_init_exception.h:
+
+/usr/include/nlohmann/detail/exceptions.hpp:
+
+/usr/include/x86_64-linux-gnu/bits/stdlib-float.h:
+
+/usr/include/wchar.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/struct_itimerspec.h:
+
+/usr/include/x86_64-linux-gnu/qt5/QtCore/qglobalstatic.h:
+
+/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qslider.h:
+
+/usr/include/opencv4/opencv2/stitching/warpers.hpp:
+
+/usr/include/x86_64-linux-gnu/bits/floatn-common.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/wint_t.h:
+
+/usr/include/opencv4/opencv2/flann/logger.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/mbstate_t.h:
+
+/usr/include/x86_64-linux-gnu/bits/fp-fast.h:
+
+/usr/include/x86_64-linux-gnu/bits/uintn-identity.h:
+
+/usr/include/c++/11/iostream:
+
+/usr/include/x86_64-linux-gnu/bits/types/time_t.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/FILE.h:
+
+/usr/include/c++/11/bits/stringfwd.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/struct_tm.h:
+
+/usr/include/nlohmann/detail/input/binary_reader.hpp:
+
+/usr/include/c++/11/bits/locale_facets.tcc:
+
+/usr/include/c++/11/system_error:
+
+/usr/include/features-time64.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/locale_t.h:
+
+/usr/include/nlohmann/detail/iterators/iterator_traits.hpp:
+
+/usr/include/opencv4/opencv2/core/optim.hpp:
+
+/usr/include/x86_64-linux-gnu/bits/types/__locale_t.h:
+
+/usr/include/c++/11/ext/new_allocator.h:
+
+/usr/include/x86_64-linux-gnu/qt5/QtGui/qtextoption.h:
+
+/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qlistwidget.h:
+
+/usr/include/opencv4/opencv2/core/affine.hpp:
+
+/usr/include/x86_64-linux-gnu/bits/pthreadtypes.h:
+
+/usr/include/c++/11/codecvt:
+
+/usr/include/x86_64-linux-gnu/qt5/QtCore/qstringliteral.h:
+
+/usr/include/assert.h:
+
+/usr/include/c++/11/bits/allocated_ptr.h:
+
+/usr/include/opencv4/opencv2/core/cvstd.inl.hpp:
+
+/usr/include/x86_64-linux-gnu/qt5/QtCore/qsystemdetection.h:
+
+/usr/include/c++/11/istream:
+
+/usr/include/c++/11/bits/refwrap.h:
+
+/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qmenu.h:
+
+/usr/include/c++/11/numeric:
+
+/usr/include/strings.h:
+
+/usr/include/c++/11/bits/atomic_base.h:
+
+/usr/include/opencv4/opencv2/core/cuda.inl.hpp:
+
+/usr/include/x86_64-linux-gnu/bits/struct_rwlock.h:
+
+/usr/include/pthread.h:
+
+/usr/include/sched.h:
+
+/usr/include/wctype.h:
+
+/usr/include/opencv4/opencv2/core/types.hpp:
+
+/usr/include/c++/11/bits/stl_deque.h:
+
+/usr/include/opencv4/opencv2/stitching/detail/motion_estimators.hpp:
+
+/usr/include/x86_64-linux-gnu/qt5/QtCore/qmargins.h:
+
+/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qtwidgets-config.h:
+
+/usr/include/opencv4/opencv2/dnn/utils/inference_engine.hpp:
+
+/usr/include/x86_64-linux-gnu/qt5/QtCore/qarraydata.h:
+
+/usr/include/nlohmann/detail/input/lexer.hpp:
+
+/usr/include/c++/11/ratio:
+
+/usr/include/x86_64-linux-gnu/bits/cpu-set.h:
+
+/usr/include/time.h:
+
+/usr/include/nlohmann/detail/iterators/iter_impl.hpp:
+
+/usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h:
+
+/usr/include/x86_64-linux-gnu/bits/setjmp.h:
+
+/usr/include/opencv4/opencv2/core/cuda.hpp:
+
+/usr/include/c++/11/bits/stl_pair.h:
+
+/usr/include/c++/11/ext/atomicity.h:
+
+/usr/include/nlohmann/detail/meta/is_sax.hpp:
+
+/usr/include/c++/11/pstl/glue_numeric_defs.h:
+
+/usr/include/opencv4/opencv2/stitching/detail/blenders.hpp:
+
+/usr/include/c++/11/bits/std_function.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/timer_t.h:
+
+/usr/include/opencv4/opencv2/highgui.hpp:
+
+/usr/include/x86_64-linux-gnu/bits/types/__fpos64_t.h:
+
+/usr/include/c++/11/cmath:
+
+/usr/include/nlohmann/byte_container_with_subtype.hpp:
+
+/usr/include/c++/11/pstl/pstl_config.h:
+
+/usr/include/nlohmann/detail/conversions/to_json.hpp:
+
+/usr/include/x86_64-linux-gnu/qt5/QtGui/qtouchdevice.h:
+
+/usr/include/x86_64-linux-gnu/c++/11/bits/gthr-default.h:
+
+/usr/include/c++/11/ext/concurrence.h:
+
+/usr/include/c++/11/exception:
+
+/usr/include/x86_64-linux-gnu/qt5/QtCore/qmetatype.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/11/include/mmintrin.h:
+
+/usr/include/c++/11/list:
+
+/usr/include/c++/11/bits/stl_list.h:
+
+../gui/ROISelector.cpp:
+
+/usr/include/opencv4/opencv2/flann/saving.h:
+
+/usr/include/x86_64-linux-gnu/c++/11/bits/gthr.h:
+
+/usr/include/c++/11/bits/list.tcc:
+
+/usr/lib/gcc/x86_64-linux-gnu/11/include/limits.h:
+
+/usr/include/x86_64-linux-gnu/bits/local_lim.h:
+
+/usr/include/x86_64-linux-gnu/bits/posix2_lim.h:
+
+/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qrubberband.h:
+
+/usr/include/x86_64-linux-gnu/bits/xopen_lim.h:
+
+/usr/include/x86_64-linux-gnu/qt5/QtCore/qbytearraylist.h:
+
+/usr/include/c++/11/bits/deque.tcc:
+
+/usr/include/x86_64-linux-gnu/qt5/QtCore/qstringlist.h:
+
+/usr/include/nlohmann/detail/conversions/to_chars.hpp:
+
+/usr/include/x86_64-linux-gnu/qt5/QtCore/qregexp.h:
+
+/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qmessagebox.h:
+
+/usr/include/x86_64-linux-gnu/gnu/stubs.h:
+
+/usr/include/c++/11/set:
+
+/usr/include/x86_64-linux-gnu/qt5/QtCore/qstringmatcher.h:
+
+/usr/include/x86_64-linux-gnu/qt5/QtGui/qvalidator.h:
+
+/usr/include/x86_64-linux-gnu/c++/11/bits/ctype_inline.h:
+
+/usr/include/x86_64-linux-gnu/qt5/QtGui/qvector2d.h:
+
+/usr/include/x86_64-linux-gnu/qt5/QtCore/qvarlengtharray.h:
+
+/usr/include/x86_64-linux-gnu/qt5/QtCore/qsysinfo.h:
+
+/usr/include/x86_64-linux-gnu/qt5/QtCore/qcontainerfwd.h:
+
+/usr/include/c++/11/map:
+
+/usr/include/c++/11/bits/stl_tree.h:
+
+/usr/include/c++/11/bits/stl_map.h:
+
+/usr/include/c++/11/bits/stl_multimap.h:
+
+/usr/include/nlohmann/thirdparty/hedley/hedley.hpp:
+
+/usr/include/x86_64-linux-gnu/qt5/QtCore/qobject_impl.h:
+
+/usr/include/c++/11/limits:
+
+/usr/include/x86_64-linux-gnu/qt5/QtGui/qtguiglobal.h:
+
+/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qsizepolicy.h:
+
+/usr/include/c++/11/ctime:
+
+/usr/include/x86_64-linux-gnu/qt5/QtGui/qpainter.h:
+
+/usr/include/x86_64-linux-gnu/qt5/QtGui/QImage:
+
+/usr/include/c++/11/bits/exception_defines.h:
+
+/usr/include/x86_64-linux-gnu/qt5/QtGui/qimage.h:
+
+/usr/include/c++/11/ext/string_conversions.h:
+
+/usr/include/x86_64-linux-gnu/bits/iscanonical.h:
+
+/usr/include/opencv4/opencv2/flann/kdtree_index.h:
+
+/usr/include/c++/11/bits/indirect_array.h:
+
+/usr/include/opencv4/opencv2/dnn/dnn.inl.hpp:
+
+/usr/include/x86_64-linux-gnu/qt5/QtGui/qtgui-config.h:
+
+/usr/include/x86_64-linux-gnu/qt5/QtGui/qcolor.h:
+
+/usr/include/opencv4/opencv2/flann/heap.h:
+
+/usr/include/x86_64-linux-gnu/qt5/QtGui/qrgb.h:
+
+/usr/include/opencv4/opencv2/videoio.hpp:
+
+/usr/include/x86_64-linux-gnu/qt5/QtGui/qpaintdevice.h:
+
+/usr/include/x86_64-linux-gnu/qt5/QtCore/qversiontagging.h:
+
+/usr/include/x86_64-linux-gnu/qt5/QtGui/qwindowdefs.h:
+
+/usr/include/x86_64-linux-gnu/qt5/QtCore/qrect.h:
+
+/usr/include/c++/11/tr1/modified_bessel_func.tcc:
+
+/usr/include/x86_64-linux-gnu/qt5/QtCore/qsize.h:
+
+/usr/include/x86_64-linux-gnu/qt5/QtGui/qpixelformat.h:
+
+/usr/include/x86_64-linux-gnu/qt5/QtGui/qtransform.h:
+
+/usr/include/c++/11/cerrno:
+
+/usr/include/x86_64-linux-gnu/qt5/QtGui/qmatrix.h:
+
+/usr/include/x86_64-linux-gnu/qt5/QtCore/qprocessordetection.h:
+
+/usr/include/c++/11/deque:
+
+/usr/include/x86_64-linux-gnu/qt5/QtGui/qpolygon.h:
+
+/usr/include/x86_64-linux-gnu/qt5/QtGui/qkeysequence.h:
+
+/usr/include/c++/11/complex:
+
+/usr/include/x86_64-linux-gnu/bits/math-vector.h:
+
+/usr/include/nlohmann/detail/output/serializer.hpp:
+
+/usr/include/c++/11/bits/allocator.h:
+
+/usr/include/x86_64-linux-gnu/qt5/QtCore/qscopedpointer.h:
+
+/usr/include/x86_64-linux-gnu/qt5/QtCore/qline.h:
+
+/usr/include/x86_64-linux-gnu/qt5/QtCore/QVariant:
+
+/usr/include/x86_64-linux-gnu/bits/stdio_lim.h:
+
+/usr/include/x86_64-linux-gnu/qt5/QtWidgets/QLabel:
+
+/usr/lib/gcc/x86_64-linux-gnu/11/include/xmmintrin.h:
+
+/usr/include/opencv4/opencv2/flann/timer.h:
+
+/usr/include/c++/11/bits/range_access.h:
+
+/usr/include/x86_64-linux-gnu/bits/stdint-intn.h:
+
+/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qframe.h:
+
+/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qwidget.h:
+
+/usr/include/x86_64-linux-gnu/qt5/QtGui/qbrush.h:
+
+/usr/include/x86_64-linux-gnu/qt5/QtGui/qpixmap.h:
+
+/usr/include/c++/11/bits/enable_special_members.h:
+
+/usr/include/x86_64-linux-gnu/qt5/QtCore/qshareddata.h:
+
+/usr/include/x86_64-linux-gnu/qt5/QtCore/qlogging.h:
+
+/usr/include/x86_64-linux-gnu/qt5/QtCore/qhash.h:
+
+/usr/include/opencv4/opencv2/core/traits.hpp:
+
+/usr/include/x86_64-linux-gnu/qt5/QtGui/qfontmetrics.h:
+
+/usr/include/c++/11/bits/gslice.h:
+
+/usr/include/x86_64-linux-gnu/qt5/QtGui/qfontinfo.h:
+
+/usr/include/opencv4/opencv2/stitching/detail/seam_finders.hpp:
+
+/usr/include/x86_64-linux-gnu/qt5/QtGui/qcursor.h:
+
+/usr/include/x86_64-linux-gnu/qt5/QtGui/QMouseEvent:
+
+/usr/include/opencv4/opencv2/stitching/detail/warpers_inl.hpp:
+
+/usr/include/x86_64-linux-gnu/qt5/QtCore/qcoreevent.h:
+
+/usr/include/x86_64-linux-gnu/qt5/QtCore/qvariant.h:
+
+/usr/include/opencv4/opencv2/core/persistence.hpp:
+
+/usr/include/opencv4/opencv2/flann/dist.h:
+
+/usr/include/x86_64-linux-gnu/c++/11/bits/c++io.h:
+
+/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qlabel.h:
+
+/usr/include/opencv4/opencv2/dnn/version.hpp:
+
+/usr/include/c++/11/variant:
+
+/usr/include/c++/11/bits/erase_if.h:
+
+/usr/include/x86_64-linux-gnu/qt5/QtCore/qurl.h:
+
+/usr/include/nlohmann/detail/conversions/from_json.hpp:
+
+/usr/include/x86_64-linux-gnu/qt5/QtCore/qfiledevice.h:
+
+/usr/include/x86_64-linux-gnu/qt5/QtCore/qset.h:
+
+/usr/include/opencv4/opencv2/dnn/dnn.hpp:
+
+/usr/include/x86_64-linux-gnu/qt5/QtGui/qpen.h:
+
+/usr/include/nlohmann/detail/iterators/json_reverse_iterator.hpp:
+
+/usr/include/x86_64-linux-gnu/qt5/QtCore/qconfig.h:
+
+/usr/include/opencv4/opencv2/opencv.hpp:
+
+/usr/include/opencv4/opencv2/opencv_modules.hpp:
+
+/usr/include/opencv4/opencv2/core.hpp:
+
+/usr/include/x86_64-linux-gnu/qt5/QtGui/qregion.h:
+
+/usr/include/opencv4/opencv2/core/cv_cpu_dispatch.h:
+
+/usr/include/x86_64-linux-gnu/qt5/QtCore/qobject.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/11/include/emmintrin.h:
+
+/usr/include/opencv4/opencv2/core/base.hpp:
+
+/usr/include/x86_64-linux-gnu/bits/flt-eval-method.h:
+
+/usr/include/x86_64-linux-gnu/bits/fp-logb.h:
+
+/usr/include/nlohmann/detail/input/json_sax.hpp:
+
+/usr/include/x86_64-linux-gnu/qt5/QtCore/QDebug:
+
+/usr/include/x86_64-linux-gnu/bits/mathcalls-helper-functions.h:
+
+/usr/include/opencv4/opencv2/core/utility.hpp:
+
+/usr/include/x86_64-linux-gnu/bits/endian.h:
+
+/usr/include/opencv4/opencv2/core/ovx.hpp:
+
+/usr/include/x86_64-linux-gnu/bits/mathcalls.h:
+
+/usr/include/c++/11/bits/specfun.h:
+
+/usr/include/c++/11/tr1/special_function_util.h:
+
+/usr/include/x86_64-linux-gnu/qt5/QtCore/qnamespace.h:
+
+/usr/include/c++/11/tr1/bessel_function.tcc:
+
+/usr/include/x86_64-linux-gnu/c++/11/bits/error_constants.h:
+
+/usr/include/c++/11/tr1/ell_integral.tcc:
+
+/usr/include/c++/11/tr1/exp_integral.tcc:
+
+/usr/include/c++/11/tr1/hypergeometric.tcc:
+
+/usr/include/c++/11/tr1/poly_hermite.tcc:
+
+/usr/include/c++/11/tr1/poly_laguerre.tcc:
+
+/usr/include/c++/11/bits/std_mutex.h:
+
+/usr/include/c++/11/tr1/riemann_zeta.tcc:
+
+/usr/include/c++/11/bits/invoke.h:
+
+/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qformlayout.h:
+
+/usr/include/opencv4/opencv2/core/cvstd_wrapper.hpp:
+
+/usr/include/opencv4/opencv2/core/neon_utils.hpp:
+
+/usr/include/opencv4/opencv2/core/vsx_utils.hpp:
+
+/usr/include/x86_64-linux-gnu/bits/types/__sigset_t.h:
+
+/usr/include/opencv4/opencv2/core/check.hpp:
+
+/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qmainwindow.h:
+
+/usr/include/opencv4/opencv2/core/matx.hpp:
+
+/usr/include/opencv4/opencv2/core/saturate.hpp:
+
+/usr/include/locale.h:
+
+/usr/include/opencv4/opencv2/core/fast_math.hpp:
+
+/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qtwidgetsglobal.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/11/include/float.h:
+
+/usr/include/x86_64-linux-gnu/qt5/QtCore/qmap.h:
+
+/usr/include/opencv4/opencv2/core/mat.inl.hpp:
+
+/usr/include/x86_64-linux-gnu/bits/endianness.h:
+
+/usr/include/opencv4/opencv2/core/operations.hpp:
+
+/usr/include/opencv4/opencv2/video/tracking.hpp:
+
+/usr/include/c++/11/sstream:
+
+/usr/include/c++/11/cwctype:
+
+/usr/include/nlohmann/detail/iterators/iteration_proxy.hpp:
+
+/usr/include/x86_64-linux-gnu/bits/wctype-wchar.h:
+
+/usr/include/c++/11/ostream:
+
+/usr/include/c++/11/bits/ostream.tcc:
+
+/usr/include/c++/11/bits/istream.tcc:
+
+/usr/include/c++/11/mutex:
+
+/usr/include/c++/11/bits/parse_numbers.h:
+
+/usr/include/opencv4/opencv2/calib3d.hpp:
+
+/usr/include/opencv4/opencv2/features2d.hpp:
+
+/usr/include/opencv4/opencv2/flann/defines.h:
+
+/usr/include/opencv4/opencv2/flann/config.h:
+
+/usr/include/c++/11/bits/unordered_map.h:
+
+/usr/include/opencv4/opencv2/imgproc.hpp:
+
+/usr/include/x86_64-linux-gnu/bits/time.h:
+
+/usr/include/opencv4/opencv2/core/hal/interface.h:
+
+/usr/include/opencv4/opencv2/dnn.hpp:
+
+/usr/include/opencv4/opencv2/flann.hpp:
+
+/usr/include/c++/11/bits/charconv.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h:
+
+/usr/include/x86_64-linux-gnu/c++/11/bits/c++allocator.h:
+
+/usr/include/math.h:
+
+/usr/include/c++/11/bits/exception_ptr.h:
+
+/usr/include/opencv4/opencv2/flann/flann_base.hpp:
+
+/usr/include/opencv4/opencv2/flann/general.h:
+
+/usr/include/opencv4/opencv2/flann/matrix.h:
+
+/usr/include/x86_64-linux-gnu/qt5/QtGui/qevent.h:
+
+/usr/include/opencv4/opencv2/flann/index_testing.h:
+
+/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qgridlayout.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/clockid_t.h:
+
+/usr/include/opencv4/opencv2/flann/params.h:
+
+/usr/include/opencv4/opencv2/flann/any.h:
+
+/usr/include/c++/11/bits/basic_string.tcc:
+
+/usr/include/opencv4/opencv2/flann/nn_index.h:
+
+/usr/include/x86_64-linux-gnu/c++/11/bits/ctype_base.h:
+
+/usr/include/opencv4/opencv2/flann/result_set.h:
+
+/usr/include/c++/11/bits/stl_set.h:
+
+/usr/include/c++/11/bits/stl_multiset.h:
+
+/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qlineedit.h:
+
+/usr/include/x86_64-linux-gnu/qt5/QtCore/qbytearray.h:
+
+/usr/include/opencv4/opencv2/flann/dynamic_bitset.h:
+
+/usr/include/opencv4/opencv2/flann/allocator.h:
+
+/usr/include/opencv4/opencv2/flann/autotuned_index.h:
+
+/usr/include/c++/11/array:
+
+/usr/include/opencv4/opencv2/flann/random.h:
+
+/usr/include/opencv4/opencv2/flann/kdtree_single_index.h:
+
+/usr/include/c++/11/bits/basic_ios.h:
+
+/usr/include/x86_64-linux-gnu/c++/11/bits/messages_members.h:
+
+/usr/include/opencv4/opencv2/flann/composite_index.h:
+
+/usr/include/c++/11/bits/locale_facets_nonio.tcc:
+
+/usr/include/opencv4/opencv2/flann/lsh_table.h:
+
+/usr/include/c++/11/bits/locale_facets_nonio.h:
+
+/usr/include/x86_64-linux-gnu/c++/11/bits/time_members.h:
+
+/usr/include/c++/11/bits/char_traits.h:
+
+/usr/include/x86_64-linux-gnu/bits/thread-shared-types.h:
+
+/usr/include/libintl.h:
+
+../tools/ProgramManager.cpp:
+
+/usr/include/opencv4/opencv2/stitching/detail/exposure_compensate.hpp:
+
+/usr/include/c++/11/bits/quoted_string.h:
+
+/usr/include/c++/11/math.h:
+
+/usr/include/c++/11/bits/stream_iterator.h:
+
+/usr/include/opencv4/opencv2/flann/ground_truth.h:
+
+/usr/include/opencv4/opencv2/imgcodecs.hpp:
+
+/usr/include/opencv4/opencv2/imgproc/segmentation.hpp:
+
+/usr/include/opencv4/opencv2/ml/ml.inl.hpp:
+
+/usr/include/opencv4/opencv2/objdetect/detection_based_tracker.hpp:
+
+/usr/include/nlohmann/detail/iterators/primitive_iterator.hpp:
+
+/usr/include/opencv4/opencv2/objdetect/face.hpp:
+
+/usr/include/opencv4/opencv2/core/cuda_types.hpp:
+
+/usr/include/x86_64-linux-gnu/qt5/QtCore/qpoint.h:
+
+/usr/include/opencv4/opencv2/video.hpp:
+
+/usr/include/opencv4/opencv2/video/background_segm.hpp:
+
+/usr/include/x86_64-linux-gnu/qt5/QtWidgets/QStackedWidget:
+
+/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qstackedwidget.h:
+
+/usr/include/x86_64-linux-gnu/qt5/QtGui/qicon.h:
+
+/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qapplication.h:
+
+/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qaction.h:
+
+/usr/include/opencv4/opencv2/objdetect.hpp:
+
+/usr/include/c++/11/bits/node_handle.h:
+
+/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qactiongroup.h:
+
+/usr/include/x86_64-linux-gnu/qt5/QtWidgets/QFormLayout:
+
+/usr/include/x86_64-linux-gnu/qt5/QtWidgets/QLayout:
+
+/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qlayoutitem.h:
+
+/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qabstractslider.h:
+
+../imageProcessing/MainProcessing.h:
+
+/usr/include/c++/11/tr1/beta_function.tcc:
+
+../imageProcessing/ImageCapture.h:
+
+/usr/include/x86_64-linux-gnu/qt5/QtCore/qdebug.h:
+
+/usr/include/c++/11/bits/locale_conv.h:
+
+/usr/include/x86_64-linux-gnu/qt5/QtCore/qtextstream.h:
+
+/usr/include/endian.h:
+
+/usr/include/c++/11/bits/cpp_type_traits.h:
+
+/usr/include/x86_64-linux-gnu/qt5/QtCore/qlocale.h:
+
+/usr/include/x86_64-linux-gnu/qt5/QtCore/qeventloop.h:
+
+/usr/include/x86_64-linux-gnu/bits/floatn.h:
+
+/usr/include/x86_64-linux-gnu/qt5/QtCore/qcontiguouscache.h:

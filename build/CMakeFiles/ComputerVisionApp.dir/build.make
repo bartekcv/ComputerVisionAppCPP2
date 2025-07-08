@@ -69,10 +69,14 @@ include CMakeFiles/ComputerVisionApp.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/ComputerVisionApp.dir/flags.make
 
+ui_mainwindow.h: ../gui/mainwindow.ui
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/bartek/code/Projekty/ComputerVisionCPP2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating ui_mainwindow.h"
+	/usr/lib/qt5/bin/uic -o /home/bartek/code/Projekty/ComputerVisionCPP2/build/ui_mainwindow.h /home/bartek/code/Projekty/ComputerVisionCPP2/gui/mainwindow.ui
+
 CMakeFiles/ComputerVisionApp.dir/ComputerVisionApp_autogen/mocs_compilation.cpp.o: CMakeFiles/ComputerVisionApp.dir/flags.make
 CMakeFiles/ComputerVisionApp.dir/ComputerVisionApp_autogen/mocs_compilation.cpp.o: ComputerVisionApp_autogen/mocs_compilation.cpp
 CMakeFiles/ComputerVisionApp.dir/ComputerVisionApp_autogen/mocs_compilation.cpp.o: CMakeFiles/ComputerVisionApp.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bartek/code/Projekty/ComputerVisionCPP2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/ComputerVisionApp.dir/ComputerVisionApp_autogen/mocs_compilation.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bartek/code/Projekty/ComputerVisionCPP2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/ComputerVisionApp.dir/ComputerVisionApp_autogen/mocs_compilation.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/ComputerVisionApp.dir/ComputerVisionApp_autogen/mocs_compilation.cpp.o -MF CMakeFiles/ComputerVisionApp.dir/ComputerVisionApp_autogen/mocs_compilation.cpp.o.d -o CMakeFiles/ComputerVisionApp.dir/ComputerVisionApp_autogen/mocs_compilation.cpp.o -c /home/bartek/code/Projekty/ComputerVisionCPP2/build/ComputerVisionApp_autogen/mocs_compilation.cpp
 
 CMakeFiles/ComputerVisionApp.dir/ComputerVisionApp_autogen/mocs_compilation.cpp.i: cmake_force
@@ -83,24 +87,94 @@ CMakeFiles/ComputerVisionApp.dir/ComputerVisionApp_autogen/mocs_compilation.cpp.
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ComputerVisionApp.dir/ComputerVisionApp_autogen/mocs_compilation.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/bartek/code/Projekty/ComputerVisionCPP2/build/ComputerVisionApp_autogen/mocs_compilation.cpp -o CMakeFiles/ComputerVisionApp.dir/ComputerVisionApp_autogen/mocs_compilation.cpp.s
 
-CMakeFiles/ComputerVisionApp.dir/gui/MainWindow.cpp.o: CMakeFiles/ComputerVisionApp.dir/flags.make
-CMakeFiles/ComputerVisionApp.dir/gui/MainWindow.cpp.o: ../gui/MainWindow.cpp
-CMakeFiles/ComputerVisionApp.dir/gui/MainWindow.cpp.o: CMakeFiles/ComputerVisionApp.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bartek/code/Projekty/ComputerVisionCPP2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/ComputerVisionApp.dir/gui/MainWindow.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/ComputerVisionApp.dir/gui/MainWindow.cpp.o -MF CMakeFiles/ComputerVisionApp.dir/gui/MainWindow.cpp.o.d -o CMakeFiles/ComputerVisionApp.dir/gui/MainWindow.cpp.o -c /home/bartek/code/Projekty/ComputerVisionCPP2/gui/MainWindow.cpp
+CMakeFiles/ComputerVisionApp.dir/gui/ROISelector.cpp.o: CMakeFiles/ComputerVisionApp.dir/flags.make
+CMakeFiles/ComputerVisionApp.dir/gui/ROISelector.cpp.o: ../gui/ROISelector.cpp
+CMakeFiles/ComputerVisionApp.dir/gui/ROISelector.cpp.o: CMakeFiles/ComputerVisionApp.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bartek/code/Projekty/ComputerVisionCPP2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/ComputerVisionApp.dir/gui/ROISelector.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/ComputerVisionApp.dir/gui/ROISelector.cpp.o -MF CMakeFiles/ComputerVisionApp.dir/gui/ROISelector.cpp.o.d -o CMakeFiles/ComputerVisionApp.dir/gui/ROISelector.cpp.o -c /home/bartek/code/Projekty/ComputerVisionCPP2/gui/ROISelector.cpp
 
-CMakeFiles/ComputerVisionApp.dir/gui/MainWindow.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ComputerVisionApp.dir/gui/MainWindow.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/bartek/code/Projekty/ComputerVisionCPP2/gui/MainWindow.cpp > CMakeFiles/ComputerVisionApp.dir/gui/MainWindow.cpp.i
+CMakeFiles/ComputerVisionApp.dir/gui/ROISelector.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ComputerVisionApp.dir/gui/ROISelector.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/bartek/code/Projekty/ComputerVisionCPP2/gui/ROISelector.cpp > CMakeFiles/ComputerVisionApp.dir/gui/ROISelector.cpp.i
 
-CMakeFiles/ComputerVisionApp.dir/gui/MainWindow.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ComputerVisionApp.dir/gui/MainWindow.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/bartek/code/Projekty/ComputerVisionCPP2/gui/MainWindow.cpp -o CMakeFiles/ComputerVisionApp.dir/gui/MainWindow.cpp.s
+CMakeFiles/ComputerVisionApp.dir/gui/ROISelector.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ComputerVisionApp.dir/gui/ROISelector.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/bartek/code/Projekty/ComputerVisionCPP2/gui/ROISelector.cpp -o CMakeFiles/ComputerVisionApp.dir/gui/ROISelector.cpp.s
+
+CMakeFiles/ComputerVisionApp.dir/gui/editview.cpp.o: CMakeFiles/ComputerVisionApp.dir/flags.make
+CMakeFiles/ComputerVisionApp.dir/gui/editview.cpp.o: ../gui/editview.cpp
+CMakeFiles/ComputerVisionApp.dir/gui/editview.cpp.o: CMakeFiles/ComputerVisionApp.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bartek/code/Projekty/ComputerVisionCPP2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/ComputerVisionApp.dir/gui/editview.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/ComputerVisionApp.dir/gui/editview.cpp.o -MF CMakeFiles/ComputerVisionApp.dir/gui/editview.cpp.o.d -o CMakeFiles/ComputerVisionApp.dir/gui/editview.cpp.o -c /home/bartek/code/Projekty/ComputerVisionCPP2/gui/editview.cpp
+
+CMakeFiles/ComputerVisionApp.dir/gui/editview.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ComputerVisionApp.dir/gui/editview.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/bartek/code/Projekty/ComputerVisionCPP2/gui/editview.cpp > CMakeFiles/ComputerVisionApp.dir/gui/editview.cpp.i
+
+CMakeFiles/ComputerVisionApp.dir/gui/editview.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ComputerVisionApp.dir/gui/editview.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/bartek/code/Projekty/ComputerVisionCPP2/gui/editview.cpp -o CMakeFiles/ComputerVisionApp.dir/gui/editview.cpp.s
+
+CMakeFiles/ComputerVisionApp.dir/gui/mainwindow.cpp.o: CMakeFiles/ComputerVisionApp.dir/flags.make
+CMakeFiles/ComputerVisionApp.dir/gui/mainwindow.cpp.o: ../gui/mainwindow.cpp
+CMakeFiles/ComputerVisionApp.dir/gui/mainwindow.cpp.o: CMakeFiles/ComputerVisionApp.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bartek/code/Projekty/ComputerVisionCPP2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/ComputerVisionApp.dir/gui/mainwindow.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/ComputerVisionApp.dir/gui/mainwindow.cpp.o -MF CMakeFiles/ComputerVisionApp.dir/gui/mainwindow.cpp.o.d -o CMakeFiles/ComputerVisionApp.dir/gui/mainwindow.cpp.o -c /home/bartek/code/Projekty/ComputerVisionCPP2/gui/mainwindow.cpp
+
+CMakeFiles/ComputerVisionApp.dir/gui/mainwindow.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ComputerVisionApp.dir/gui/mainwindow.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/bartek/code/Projekty/ComputerVisionCPP2/gui/mainwindow.cpp > CMakeFiles/ComputerVisionApp.dir/gui/mainwindow.cpp.i
+
+CMakeFiles/ComputerVisionApp.dir/gui/mainwindow.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ComputerVisionApp.dir/gui/mainwindow.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/bartek/code/Projekty/ComputerVisionCPP2/gui/mainwindow.cpp -o CMakeFiles/ComputerVisionApp.dir/gui/mainwindow.cpp.s
+
+CMakeFiles/ComputerVisionApp.dir/imageProcessing/CameraWorker.cpp.o: CMakeFiles/ComputerVisionApp.dir/flags.make
+CMakeFiles/ComputerVisionApp.dir/imageProcessing/CameraWorker.cpp.o: ../imageProcessing/CameraWorker.cpp
+CMakeFiles/ComputerVisionApp.dir/imageProcessing/CameraWorker.cpp.o: CMakeFiles/ComputerVisionApp.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bartek/code/Projekty/ComputerVisionCPP2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/ComputerVisionApp.dir/imageProcessing/CameraWorker.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/ComputerVisionApp.dir/imageProcessing/CameraWorker.cpp.o -MF CMakeFiles/ComputerVisionApp.dir/imageProcessing/CameraWorker.cpp.o.d -o CMakeFiles/ComputerVisionApp.dir/imageProcessing/CameraWorker.cpp.o -c /home/bartek/code/Projekty/ComputerVisionCPP2/imageProcessing/CameraWorker.cpp
+
+CMakeFiles/ComputerVisionApp.dir/imageProcessing/CameraWorker.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ComputerVisionApp.dir/imageProcessing/CameraWorker.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/bartek/code/Projekty/ComputerVisionCPP2/imageProcessing/CameraWorker.cpp > CMakeFiles/ComputerVisionApp.dir/imageProcessing/CameraWorker.cpp.i
+
+CMakeFiles/ComputerVisionApp.dir/imageProcessing/CameraWorker.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ComputerVisionApp.dir/imageProcessing/CameraWorker.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/bartek/code/Projekty/ComputerVisionCPP2/imageProcessing/CameraWorker.cpp -o CMakeFiles/ComputerVisionApp.dir/imageProcessing/CameraWorker.cpp.s
+
+CMakeFiles/ComputerVisionApp.dir/imageProcessing/ImageCapture.cpp.o: CMakeFiles/ComputerVisionApp.dir/flags.make
+CMakeFiles/ComputerVisionApp.dir/imageProcessing/ImageCapture.cpp.o: ../imageProcessing/ImageCapture.cpp
+CMakeFiles/ComputerVisionApp.dir/imageProcessing/ImageCapture.cpp.o: CMakeFiles/ComputerVisionApp.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bartek/code/Projekty/ComputerVisionCPP2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/ComputerVisionApp.dir/imageProcessing/ImageCapture.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/ComputerVisionApp.dir/imageProcessing/ImageCapture.cpp.o -MF CMakeFiles/ComputerVisionApp.dir/imageProcessing/ImageCapture.cpp.o.d -o CMakeFiles/ComputerVisionApp.dir/imageProcessing/ImageCapture.cpp.o -c /home/bartek/code/Projekty/ComputerVisionCPP2/imageProcessing/ImageCapture.cpp
+
+CMakeFiles/ComputerVisionApp.dir/imageProcessing/ImageCapture.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ComputerVisionApp.dir/imageProcessing/ImageCapture.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/bartek/code/Projekty/ComputerVisionCPP2/imageProcessing/ImageCapture.cpp > CMakeFiles/ComputerVisionApp.dir/imageProcessing/ImageCapture.cpp.i
+
+CMakeFiles/ComputerVisionApp.dir/imageProcessing/ImageCapture.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ComputerVisionApp.dir/imageProcessing/ImageCapture.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/bartek/code/Projekty/ComputerVisionCPP2/imageProcessing/ImageCapture.cpp -o CMakeFiles/ComputerVisionApp.dir/imageProcessing/ImageCapture.cpp.s
+
+CMakeFiles/ComputerVisionApp.dir/imageProcessing/MainProcessing.cpp.o: CMakeFiles/ComputerVisionApp.dir/flags.make
+CMakeFiles/ComputerVisionApp.dir/imageProcessing/MainProcessing.cpp.o: ../imageProcessing/MainProcessing.cpp
+CMakeFiles/ComputerVisionApp.dir/imageProcessing/MainProcessing.cpp.o: CMakeFiles/ComputerVisionApp.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bartek/code/Projekty/ComputerVisionCPP2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/ComputerVisionApp.dir/imageProcessing/MainProcessing.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/ComputerVisionApp.dir/imageProcessing/MainProcessing.cpp.o -MF CMakeFiles/ComputerVisionApp.dir/imageProcessing/MainProcessing.cpp.o.d -o CMakeFiles/ComputerVisionApp.dir/imageProcessing/MainProcessing.cpp.o -c /home/bartek/code/Projekty/ComputerVisionCPP2/imageProcessing/MainProcessing.cpp
+
+CMakeFiles/ComputerVisionApp.dir/imageProcessing/MainProcessing.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ComputerVisionApp.dir/imageProcessing/MainProcessing.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/bartek/code/Projekty/ComputerVisionCPP2/imageProcessing/MainProcessing.cpp > CMakeFiles/ComputerVisionApp.dir/imageProcessing/MainProcessing.cpp.i
+
+CMakeFiles/ComputerVisionApp.dir/imageProcessing/MainProcessing.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ComputerVisionApp.dir/imageProcessing/MainProcessing.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/bartek/code/Projekty/ComputerVisionCPP2/imageProcessing/MainProcessing.cpp -o CMakeFiles/ComputerVisionApp.dir/imageProcessing/MainProcessing.cpp.s
 
 CMakeFiles/ComputerVisionApp.dir/main.cpp.o: CMakeFiles/ComputerVisionApp.dir/flags.make
 CMakeFiles/ComputerVisionApp.dir/main.cpp.o: ../main.cpp
 CMakeFiles/ComputerVisionApp.dir/main.cpp.o: CMakeFiles/ComputerVisionApp.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bartek/code/Projekty/ComputerVisionCPP2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/ComputerVisionApp.dir/main.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bartek/code/Projekty/ComputerVisionCPP2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/ComputerVisionApp.dir/main.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/ComputerVisionApp.dir/main.cpp.o -MF CMakeFiles/ComputerVisionApp.dir/main.cpp.o.d -o CMakeFiles/ComputerVisionApp.dir/main.cpp.o -c /home/bartek/code/Projekty/ComputerVisionCPP2/main.cpp
 
 CMakeFiles/ComputerVisionApp.dir/main.cpp.i: cmake_force
@@ -114,7 +188,7 @@ CMakeFiles/ComputerVisionApp.dir/main.cpp.s: cmake_force
 CMakeFiles/ComputerVisionApp.dir/tools/ProgramManager.cpp.o: CMakeFiles/ComputerVisionApp.dir/flags.make
 CMakeFiles/ComputerVisionApp.dir/tools/ProgramManager.cpp.o: ../tools/ProgramManager.cpp
 CMakeFiles/ComputerVisionApp.dir/tools/ProgramManager.cpp.o: CMakeFiles/ComputerVisionApp.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bartek/code/Projekty/ComputerVisionCPP2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/ComputerVisionApp.dir/tools/ProgramManager.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bartek/code/Projekty/ComputerVisionCPP2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/ComputerVisionApp.dir/tools/ProgramManager.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/ComputerVisionApp.dir/tools/ProgramManager.cpp.o -MF CMakeFiles/ComputerVisionApp.dir/tools/ProgramManager.cpp.o.d -o CMakeFiles/ComputerVisionApp.dir/tools/ProgramManager.cpp.o -c /home/bartek/code/Projekty/ComputerVisionCPP2/tools/ProgramManager.cpp
 
 CMakeFiles/ComputerVisionApp.dir/tools/ProgramManager.cpp.i: cmake_force
@@ -128,7 +202,12 @@ CMakeFiles/ComputerVisionApp.dir/tools/ProgramManager.cpp.s: cmake_force
 # Object files for target ComputerVisionApp
 ComputerVisionApp_OBJECTS = \
 "CMakeFiles/ComputerVisionApp.dir/ComputerVisionApp_autogen/mocs_compilation.cpp.o" \
-"CMakeFiles/ComputerVisionApp.dir/gui/MainWindow.cpp.o" \
+"CMakeFiles/ComputerVisionApp.dir/gui/ROISelector.cpp.o" \
+"CMakeFiles/ComputerVisionApp.dir/gui/editview.cpp.o" \
+"CMakeFiles/ComputerVisionApp.dir/gui/mainwindow.cpp.o" \
+"CMakeFiles/ComputerVisionApp.dir/imageProcessing/CameraWorker.cpp.o" \
+"CMakeFiles/ComputerVisionApp.dir/imageProcessing/ImageCapture.cpp.o" \
+"CMakeFiles/ComputerVisionApp.dir/imageProcessing/MainProcessing.cpp.o" \
 "CMakeFiles/ComputerVisionApp.dir/main.cpp.o" \
 "CMakeFiles/ComputerVisionApp.dir/tools/ProgramManager.cpp.o"
 
@@ -136,12 +215,17 @@ ComputerVisionApp_OBJECTS = \
 ComputerVisionApp_EXTERNAL_OBJECTS =
 
 ComputerVisionApp: CMakeFiles/ComputerVisionApp.dir/ComputerVisionApp_autogen/mocs_compilation.cpp.o
-ComputerVisionApp: CMakeFiles/ComputerVisionApp.dir/gui/MainWindow.cpp.o
+ComputerVisionApp: CMakeFiles/ComputerVisionApp.dir/gui/ROISelector.cpp.o
+ComputerVisionApp: CMakeFiles/ComputerVisionApp.dir/gui/editview.cpp.o
+ComputerVisionApp: CMakeFiles/ComputerVisionApp.dir/gui/mainwindow.cpp.o
+ComputerVisionApp: CMakeFiles/ComputerVisionApp.dir/imageProcessing/CameraWorker.cpp.o
+ComputerVisionApp: CMakeFiles/ComputerVisionApp.dir/imageProcessing/ImageCapture.cpp.o
+ComputerVisionApp: CMakeFiles/ComputerVisionApp.dir/imageProcessing/MainProcessing.cpp.o
 ComputerVisionApp: CMakeFiles/ComputerVisionApp.dir/main.cpp.o
 ComputerVisionApp: CMakeFiles/ComputerVisionApp.dir/tools/ProgramManager.cpp.o
 ComputerVisionApp: CMakeFiles/ComputerVisionApp.dir/build.make
-ComputerVisionApp: /home/bartek/anaconda3/lib/libQt5Widgets.so.5.15.2
-ComputerVisionApp: /home/bartek/anaconda3/lib/libQt5Gui.so.5.15.2
+ComputerVisionApp: /usr/lib/x86_64-linux-gnu/libQt5Widgets.so.5.15.3
+ComputerVisionApp: /usr/lib/x86_64-linux-gnu/libQt5Gui.so.5.15.3
 ComputerVisionApp: /usr/lib/x86_64-linux-gnu/libopencv_stitching.so.4.5.4d
 ComputerVisionApp: /usr/lib/x86_64-linux-gnu/libopencv_alphamat.so.4.5.4d
 ComputerVisionApp: /usr/lib/x86_64-linux-gnu/libopencv_aruco.so.4.5.4d
@@ -178,7 +262,7 @@ ComputerVisionApp: /usr/lib/x86_64-linux-gnu/libopencv_wechat_qrcode.so.4.5.4d
 ComputerVisionApp: /usr/lib/x86_64-linux-gnu/libopencv_xobjdetect.so.4.5.4d
 ComputerVisionApp: /usr/lib/x86_64-linux-gnu/libopencv_xphoto.so.4.5.4d
 ComputerVisionApp: /usr/lib/x86_64-linux-gnu/libcurl.so
-ComputerVisionApp: /home/bartek/anaconda3/lib/libQt5Core.so.5.15.2
+ComputerVisionApp: /usr/lib/x86_64-linux-gnu/libQt5Core.so.5.15.3
 ComputerVisionApp: /usr/lib/x86_64-linux-gnu/libopencv_highgui.so.4.5.4d
 ComputerVisionApp: /usr/lib/x86_64-linux-gnu/libopencv_datasets.so.4.5.4d
 ComputerVisionApp: /usr/lib/x86_64-linux-gnu/libopencv_plot.so.4.5.4d
@@ -199,7 +283,7 @@ ComputerVisionApp: /usr/lib/x86_64-linux-gnu/libopencv_photo.so.4.5.4d
 ComputerVisionApp: /usr/lib/x86_64-linux-gnu/libopencv_imgproc.so.4.5.4d
 ComputerVisionApp: /usr/lib/x86_64-linux-gnu/libopencv_core.so.4.5.4d
 ComputerVisionApp: CMakeFiles/ComputerVisionApp.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/bartek/code/Projekty/ComputerVisionCPP2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable ComputerVisionApp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/bartek/code/Projekty/ComputerVisionCPP2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Linking CXX executable ComputerVisionApp"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/ComputerVisionApp.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -210,7 +294,7 @@ CMakeFiles/ComputerVisionApp.dir/clean:
 	$(CMAKE_COMMAND) -P CMakeFiles/ComputerVisionApp.dir/cmake_clean.cmake
 .PHONY : CMakeFiles/ComputerVisionApp.dir/clean
 
-CMakeFiles/ComputerVisionApp.dir/depend:
+CMakeFiles/ComputerVisionApp.dir/depend: ui_mainwindow.h
 	cd /home/bartek/code/Projekty/ComputerVisionCPP2/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/bartek/code/Projekty/ComputerVisionCPP2 /home/bartek/code/Projekty/ComputerVisionCPP2 /home/bartek/code/Projekty/ComputerVisionCPP2/build /home/bartek/code/Projekty/ComputerVisionCPP2/build /home/bartek/code/Projekty/ComputerVisionCPP2/build/CMakeFiles/ComputerVisionApp.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/ComputerVisionApp.dir/depend
 

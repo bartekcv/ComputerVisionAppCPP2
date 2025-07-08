@@ -167,29 +167,149 @@ ComputerVisionApp_autogen/mocs_compilation.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ComputerVisionApp.dir/build.make CMakeFiles/ComputerVisionApp.dir/ComputerVisionApp_autogen/mocs_compilation.cpp.s
 .PHONY : ComputerVisionApp_autogen/mocs_compilation.cpp.s
 
-gui/MainWindow.o: gui/MainWindow.cpp.o
-.PHONY : gui/MainWindow.o
+gui/ROISelector.o: gui/ROISelector.cpp.o
+.PHONY : gui/ROISelector.o
 
 # target to build an object file
-gui/MainWindow.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ComputerVisionApp.dir/build.make CMakeFiles/ComputerVisionApp.dir/gui/MainWindow.cpp.o
-.PHONY : gui/MainWindow.cpp.o
+gui/ROISelector.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ComputerVisionApp.dir/build.make CMakeFiles/ComputerVisionApp.dir/gui/ROISelector.cpp.o
+.PHONY : gui/ROISelector.cpp.o
 
-gui/MainWindow.i: gui/MainWindow.cpp.i
-.PHONY : gui/MainWindow.i
+gui/ROISelector.i: gui/ROISelector.cpp.i
+.PHONY : gui/ROISelector.i
 
 # target to preprocess a source file
-gui/MainWindow.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ComputerVisionApp.dir/build.make CMakeFiles/ComputerVisionApp.dir/gui/MainWindow.cpp.i
-.PHONY : gui/MainWindow.cpp.i
+gui/ROISelector.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ComputerVisionApp.dir/build.make CMakeFiles/ComputerVisionApp.dir/gui/ROISelector.cpp.i
+.PHONY : gui/ROISelector.cpp.i
 
-gui/MainWindow.s: gui/MainWindow.cpp.s
-.PHONY : gui/MainWindow.s
+gui/ROISelector.s: gui/ROISelector.cpp.s
+.PHONY : gui/ROISelector.s
 
 # target to generate assembly for a file
-gui/MainWindow.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ComputerVisionApp.dir/build.make CMakeFiles/ComputerVisionApp.dir/gui/MainWindow.cpp.s
-.PHONY : gui/MainWindow.cpp.s
+gui/ROISelector.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ComputerVisionApp.dir/build.make CMakeFiles/ComputerVisionApp.dir/gui/ROISelector.cpp.s
+.PHONY : gui/ROISelector.cpp.s
+
+gui/editview.o: gui/editview.cpp.o
+.PHONY : gui/editview.o
+
+# target to build an object file
+gui/editview.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ComputerVisionApp.dir/build.make CMakeFiles/ComputerVisionApp.dir/gui/editview.cpp.o
+.PHONY : gui/editview.cpp.o
+
+gui/editview.i: gui/editview.cpp.i
+.PHONY : gui/editview.i
+
+# target to preprocess a source file
+gui/editview.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ComputerVisionApp.dir/build.make CMakeFiles/ComputerVisionApp.dir/gui/editview.cpp.i
+.PHONY : gui/editview.cpp.i
+
+gui/editview.s: gui/editview.cpp.s
+.PHONY : gui/editview.s
+
+# target to generate assembly for a file
+gui/editview.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ComputerVisionApp.dir/build.make CMakeFiles/ComputerVisionApp.dir/gui/editview.cpp.s
+.PHONY : gui/editview.cpp.s
+
+gui/mainwindow.o: gui/mainwindow.cpp.o
+.PHONY : gui/mainwindow.o
+
+# target to build an object file
+gui/mainwindow.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ComputerVisionApp.dir/build.make CMakeFiles/ComputerVisionApp.dir/gui/mainwindow.cpp.o
+.PHONY : gui/mainwindow.cpp.o
+
+gui/mainwindow.i: gui/mainwindow.cpp.i
+.PHONY : gui/mainwindow.i
+
+# target to preprocess a source file
+gui/mainwindow.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ComputerVisionApp.dir/build.make CMakeFiles/ComputerVisionApp.dir/gui/mainwindow.cpp.i
+.PHONY : gui/mainwindow.cpp.i
+
+gui/mainwindow.s: gui/mainwindow.cpp.s
+.PHONY : gui/mainwindow.s
+
+# target to generate assembly for a file
+gui/mainwindow.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ComputerVisionApp.dir/build.make CMakeFiles/ComputerVisionApp.dir/gui/mainwindow.cpp.s
+.PHONY : gui/mainwindow.cpp.s
+
+imageProcessing/CameraWorker.o: imageProcessing/CameraWorker.cpp.o
+.PHONY : imageProcessing/CameraWorker.o
+
+# target to build an object file
+imageProcessing/CameraWorker.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ComputerVisionApp.dir/build.make CMakeFiles/ComputerVisionApp.dir/imageProcessing/CameraWorker.cpp.o
+.PHONY : imageProcessing/CameraWorker.cpp.o
+
+imageProcessing/CameraWorker.i: imageProcessing/CameraWorker.cpp.i
+.PHONY : imageProcessing/CameraWorker.i
+
+# target to preprocess a source file
+imageProcessing/CameraWorker.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ComputerVisionApp.dir/build.make CMakeFiles/ComputerVisionApp.dir/imageProcessing/CameraWorker.cpp.i
+.PHONY : imageProcessing/CameraWorker.cpp.i
+
+imageProcessing/CameraWorker.s: imageProcessing/CameraWorker.cpp.s
+.PHONY : imageProcessing/CameraWorker.s
+
+# target to generate assembly for a file
+imageProcessing/CameraWorker.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ComputerVisionApp.dir/build.make CMakeFiles/ComputerVisionApp.dir/imageProcessing/CameraWorker.cpp.s
+.PHONY : imageProcessing/CameraWorker.cpp.s
+
+imageProcessing/ImageCapture.o: imageProcessing/ImageCapture.cpp.o
+.PHONY : imageProcessing/ImageCapture.o
+
+# target to build an object file
+imageProcessing/ImageCapture.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ComputerVisionApp.dir/build.make CMakeFiles/ComputerVisionApp.dir/imageProcessing/ImageCapture.cpp.o
+.PHONY : imageProcessing/ImageCapture.cpp.o
+
+imageProcessing/ImageCapture.i: imageProcessing/ImageCapture.cpp.i
+.PHONY : imageProcessing/ImageCapture.i
+
+# target to preprocess a source file
+imageProcessing/ImageCapture.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ComputerVisionApp.dir/build.make CMakeFiles/ComputerVisionApp.dir/imageProcessing/ImageCapture.cpp.i
+.PHONY : imageProcessing/ImageCapture.cpp.i
+
+imageProcessing/ImageCapture.s: imageProcessing/ImageCapture.cpp.s
+.PHONY : imageProcessing/ImageCapture.s
+
+# target to generate assembly for a file
+imageProcessing/ImageCapture.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ComputerVisionApp.dir/build.make CMakeFiles/ComputerVisionApp.dir/imageProcessing/ImageCapture.cpp.s
+.PHONY : imageProcessing/ImageCapture.cpp.s
+
+imageProcessing/MainProcessing.o: imageProcessing/MainProcessing.cpp.o
+.PHONY : imageProcessing/MainProcessing.o
+
+# target to build an object file
+imageProcessing/MainProcessing.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ComputerVisionApp.dir/build.make CMakeFiles/ComputerVisionApp.dir/imageProcessing/MainProcessing.cpp.o
+.PHONY : imageProcessing/MainProcessing.cpp.o
+
+imageProcessing/MainProcessing.i: imageProcessing/MainProcessing.cpp.i
+.PHONY : imageProcessing/MainProcessing.i
+
+# target to preprocess a source file
+imageProcessing/MainProcessing.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ComputerVisionApp.dir/build.make CMakeFiles/ComputerVisionApp.dir/imageProcessing/MainProcessing.cpp.i
+.PHONY : imageProcessing/MainProcessing.cpp.i
+
+imageProcessing/MainProcessing.s: imageProcessing/MainProcessing.cpp.s
+.PHONY : imageProcessing/MainProcessing.s
+
+# target to generate assembly for a file
+imageProcessing/MainProcessing.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ComputerVisionApp.dir/build.make CMakeFiles/ComputerVisionApp.dir/imageProcessing/MainProcessing.cpp.s
+.PHONY : imageProcessing/MainProcessing.cpp.s
 
 main.o: main.cpp.o
 .PHONY : main.o
@@ -252,9 +372,24 @@ help:
 	@echo "... ComputerVisionApp_autogen/mocs_compilation.o"
 	@echo "... ComputerVisionApp_autogen/mocs_compilation.i"
 	@echo "... ComputerVisionApp_autogen/mocs_compilation.s"
-	@echo "... gui/MainWindow.o"
-	@echo "... gui/MainWindow.i"
-	@echo "... gui/MainWindow.s"
+	@echo "... gui/ROISelector.o"
+	@echo "... gui/ROISelector.i"
+	@echo "... gui/ROISelector.s"
+	@echo "... gui/editview.o"
+	@echo "... gui/editview.i"
+	@echo "... gui/editview.s"
+	@echo "... gui/mainwindow.o"
+	@echo "... gui/mainwindow.i"
+	@echo "... gui/mainwindow.s"
+	@echo "... imageProcessing/CameraWorker.o"
+	@echo "... imageProcessing/CameraWorker.i"
+	@echo "... imageProcessing/CameraWorker.s"
+	@echo "... imageProcessing/ImageCapture.o"
+	@echo "... imageProcessing/ImageCapture.i"
+	@echo "... imageProcessing/ImageCapture.s"
+	@echo "... imageProcessing/MainProcessing.o"
+	@echo "... imageProcessing/MainProcessing.i"
+	@echo "... imageProcessing/MainProcessing.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

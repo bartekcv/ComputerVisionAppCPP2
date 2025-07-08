@@ -67,7 +67,7 @@ include CMakeFiles/ComputerVisionApp_autogen.dir/compiler_depend.make
 include CMakeFiles/ComputerVisionApp_autogen.dir/progress.make
 
 CMakeFiles/ComputerVisionApp_autogen:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/bartek/code/Projekty/ComputerVisionCPP2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Automatic MOC for target ComputerVisionApp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/bartek/code/Projekty/ComputerVisionCPP2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Automatic MOC and UIC for target ComputerVisionApp"
 	/usr/bin/cmake -E cmake_autogen /home/bartek/code/Projekty/ComputerVisionCPP2/build/CMakeFiles/ComputerVisionApp_autogen.dir/AutogenInfo.json ""
 
 ComputerVisionApp_autogen: CMakeFiles/ComputerVisionApp_autogen

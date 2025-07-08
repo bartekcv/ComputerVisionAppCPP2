@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/ComputerVisionApp_autogen"
+  "ComputerVisionApp_autogen/include/gui/ui_editview.h"
   "ComputerVisionApp_autogen/mocs_compilation.cpp"
 )
 

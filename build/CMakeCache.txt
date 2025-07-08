@@ -256,16 +256,16 @@ PKG_CONFIG_ARGN:STRING=
 PKG_CONFIG_EXECUTABLE:FILEPATH=/usr/bin/pkg-config
 
 //The directory containing a CMake configuration file for Qt5Core.
-Qt5Core_DIR:PATH=/home/bartek/anaconda3/lib/cmake/Qt5Core
+Qt5Core_DIR:PATH=/usr/lib/x86_64-linux-gnu/cmake/Qt5Core
 
 //The directory containing a CMake configuration file for Qt5Gui.
-Qt5Gui_DIR:PATH=/home/bartek/anaconda3/lib/cmake/Qt5Gui
+Qt5Gui_DIR:PATH=/usr/lib/x86_64-linux-gnu/cmake/Qt5Gui
 
 //The directory containing a CMake configuration file for Qt5Widgets.
-Qt5Widgets_DIR:PATH=/home/bartek/anaconda3/lib/cmake/Qt5Widgets
+Qt5Widgets_DIR:PATH=/usr/lib/x86_64-linux-gnu/cmake/Qt5Widgets
 
 //The directory containing a CMake configuration file for Qt5.
-Qt5_DIR:PATH=/home/bartek/anaconda3/lib/cmake/Qt5
+Qt5_DIR:PATH=/usr/lib/x86_64-linux-gnu/cmake/Qt5
 
 //Path to a library.
 pkgcfg_lib_PC_CURL_curl:FILEPATH=/usr/lib/x86_64-linux-gnu/libcurl.so
