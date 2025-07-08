@@ -2,7 +2,7 @@
 #include <iostream>
 //#include "../tools/ProgramManager.h"
 #include <QApplication>
-#include "../gui/MainWindow.h"
+#include "../gui/mainwindow.h"
 
 int main(int argc, char *argv[]) {
     //ProgramManager manager;

@@ -68,3 +68,24 @@ bool ProgramManager::folderExist(const std::filesystem::path& folderPath){
     return (std::filesystem::exists(folderPath) && std::filesystem::is_directory(folderPath));
 }
 
+
+nlohmann::json ProgramManager::initProgram(std::string name){
+ 	nlohmann::json data = {
+            {"name", name},
+            {"capture", {
+                {"camera_index", 0},
+                {"resolution", {640, 480}}
+            }},
+            {"tools", nlohmann::json::array()}
+        };
+        return data;
+}
+
+
+
+
+
+
+
+
+

@@ -9,6 +9,7 @@
 #include <QMessageBox>
 #include <QInputDialog>
 #include "../tools/ProgramManager.h"
+#include "../gui/EditWindow.h"
 
 class MainWindow : public QMainWindow {
     Q_OBJECT

@@ -1,4 +1,11 @@
 {
-    "name": "Test1.json",
-    "version": 1.0
+    "capture": {
+        "camera_index": 23,
+        "resolution": [
+            100,
+            480
+        ]
+    },
+    "name": "Klaudia",
+    "tools": []
 }

@@ -3,6 +3,7 @@ project(ComputerVisionApp)
 
 set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_AUTOMOC ON)
+set(CMAKE_AUTOUIC ON)
 set(CMAKE_INCLUDE_CURRENT_DIR ON)
 
 include_directories(/usr/include)
@@ -38,10 +39,17 @@ file(GLOB_RECURSE SRC
     #core/*.cpp core/*.h
     #filters/*.cpp filters/*.h
     tools/*.cpp tools/*.h
-    gui/*.cpp gui/*.h
+    gui/*.cpp gui/*.h gui/*.ui
+    build/*.h
+    imageProcessing/*.cpp imageProcessing/*.h
 )
 
-add_executable(${PROJECT_NAME} ${SRC})
+qt5_wrap_ui(UI_HEADERS
+    gui/mainwindow.ui
+    gui/editwindow.ui
+)
+
+add_executable(${PROJECT_NAME} ${SRC} ${UI_HEADERS})
 
 # Add include directory for nlohmann/json
 target_include_directories(${PROJECT_NAME} PRIVATE ${json_SOURCE_DIR}/include)
